@@ -32,9 +32,11 @@ class Liste
         }
         elseif($status == 2)
         {
-            $proben = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe = '".$status."' ORDER BY title");
-            $sonstige = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe != 1 AND probe != 5 ORDER BY letzteProbe");
-            $songs = array_merge($proben, $sonstige);
+            $dringend = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe = 3 ORDER BY title");
+
+            $proben = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe = 2 ORDER BY title");
+            $sonstige = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe = 4 ORDER BY letzteProbe");
+            $songs = array_merge($dringend, $proben, $sonstige);
         }
         else
         {
