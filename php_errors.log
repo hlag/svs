@@ -31779,3 +31779,8 @@ Stack trace:
 [29-Jul-2015 15:41:53 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
 [29-Jul-2015 15:41:53 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
 [29-Jul-2015 15:43:01 UTC] PHP Parse error:  syntax error, unexpected 'define' (T_STRING) in /home/klaus/Projekte/svs/index.php on line 2
+[29-Jul-2015 16:03:42 UTC] PHP Fatal error:  Class 'genres' not found in /home/klaus/Projekte/svs/classes/controller.php on line 54
+[29-Jul-2015 16:03:42 UTC] PHP Stack trace:
+[29-Jul-2015 16:03:42 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[29-Jul-2015 16:03:42 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[29-Jul-2015 16:03:42 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26

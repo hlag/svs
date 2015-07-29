@@ -153,14 +153,23 @@ class playlist
     public function getUebrigeSong()
     {
         $liste = new Liste();
-        $songs = $liste->getSongs('repertoire');
+        $songs = $liste->getSongs('uebrige');
         $retval = '';
+        $headline='';
         foreach ($songs AS $S)
+        {
+            if($S->genre !=  $headline)
+            {
+                $headline = $S->genre;
+                $retval.= '<h2>'.$headline.'</h2>';
+            }
+
             if (!isset($this->usedSongs[$S->getID()]))
             {
                 $retval .= $S->renderUebrigeSong(0);
                 $this->uebrigeSongs[] = $S;
             }
+        }
         return $retval;
 
     }

@@ -1738,3 +1738,207 @@
 [29-Jul-2015 13:31:58 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
 [29-Jul-2015 13:31:58 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:9
 [29-Jul-2015 13:31:58 UTC] PHP   3. uploader->start() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:21
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: ps_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 52
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pl_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 53
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pb_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 54
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:09:45 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:09:45 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:09:45 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:09:45 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:09:45 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:09:45 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:09:45 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:45 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:45 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:45 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:09:45 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:09:45 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:09:53 UTC] PHP Notice:  Undefined index: ps_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 52
+[29-Jul-2015 16:09:53 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:53 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:53 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:53 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:53 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:53 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:09:53 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:09:53 UTC] PHP Notice:  Undefined index: pl_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 53
+[29-Jul-2015 16:09:53 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:53 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:53 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:53 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:53 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:53 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:09:53 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:09:53 UTC] PHP Notice:  Undefined index: pb_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 54
+[29-Jul-2015 16:09:53 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:53 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:53 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:53 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:53 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:53 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:09:53 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:09:53 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:09:53 UTC] PHP Stack trace:
+[29-Jul-2015 16:09:53 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:09:53 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:09:53 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:09:53 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:09:53 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:09:53 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:10:38 UTC] PHP Notice:  Undefined index: ps_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 52
+[29-Jul-2015 16:10:38 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:38 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:38 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:38 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:38 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:38 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:10:38 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:10:38 UTC] PHP Notice:  Undefined index: pl_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 53
+[29-Jul-2015 16:10:38 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:38 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:38 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:38 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:38 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:38 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:10:38 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:10:38 UTC] PHP Notice:  Undefined index: pb_id in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 54
+[29-Jul-2015 16:10:38 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:38 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:38 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:38 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:38 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:38 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:10:38 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:10:38 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:10:38 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:38 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:38 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:38 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:38 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:38 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/Songsorter.php:20
+[29-Jul-2015 16:10:38 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[29-Jul-2015 16:10:39 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:10:39 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:39 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:39 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:39 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:10:39 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:10:39 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:10:39 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:10:39 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:39 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:39 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:39 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:10:39 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:10:39 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:10:39 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:10:39 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:39 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:39 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:39 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:10:39 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:10:39 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:10:39 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:10:39 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:39 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:39 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:39 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:10:39 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:10:39 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:10:39 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:10:39 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:39 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:39 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:39 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:10:39 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:10:39 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[29-Jul-2015 16:10:39 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/svs/classes/Songs/playlistSongs.php on line 55
+[29-Jul-2015 16:10:39 UTC] PHP Stack trace:
+[29-Jul-2015 16:10:39 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[29-Jul-2015 16:10:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/svs/ajax/ajax.php:20
+[29-Jul-2015 16:10:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/svs/ajax/ajax.php:27
+[29-Jul-2015 16:10:39 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/svs/ajax/ajax.php:82
+[29-Jul-2015 16:10:39 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
+[29-Jul-2015 16:10:39 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
+[29-Jul-2015 16:10:39 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
