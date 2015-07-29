@@ -1,0 +1,16 @@
+<div class="col-md-12">
+    <form id="myform" method="post" class="form-horizontal">
+        <div class="form-group">
+            <textarea class="form-control" name="value" rows="1">{value}</textarea>
+        </div>
+        <input type="hidden" name="cmd" value="saveSingleDatum"/>
+        <input type="hidden" name="table" value="{table}"/>
+        <input type="hidden" name="field" value="{field}"/>
+        <input type="hidden" name="id" value="{id}"/>
+        <input type="hidden" name="id_name" value="{id_name}"/>
+
+        <div class="form-group">
+            <span onclick="saveSingleData('{table}', '{field}', '{id}', '{id_name}');" class="btn btn-default" id="speichern">Speichern</span>
+        </div>
+    </form>
+</div>

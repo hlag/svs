@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-4" >{title}</div>
+    <div class="col-md-3" >{interpret}</div>
+    <div class="col-md-1" >{bpm}</div>
+    <div class="col-md-2" >{genre}</div>
+    <div class="col-md-2" >
+        <form action="index.php?idt=playlist&sl_id=1" method="post">
+            <input type="text" name="block_number" value="{lastBlockNumber}" style="width:20px; display:inline;">
+            <input type="hidden" name="id" value="{id}">
+            <input type="hidden" name="pl_id" value="1">
+            <input type="hidden" name="command" value="insertSong">
+            <input type="submit" name="save" value="s">
+        </form>
+
+       </div>
+</div>

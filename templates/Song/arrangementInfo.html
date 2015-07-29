@@ -1,0 +1,35 @@
+<div class="panel panel-default">
+    <div class="panel-heading">Ruth</div>
+    <div class="panel-body" id="arr_r_{id}" onclick="textarea('arr_r', {id})">{arr_r}</div>
+
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">Bela</div>
+    <div class="panel-body" id="arr_b_{id}" onclick="textarea('arr_b', {id})"> {arr_b}</div>
+
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">Klaus</div>
+    <div class="panel-body" id="arr_k_{id}" onclick="textarea('arr_k', {id})">{arr_k}</div>
+
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">Status</div>
+    <div class="panel-body">
+        <label><input type="radio" name="probe" onclick="submitStatus({id}, 5)" {5_checked}> neu</label>
+        <label><input type="radio" name="probe" onclick="submitStatus({id}, 1)" {1_checked}> Vorschlag</label>
+        <label><input type="radio" name="probe" onclick="submitStatus({id}, 2)" {2_checked}> proben</label>
+        <label><input type="radio" name="probe" onclick="submitStatus({id}, 3)" {3_checked}> nächste Probe</label>
+        <label><input type="radio" name="probe" onclick="submitStatus({id}, 4)" {4_checked}> auftrittsreif</label>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Instrument Klaus</div>
+    <div class="panel-body">
+        <label><input type="radio" name="instrument" onclick="submitInstrument({id}, 0)" {0_i_checked}> Western</label>
+        <label><input type="radio" name="instrument" onclick="submitInstrument({id}, 1)" {1_i_checked}> E-Gitarre</label>
+        <label><input type="radio" name="instrument" onclick="submitInstrument({id}, 2)" {2_i_checked}> Akkordeon</label>
+        <label><input type="radio" name="instrument" onclick="submitInstrument({id}, 3)" {4_i_checked}> Keyboard</label>
+    </div>
+</div>

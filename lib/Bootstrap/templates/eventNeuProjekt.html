@@ -1,0 +1,19 @@
+    <div class="panel-heading">
+        <h2 class="panel-title">Projekt</h2>
+    </div>
+
+    <div class="panel-body">
+        <div class="form-group">
+            <label for="projekt_name" class="col-sm-2 control-label">Projekt-Name</label>
+
+            <div class="col-sm-8" id="firmen_input">
+                <input type="text" class="form-control" id="projekt_name" name="projekt[projekt_name]"
+                       placeholder="Suche" onmousedown="searchProjekt({standort_id})"
+                       onkeyup="searchProjekt({standort_id})" autocomplete="off">
+                <ul class="dropdown-menu" role="menu" id="projektList">
+
+                </ul>
+            </div>
+        </div>
+        <div id="projektVars"></div>
+    </div>

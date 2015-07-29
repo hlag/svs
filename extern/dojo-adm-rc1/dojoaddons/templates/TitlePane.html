@@ -1,0 +1,15 @@
+<div class="${baseClass}">
+	<div dojoAttachEvent="onkeypress: _onTitleKey" tabindex="0"
+			waiRole="button" class="dijitTitlePaneTitle" dojoAttachPoint="titleBarNode,focusNode">
+		<div dojoAttachPoint="arrowNode" class="dijitInline dijitArrowNode"  dojoAttachEvent="onclick:toggle,onfocus:_handleFocus,onblur:_handleFocus"><span dojoAttachPoint="arrowNodeInner" class="dijitArrowNodeInner"></span></div>
+		<div dojoAttachPoint="helpNode" class="dijitHelpNode" dojoAttachEvent="onclick:callHelp"><span dojoAttachPoint="dijitHelpNodeInner" class="dijitHelpNodeInner">?</span></div>
+		<div dojoAttachPoint="titleNode" class="dijitTitlePaneTextNode"></div>
+	</div>
+	<div class="dijitTitlePaneContentOuter" dojoAttachPoint="hideNode">
+		<div class="dijitReset" dojoAttachPoint="wipeNode">
+			<div class="dijitTitlePaneContentInner" dojoAttachPoint="containerNode" waiRole="region" tabindex="-1">
+				
+			</div>
+		</div>
+	</div>
+</div>

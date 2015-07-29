@@ -1,0 +1,22 @@
+    <div class="col-md-12">
+
+        <form id="pausenForm" method="post" class="form-horizontal">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="pause" value="{pause}" }>
+                    </div>
+                    <input type="hidden" name="cmd" value="savePause"/>
+                    <input type="hidden" name="pb_id" value="{pb_id}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <span onclick="pausenManager.savePause('{pb_id}');" class="btn btn-primary" id="speichern">Speichern</span>
+                        <span onclick="popup.destroy();" class="btn btn-default" id="abb">abbrechen</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>

@@ -1,0 +1,8 @@
+/*
+	Copyright (c) 2004-2008, The Dojo Foundation All Rights Reserved.
+	Available via Academic Free License >= 2.1 OR the modified BSD license.
+	see: http://dojotoolkit.org/license for details
+*/
+
+
+if(!dojo._hasResource["dojoaddons.FormBuilder.Language"]){dojo._hasResource["dojoaddons.FormBuilder.Language"]=true;dojo.provide("dojoaddons.FormBuilder.Language");dojo.declare("dojoaddons.FormBuilder.Language",[],{en:"englisch",de:"deutsch",es:"spanisch",fr:"franz&ouml;sisch",it:"italienisch",TextInput:"Eingabefeld",TextField:"Textfeld",FreeText:"Freier Text",RadioGroup:"Radio Buttons",CheckboxGroup:"Checkboxes",startupLabel:"Label",startupDescription:" ",startupDefaultValue:" ",startupFreeText:"Freier Text",startupButton1:"Auswahl 1",startupButton2:"Auswahl 2",properties:" ",headline:"Titel",headlineLabel:"Titel:",addText:"Beschreibung",addTextLabel:"Beschreibung:",freeText:"Freier Text",freeTextLabel:"Text:",defaultValue:"Standardwert",defaultValueLabel:"Vorgegebener Standardwert:",required:"Optionen",requiredLabel:"Pflichtfeld",buttons:"Auswahlm&ouml;glichkeiten",newButton:"Neue Auswahl",notEnoughRadiobuttons:"Es m&uuml;ssen mindestens zwei Auswahlm&ouml;glichkeiten vorhanden sein.",notEnoughCheckboxes:"Es muss mindestens eine Auswahlm&ouml;glichkeit vorhanden sein.",addButtonTitle:"Auswahlm&ouml;glichkeit hinzuf&uuml;gen",deleteButtonTitle:"Diese Auswahlm&ouml;glichkeit entfernen",save:"Sichern",cancel:"Abbrechen",get:function(_1){return this[_1]||("{"+_1+"}");}});}

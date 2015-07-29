@@ -1,0 +1,11 @@
+<div class="form-group">
+    <label for="veranstaltungsort_name" class="col-sm-2 control-label">Veranstaltungsort</label>
+
+    <div class="col-sm-8" id="standort_input">
+        <input type="text" class="form-control" id="veranstaltungsort_name" name="veranstaltungsort[standort_name]" placeholder="Suche"
+               onmousedown="search('veranstaltungsort', {standort_id})" onkeyup="search('veranstaltungsort', {standort_id})" autocomplete="off">
+        <ul class="dropdown-menu" role="menu" id="veranstaltungsortList">
+        </ul>
+    </div>
+</div>
+<div id="veranstaltungsortVars"></div>

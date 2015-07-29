@@ -1,0 +1,8 @@
+/*
+	Copyright (c) 2004-2008, The Dojo Foundation All Rights Reserved.
+	Available via Academic Free License >= 2.1 OR the modified BSD license.
+	see: http://dojotoolkit.org/license for details
+*/
+
+
+if(!dojo._hasResource["dojoaddons.FormBuilder.Properties"]){dojo._hasResource["dojoaddons.FormBuilder.Properties"]=true;dojo.provide("dojoaddons.FormBuilder.Properties");dojo.require("dijit._Widget");dojo.require("dijit._Templated");dojo.require("dijit.InlineEditBox");dojo.require("dijit.form.TextBox");dojo.declare("dojoaddons.FormBuilder.Properties",[dijit._Widget,dijit._Templated],{templateString:"<div dojoAttachPoint=\"props\">${startupContent}</div>",startupContent:"",currentDijit:null,postCreate:function(){dojo.subscribe("PropertiesCalled",this,"showProps");dojo.subscribe("PropertiesChanged",this,"saveProps");},showProps:function(_1){console.log(_1);this.currentDijit=null;this.currentDijit=_1;var _2=this.renderPropsTable(this.currentDijit.props);this.update(_2);dojo.parser.parse(this.domNode);},renderPropsTable:function(_3){console.log("rendering props:");console.dir(_3);var _4="";var _5="<table id=\"propsTable\">";for(var _6 in _3){if(_6=="Type"){_4+="<div id=\"propsHead\"><strong>"+_3[_6].content+"</strong></div>";}else{_5+="<tr><td>"+_3[_6].label+": </td><td><span item=\""+_6+"\" class=\"editable\" dojoType=\"dijit.InlineEditBox\" onChange=\"dojo.publish('PropertiesChanged',['"+_6+"',arguments[0]]);\" autoSave=\"true\">"+_3[_6].content+"</span></td></tr>";}}return _4+_5+"</table>";},update:function(_7){this.props.innerHTML=_7;},saveProps:function(_8,_9){console.log("prop "+_8+" changed to "+_9);console.log(this.currentDijit);var _a="set"+_8;this.currentDijit[_a](_9);}});}

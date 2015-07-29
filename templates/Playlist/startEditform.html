@@ -1,0 +1,22 @@
+<div class="col-md-12">
+
+    <form id="playlistStartForm" method="post" class="form-horizontal">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="uhrzeitStart" value="{uhrzeitStart}" }>
+                </div>
+                <input type="hidden" name="cmd" value="savePlaylistStartzeit"/>
+                <input type="hidden" name="pl_id" value="{pl_id}"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <span onclick="playlistManager.savePlaylistStart('{pl_id}');" class="btn btn-primary" id="speichern">Speichern</span>
+                    <span onclick="popup.destroy();" class="btn btn-default" id="abb">abbrechen</span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,68 @@
+<script src="js/eventNeu.js"></script>
+<h1><span class="grey">Neues Event anlegen:</span> Event-Daten eingeben</h1>
+
+
+<div class="col-sm-8">
+    <form class="form-horizontal" id="eventForm" method="post" action="index.php?idt=neuesEvent&firmen_id={firmen_id}&standort_id={standort_id}">
+
+        <div class="panel panel-default">
+
+
+{projekt}
+
+
+            <div class="panel-heading">
+                <h2 class="panel-title">Event</h2>
+            </div>
+
+            <div class="panel-body">
+                <div id="eventInput">
+
+                    {eventInput}
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="hidden" name="command" value="saveLuxusEventEvent">
+                <button type="submit" class="btn btn-default">Anlegen</button>
+            </div>
+        </div>
+
+
+    </form>
+</div>
+<div class="col-sm-4">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title"><a href="index.php?idt=kundeDetails&firmen_id={firmen_id}">{firmen_name}</a></h2>
+
+            <h3 class="panel-title">{standort_name}</h3>
+        </div>
+
+        <div class="panel-body">
+            <table class="table">
+                <tr>
+                    <td>Straße</td>
+                    <td>{standort_strasse}</td>
+                </tr>
+                <tr>
+                    <td>Ort</td>
+                    <td>{standort_plz} {standort_ort}</td>
+                </tr>
+                <tr>
+                    <td>Telefon</td>
+                    <td>{standort_telefon}</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+</div>

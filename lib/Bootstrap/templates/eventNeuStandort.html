@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2 class="panel-title">Standort des Auftraggebers</h2>
+    </div>
+
+    <div class="panel-body">
+        <div class="form-group">
+            <label for="standorte_name" class="col-sm-2 control-label">Standort-Name</label>
+
+            <div class="col-sm-8" id="standort_input">
+                <input type="text" class="form-control" id="standorte_name" name="standorte[standort_name]" placeholder="Suche"
+
+                       onmousedown="getStandortFields()" autocomplete="off">
+                <ul class="dropdown-menu" role="menu" id="standorteList" style="display:block">
+                {standorteList}
+                </ul>
+            </div>
+        </div>
+        <div id="standorteVars"></div>
+
+    </div>
+</div>
+

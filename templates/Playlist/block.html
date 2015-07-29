@@ -1,0 +1,27 @@
+<div id="block_{pb_id}">
+    <div class="row" >
+        <div class="col-md-5"  onclick="editName({pb_id})" style="cursor:pointer">
+            <strong>{number}) <span id="playlist_bloecke_pb_name_{pb_id}">{name}</span></strong>
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-danger {deleteButton} btn-xs" onclick="deleteblock({pb_id})" id="delete_block_{pb_id}"><i class="fa fa-times"></i></button>
+        </div>
+        <div class="col-md-4" align="right">
+            <a href="index.php?idt=playlist&pl_id={pl_id}&pb_id={pb_id}&change=-5&nr={number}"><i class="fa fa-angle-double-up"></i></a>
+            <a href="index.php?idt=playlist&pl_id={pl_id}&pb_id={pb_id}&change=-1&nr={number}"><i class="fa fa-angle-up"></i></a>
+            <a href="index.php?idt=playlist&pl_id={pl_id}&pb_id={pb_id}&change=1&nr={number}"><i class="fa fa-angle-down"></i></a>
+            <a href="index.php?idt=playlist&pl_id={pl_id}&pb_id={pb_id}&change=5&nr={number}"><i class="fa fa-angle-double-down"></i></a>
+       </div>
+
+        <div class="col-md-1" align="right" ><small id="block_startUhrzeit_{pb_id}">{startUhrzeit}</small></div>
+        <div class="col-md-1" align="right" id="block_dauer_{pb_id}">{dauer}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" dojotype="dojo.dnd.Source" id="block_{pb_id}_{pl_id}" style="min-height: 50px;">{songs}</div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-12"  id="pb_pause_{pb_id}" align="right"><p class="text-muted"><small onclick="pausenManager.editPause({pb_id})" id="pause_{pb_id}">{pb_pause_min}</small></p></div>
+    </div>
+    <br>
+</div>

@@ -1,0 +1,67 @@
+<br>
+<br>
+<h1></h1>
+
+<div class="section">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                {title} - {interpret}
+            </div>
+            <div class="panel-body">
+                <form action="index.php?idt=editSong&song_id={id}" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="title">Title</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" id="title" name="title" value="{title}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="interpret">Interpret</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" id="interpret" name="interpret" value="{interpret}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="bpm">BPM</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" id="bpm" name="bpm" value="{bpm}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="demolink">Demo-Link</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" id="demolink" name="demolink" value="{demolink}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="demo">Demo</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" id="demo" name="demo" value="{demo}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="highlight">highlight</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" id="highlight" name="highlight" value="{highlight}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" for="notiz">notiz</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" id="notiz" name="notiz" value="{notiz}">
+                        </div>
+                    </div>
+                    <input type="hidden" name="command" value="updateSong">
+                    <input type="submit" value="speichern"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<form action="index.php?idt=editSong&song_id={id}" method="post">
+    <input type="hidden" name="command" value="deleteSong">
+    <input type="submit" value="Löschen"/>
+</form>

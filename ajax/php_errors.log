@@ -1,0 +1,1740 @@
+[17-Jul-2015 12:22:29 UTC] PHP Notice:  Trying to get property of non-object in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php on line 181
+[17-Jul-2015 12:22:29 UTC] PHP Stack trace:
+[17-Jul-2015 12:22:29 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 12:22:29 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:23
+[17-Jul-2015 12:22:29 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:30
+[17-Jul-2015 12:22:29 UTC] PHP   4. ajax->savePause() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:94
+[17-Jul-2015 12:22:29 UTC] PHP   5. playlist->getDataForJson() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:169
+[17-Jul-2015 12:22:29 UTC] PHP Notice:  Trying to get property of non-object in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php on line 181
+[17-Jul-2015 12:22:29 UTC] PHP Stack trace:
+[17-Jul-2015 12:22:29 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 12:22:29 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:23
+[17-Jul-2015 12:22:29 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:30
+[17-Jul-2015 12:22:29 UTC] PHP   4. ajax->savePause() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:94
+[17-Jul-2015 12:22:29 UTC] PHP   5. playlist->getDataForJson() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:169
+[17-Jul-2015 12:22:29 UTC] PHP Notice:  Trying to get property of non-object in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php on line 181
+[17-Jul-2015 12:22:29 UTC] PHP Stack trace:
+[17-Jul-2015 12:22:29 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 12:22:29 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:23
+[17-Jul-2015 12:22:29 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:30
+[17-Jul-2015 12:22:29 UTC] PHP   4. ajax->savePause() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:94
+[17-Jul-2015 12:22:29 UTC] PHP   5. playlist->getDataForJson() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:169
+[17-Jul-2015 12:22:29 UTC] PHP Fatal error:  Call to a member function getMinutes() on a non-object in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php on line 181
+[17-Jul-2015 12:22:29 UTC] PHP Stack trace:
+[17-Jul-2015 12:22:29 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 12:22:29 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:23
+[17-Jul-2015 12:22:29 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:30
+[17-Jul-2015 12:22:29 UTC] PHP   4. ajax->savePause() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:94
+[17-Jul-2015 12:22:29 UTC] PHP   5. playlist->getDataForJson() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:169
+[17-Jul-2015 12:26:25 UTC] PHP Notice:  Undefined variable: retval in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 173
+[17-Jul-2015 12:26:25 UTC] PHP Stack trace:
+[17-Jul-2015 12:26:25 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 12:26:25 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:23
+[17-Jul-2015 12:26:25 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:30
+[17-Jul-2015 12:26:25 UTC] PHP   4. ajax->savePause() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:94
+[17-Jul-2015 12:26:54 UTC] PHP Notice:  Undefined variable: retval in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 173
+[17-Jul-2015 12:26:54 UTC] PHP Stack trace:
+[17-Jul-2015 12:26:54 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 12:26:54 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:23
+[17-Jul-2015 12:26:54 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:30
+[17-Jul-2015 12:26:54 UTC] PHP   4. ajax->savePause() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:94
+[17-Jul-2015 12:27:16 UTC] PHP Notice:  Undefined variable: retval in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 173
+[17-Jul-2015 12:27:16 UTC] PHP Stack trace:
+[17-Jul-2015 12:27:16 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 12:27:16 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:23
+[17-Jul-2015 12:27:16 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:30
+[17-Jul-2015 12:27:16 UTC] PHP   4. ajax->savePause() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:94
+[17-Jul-2015 13:35:46 UTC] PHP Notice:  Undefined variable: block in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 192
+[17-Jul-2015 13:35:46 UTC] PHP Stack trace:
+[17-Jul-2015 13:35:46 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:35:46 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:35:46 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:35:46 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:35:46 UTC] PHP Notice:  Trying to get property of non-object in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 192
+[17-Jul-2015 13:35:46 UTC] PHP Stack trace:
+[17-Jul-2015 13:35:46 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:35:46 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:35:46 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:35:46 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:35:46 UTC] PHP Notice:  Undefined offset: 1 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 32
+[17-Jul-2015 13:35:46 UTC] PHP Stack trace:
+[17-Jul-2015 13:35:46 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:35:46 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:35:46 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:35:46 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:35:46 UTC] PHP   5. playlist->getPlaylistByID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:192
+[17-Jul-2015 13:35:46 UTC] PHP   6. playlist->getListe() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:54
+[17-Jul-2015 13:35:46 UTC] PHP   7. TimestampConverter->convertSQLtoLesbarMitTag() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:81
+[17-Jul-2015 13:35:46 UTC] PHP   8. TimestampConverter->convertSQLtoUnix() /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php:275
+[17-Jul-2015 13:35:46 UTC] PHP Notice:  Undefined offset: 2 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 32
+[17-Jul-2015 13:35:46 UTC] PHP Stack trace:
+[17-Jul-2015 13:35:46 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:35:46 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:35:46 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:35:46 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:35:46 UTC] PHP   5. playlist->getPlaylistByID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:192
+[17-Jul-2015 13:35:46 UTC] PHP   6. playlist->getListe() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:54
+[17-Jul-2015 13:35:46 UTC] PHP   7. TimestampConverter->convertSQLtoLesbarMitTag() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:81
+[17-Jul-2015 13:35:46 UTC] PHP   8. TimestampConverter->convertSQLtoUnix() /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php:275
+[17-Jul-2015 13:36:19 UTC] PHP Notice:  Undefined variable: block in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 192
+[17-Jul-2015 13:36:19 UTC] PHP Stack trace:
+[17-Jul-2015 13:36:19 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:36:19 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:36:19 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:36:19 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:36:19 UTC] PHP Notice:  Trying to get property of non-object in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 192
+[17-Jul-2015 13:36:19 UTC] PHP Stack trace:
+[17-Jul-2015 13:36:19 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:36:19 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:36:19 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:36:19 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:36:19 UTC] PHP Notice:  Undefined offset: 1 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 32
+[17-Jul-2015 13:36:19 UTC] PHP Stack trace:
+[17-Jul-2015 13:36:19 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:36:19 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:36:19 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:36:19 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:36:19 UTC] PHP   5. playlist->getPlaylistByID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:192
+[17-Jul-2015 13:36:19 UTC] PHP   6. playlist->getListe() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:54
+[17-Jul-2015 13:36:19 UTC] PHP   7. TimestampConverter->convertSQLtoLesbarMitTag() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:81
+[17-Jul-2015 13:36:19 UTC] PHP   8. TimestampConverter->convertSQLtoUnix() /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php:275
+[17-Jul-2015 13:36:19 UTC] PHP Notice:  Undefined offset: 2 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 32
+[17-Jul-2015 13:36:19 UTC] PHP Stack trace:
+[17-Jul-2015 13:36:19 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:36:19 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:36:19 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:36:19 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:36:19 UTC] PHP   5. playlist->getPlaylistByID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:192
+[17-Jul-2015 13:36:19 UTC] PHP   6. playlist->getListe() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:54
+[17-Jul-2015 13:36:19 UTC] PHP   7. TimestampConverter->convertSQLtoLesbarMitTag() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:81
+[17-Jul-2015 13:36:19 UTC] PHP   8. TimestampConverter->convertSQLtoUnix() /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php:275
+[17-Jul-2015 13:44:35 UTC] PHP Notice:  Undefined offset: 1 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 299
+[17-Jul-2015 13:44:35 UTC] PHP Stack trace:
+[17-Jul-2015 13:44:35 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:44:35 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:44:35 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:44:35 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:44:35 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:189
+[17-Jul-2015 13:44:35 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:44:35 UTC] PHP Notice:  Undefined offset: 2 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 300
+[17-Jul-2015 13:44:35 UTC] PHP Stack trace:
+[17-Jul-2015 13:44:35 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:44:35 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:44:35 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:44:35 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:44:35 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:189
+[17-Jul-2015 13:44:35 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:44:35 UTC] PHP Notice:  A non well formed numeric value encountered in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 322
+[17-Jul-2015 13:44:35 UTC] PHP Stack trace:
+[17-Jul-2015 13:44:35 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:44:35 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:44:35 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:44:35 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:44:35 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:189
+[17-Jul-2015 13:44:35 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:44:35 UTC] PHP   7. mktime() /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php:322
+[17-Jul-2015 13:45:39 UTC] PHP Notice:  Undefined offset: 1 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 299
+[17-Jul-2015 13:45:39 UTC] PHP Stack trace:
+[17-Jul-2015 13:45:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:45:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:45:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:45:39 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:45:39 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:191
+[17-Jul-2015 13:45:39 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:45:39 UTC] PHP Notice:  Undefined offset: 2 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 300
+[17-Jul-2015 13:45:39 UTC] PHP Stack trace:
+[17-Jul-2015 13:45:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:45:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:45:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:45:39 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:45:39 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:191
+[17-Jul-2015 13:45:39 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:45:39 UTC] PHP Notice:  A non well formed numeric value encountered in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 322
+[17-Jul-2015 13:45:39 UTC] PHP Stack trace:
+[17-Jul-2015 13:45:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:45:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:45:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:45:39 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:45:39 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:191
+[17-Jul-2015 13:45:39 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:45:39 UTC] PHP   7. mktime() /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php:322
+[17-Jul-2015 13:46:49 UTC] PHP Notice:  Undefined offset: 1 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 299
+[17-Jul-2015 13:46:49 UTC] PHP Stack trace:
+[17-Jul-2015 13:46:49 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:46:49 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:46:49 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:46:49 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:46:49 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:190
+[17-Jul-2015 13:46:49 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:46:49 UTC] PHP Notice:  Undefined offset: 2 in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 300
+[17-Jul-2015 13:46:49 UTC] PHP Stack trace:
+[17-Jul-2015 13:46:49 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:46:49 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:46:49 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:46:49 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:46:49 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:190
+[17-Jul-2015 13:46:49 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:46:49 UTC] PHP Notice:  A non well formed numeric value encountered in /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php on line 323
+[17-Jul-2015 13:46:49 UTC] PHP Stack trace:
+[17-Jul-2015 13:46:49 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[17-Jul-2015 13:46:49 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[17-Jul-2015 13:46:49 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[17-Jul-2015 13:46:49 UTC] PHP   4. ajax->savePlaylistStartzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:97
+[17-Jul-2015 13:46:49 UTC] PHP   5. playlist->setStartUhrzeit() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:190
+[17-Jul-2015 13:46:49 UTC] PHP   6. TimestampConverter->convertDatumAnUhrzeitToUnix() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist.php:99
+[17-Jul-2015 13:46:49 UTC] PHP   7. mktime() /home/klaus/Projekte/sweetvillageSongs/lib/Timestamp/TimestampConverter.php:323
+[20-Jul-2015 16:04:43 UTC] PHP Fatal error:  Call to undefined method ajax::getPlayedStatus() in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 55
+[20-Jul-2015 16:04:43 UTC] PHP Stack trace:
+[20-Jul-2015 16:04:43 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[20-Jul-2015 16:04:43 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[20-Jul-2015 16:04:43 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[20-Jul-2015 16:48:36 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php on line 217
+[20-Jul-2015 16:54:30 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 49
+[20-Jul-2015 16:54:30 UTC] PHP Stack trace:
+[20-Jul-2015 16:54:30 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[20-Jul-2015 16:54:30 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[20-Jul-2015 16:54:30 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[20-Jul-2015 16:54:30 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[20-Jul-2015 16:54:30 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[20-Jul-2015 16:54:30 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:41
+[20-Jul-2015 16:55:30 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 50
+[20-Jul-2015 16:55:30 UTC] PHP Stack trace:
+[20-Jul-2015 16:55:30 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[20-Jul-2015 16:55:30 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[20-Jul-2015 16:55:30 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[20-Jul-2015 16:55:30 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[20-Jul-2015 16:55:30 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[20-Jul-2015 16:55:30 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:42
+[20-Jul-2015 16:56:00 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[20-Jul-2015 16:56:00 UTC] PHP Stack trace:
+[20-Jul-2015 16:56:00 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[20-Jul-2015 16:56:00 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[20-Jul-2015 16:56:00 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[20-Jul-2015 16:56:00 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[20-Jul-2015 16:56:00 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[20-Jul-2015 16:56:00 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:36:13 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 06:36:13 UTC] PHP Stack trace:
+[21-Jul-2015 06:36:13 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:36:13 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:36:13 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:36:13 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:36:13 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:36:13 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:36:29 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 06:36:29 UTC] PHP Stack trace:
+[21-Jul-2015 06:36:29 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:36:29 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:36:29 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:36:29 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:36:29 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:36:29 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 58
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: duration in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 65
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: g_name in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 66
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: instrument in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: arr_r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: arr_k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: p in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index: t in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 06:37:51 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 06:37:51 UTC] PHP Stack trace:
+[21-Jul-2015 06:37:51 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 06:37:51 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 06:37:51 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 06:37:51 UTC] PHP   4. ajax->savePlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:103
+[21-Jul-2015 06:37:51 UTC] PHP   5. playlistSong->getSongByPS_ID() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:216
+[21-Jul-2015 06:37:51 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:43
+[21-Jul-2015 06:37:51 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:48
+[21-Jul-2015 06:37:51 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 06:37:51 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:05:55 UTC] PHP Notice:  Undefined index: ps_id in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 48
+[21-Jul-2015 07:05:55 UTC] PHP Stack trace:
+[21-Jul-2015 07:05:55 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:05:55 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:05:55 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:05:55 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:86
+[21-Jul-2015 07:05:55 UTC] PHP Notice:  Undefined index: pl_id in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 49
+[21-Jul-2015 07:05:55 UTC] PHP Stack trace:
+[21-Jul-2015 07:05:55 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:05:55 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:05:55 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:05:55 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:86
+[21-Jul-2015 07:05:55 UTC] PHP Notice:  Undefined index: pb_id in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 50
+[21-Jul-2015 07:05:55 UTC] PHP Stack trace:
+[21-Jul-2015 07:05:55 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:05:55 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:05:55 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:05:55 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:86
+[21-Jul-2015 07:05:55 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:05:55 UTC] PHP Stack trace:
+[21-Jul-2015 07:05:55 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:05:55 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:05:55 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:05:55 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:86
+[21-Jul-2015 07:05:55 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:05:55 UTC] PHP Stack trace:
+[21-Jul-2015 07:05:55 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:05:55 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:05:55 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:05:55 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:31
+[21-Jul-2015 07:05:55 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:86
+[21-Jul-2015 07:05:55 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:97
+[21-Jul-2015 07:05:55 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:05:55 UTC] PHP Stack trace:
+[21-Jul-2015 07:05:55 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:05:55 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:05:55 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:05:55 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:31
+[21-Jul-2015 07:05:55 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:86
+[21-Jul-2015 07:05:55 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:97
+[21-Jul-2015 07:05:55 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:05:55 UTC] PHP Stack trace:
+[21-Jul-2015 07:05:55 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:05:55 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:05:55 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:05:55 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:31
+[21-Jul-2015 07:05:55 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:86
+[21-Jul-2015 07:05:55 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:97
+[21-Jul-2015 07:05:55 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:05:55 UTC] PHP Stack trace:
+[21-Jul-2015 07:05:55 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:05:55 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:05:55 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:05:55 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:05:55 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:31
+[21-Jul-2015 07:05:55 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:86
+[21-Jul-2015 07:05:55 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:97
+[21-Jul-2015 07:06:06 UTC] PHP Notice:  Undefined index: ps_id in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 48
+[21-Jul-2015 07:06:06 UTC] PHP Stack trace:
+[21-Jul-2015 07:06:06 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:06:06 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:06:06 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:06:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:86
+[21-Jul-2015 07:06:06 UTC] PHP Notice:  Undefined index: pl_id in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 49
+[21-Jul-2015 07:06:06 UTC] PHP Stack trace:
+[21-Jul-2015 07:06:06 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:06:06 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:06:06 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:06:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:86
+[21-Jul-2015 07:06:06 UTC] PHP Notice:  Undefined index: pb_id in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 50
+[21-Jul-2015 07:06:06 UTC] PHP Stack trace:
+[21-Jul-2015 07:06:06 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:06:06 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:06:06 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:06:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:86
+[21-Jul-2015 07:06:06 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:06:06 UTC] PHP Stack trace:
+[21-Jul-2015 07:06:06 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:06:06 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:06:06 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:06:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:86
+[21-Jul-2015 07:06:06 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:06:06 UTC] PHP Stack trace:
+[21-Jul-2015 07:06:06 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:06:06 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:06:06 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:06:06 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:31
+[21-Jul-2015 07:06:06 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:86
+[21-Jul-2015 07:06:06 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:97
+[21-Jul-2015 07:06:06 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:06:06 UTC] PHP Stack trace:
+[21-Jul-2015 07:06:06 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:06:06 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:06:06 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:06:06 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:31
+[21-Jul-2015 07:06:06 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:86
+[21-Jul-2015 07:06:06 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:97
+[21-Jul-2015 07:06:06 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:06:06 UTC] PHP Stack trace:
+[21-Jul-2015 07:06:06 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:06:06 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:06:06 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:06:06 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:31
+[21-Jul-2015 07:06:06 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:86
+[21-Jul-2015 07:06:06 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:97
+[21-Jul-2015 07:06:06 UTC] PHP Notice:  Undefined index: pl_datum in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php on line 51
+[21-Jul-2015 07:06:06 UTC] PHP Stack trace:
+[21-Jul-2015 07:06:06 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:06:06 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:06:06 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:06:06 UTC] PHP   4. Songsorter->sortSong() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:82
+[21-Jul-2015 07:06:06 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/sweetvillageSongs/ajax/Songsorter.php:31
+[21-Jul-2015 07:06:06 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:86
+[21-Jul-2015 07:06:06 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlist_bloecke.php:97
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 58
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: duration in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 65
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: g_name in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 66
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: instrument in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: arr_r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: arr_k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: p in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index: t in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:29:50 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:29:50 UTC] PHP Stack trace:
+[21-Jul-2015 07:29:50 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:29:50 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:29:50 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:29:50 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:29:50 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:29:50 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:29:50 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:29:50 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:29:50 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 58
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: duration in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 65
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: g_name in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 66
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: instrument in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: arr_r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: arr_k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: p in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index: t in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:39 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:39 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:39 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:39 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:39 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:39 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:39 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:39 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:39 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:39 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:39 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 58
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: duration in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 65
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: g_name in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 66
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: instrument in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: arr_r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: arr_k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: p in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index: t in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:31:45 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:31:45 UTC] PHP Stack trace:
+[21-Jul-2015 07:31:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:31:45 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:31:45 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:31:45 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:31:45 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:31:45 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:31:45 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:50
+[21-Jul-2015 07:31:45 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:31:45 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 58
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: duration in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 65
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: g_name in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 66
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: instrument in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: arr_r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: arr_k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: p in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index: t in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:21 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:21 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:21 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:21 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:21 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:21 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:21 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:21 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:21 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:21 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:21 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 58
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: duration in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 65
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: g_name in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 66
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: instrument in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 67
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: arr_r in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: arr_k in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 24
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: p in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index: t in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 23
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 25
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[21-Jul-2015 07:48:33 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/sweetvillageSongs/classes/Musiker/Musiker.php on line 26
+[21-Jul-2015 07:48:33 UTC] PHP Stack trace:
+[21-Jul-2015 07:48:33 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:0
+[21-Jul-2015 07:48:33 UTC] PHP   2. ajax->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:20
+[21-Jul-2015 07:48:33 UTC] PHP   3. ajax->getContent() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:27
+[21-Jul-2015 07:48:33 UTC] PHP   4. ajax->getPlayedStatus() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:55
+[21-Jul-2015 07:48:33 UTC] PHP   5. playlistSong->getSongByPlaylist() /home/klaus/Projekte/sweetvillageSongs/ajax/ajax.php:209
+[21-Jul-2015 07:48:33 UTC] PHP   6. playlistSong->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:21
+[21-Jul-2015 07:48:33 UTC] PHP   7. Song->setSong() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/playlistSongs.php:51
+[21-Jul-2015 07:48:33 UTC] PHP   8. Song->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:68
+[21-Jul-2015 07:48:33 UTC] PHP   9. Musiker->setMusiker() /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php:135
+[29-Jul-2015 11:52:46 UTC] PHP Fatal error:  Call to undefined function z() in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 3
+[29-Jul-2015 11:52:46 UTC] PHP Stack trace:
+[29-Jul-2015 11:52:46 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 11:53:30 UTC] PHP Fatal error:  Call to undefined function z() in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 3
+[29-Jul-2015 11:53:30 UTC] PHP Stack trace:
+[29-Jul-2015 11:53:30 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 11:53:45 UTC] PHP Fatal error:  Call to undefined function z() in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 3
+[29-Jul-2015 11:53:45 UTC] PHP Stack trace:
+[29-Jul-2015 11:53:45 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 12:20:57 UTC] PHP Fatal error:  Class 'Musiker' not found in /home/klaus/Projekte/sweetvillageSongs/classes/Songs/Song.php on line 35
+[29-Jul-2015 12:20:57 UTC] PHP Stack trace:
+[29-Jul-2015 12:20:57 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 12:20:57 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:8
+[29-Jul-2015 12:20:57 UTC] PHP   3. uploader->start() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:17
+[29-Jul-2015 12:20:57 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:23
+[29-Jul-2015 12:20:57 UTC] PHP   5. Song->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:41
+[29-Jul-2015 12:28:49 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 25
+[29-Jul-2015 12:35:08 UTC] PHP Notice:  Undefined property: stdClass::$headers in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 37
+[29-Jul-2015 12:35:08 UTC] PHP Stack trace:
+[29-Jul-2015 12:35:08 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 12:35:08 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:9
+[29-Jul-2015 12:35:08 UTC] PHP   3. uploader->start() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:20
+[29-Jul-2015 13:26:26 UTC] PHP Fatal error:  Call to undefined method Song::save() in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 41
+[29-Jul-2015 13:26:26 UTC] PHP Stack trace:
+[29-Jul-2015 13:26:26 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 13:26:26 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:9
+[29-Jul-2015 13:26:26 UTC] PHP   3. uploader->start() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:21
+[29-Jul-2015 13:27:41 UTC] PHP Fatal error:  Call to undefined method Song::save() in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 41
+[29-Jul-2015 13:27:41 UTC] PHP Stack trace:
+[29-Jul-2015 13:27:41 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 13:27:41 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:9
+[29-Jul-2015 13:27:41 UTC] PHP   3. uploader->start() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:21
+[29-Jul-2015 13:29:14 UTC] PHP Fatal error:  Call to undefined method Song::save() in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 41
+[29-Jul-2015 13:29:14 UTC] PHP Stack trace:
+[29-Jul-2015 13:29:14 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 13:29:14 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:9
+[29-Jul-2015 13:29:14 UTC] PHP   3. uploader->start() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:21
+[29-Jul-2015 13:30:59 UTC] PHP Fatal error:  Call to undefined method Song::save() in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 41
+[29-Jul-2015 13:30:59 UTC] PHP Stack trace:
+[29-Jul-2015 13:30:59 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 13:30:59 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:9
+[29-Jul-2015 13:30:59 UTC] PHP   3. uploader->start() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:21
+[29-Jul-2015 13:31:58 UTC] PHP Fatal error:  Call to undefined method Song::save() in /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php on line 41
+[29-Jul-2015 13:31:58 UTC] PHP Stack trace:
+[29-Jul-2015 13:31:58 UTC] PHP   1. {main}() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:0
+[29-Jul-2015 13:31:58 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:9
+[29-Jul-2015 13:31:58 UTC] PHP   3. uploader->start() /home/klaus/Projekte/sweetvillageSongs/ajax/upload.php:21

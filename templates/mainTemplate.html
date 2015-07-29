@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sweet Village Song Manager</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="robots" content="no-index, no-follow" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
+
+    <!-- Bootstrap -->
+    <link href="/extern/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/dojo/1.10.2/dijit/themes/nihilo/nihilo.css">
+
+    <!-- the new overrides -->
+    <link rel="stylesheet" href="/templates/css/styles.css"/>
+    <link rel="stylesheet" href="/templates/css/font-awesome.min.css"/>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+    <script type="text/javascript">
+        var djConfig = {
+            parseOnLoad: true,
+            usePlainJson: true,
+            locale: 'de',
+            isDebug: true,
+            debugAtAllCosts: true
+        };
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.10.0/dojo/dojo.js"></script>
+
+
+</head>
+
+<body class="nihilo">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php?idt=Liste&status=all"><img src="/templates/img/sweet_village_logo.png" class="logo"> Song Manager</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            {navi}
+
+            <div class="user_logout navbar-right ">
+
+                {user} {logout}
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="content">
+
+                <div id="tabber" class="tabber " onclick="countBPM()">bpm</div>
+
+
+
+                {content}
+            </div><!-- EOF content -->
+        </div>
+    </div>
+</div><!-- EOF Container -->
+
+
+<script src="/extern/bootstrap/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript" src="/js/common.js"></script>
+
+
+</body>
+</html>
