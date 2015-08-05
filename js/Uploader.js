@@ -144,8 +144,9 @@ dojo.declare('Uploader', null,
 		req.setRequestHeader("X-File-Name", file.name);
 		req.setRequestHeader("X-File-Size", file.size);
 		req.setRequestHeader("Content-Type", "application/octet-stream; charset=UTF-8");
-        req.setRequestHeader('song_id', dojo.byId('song_id').value);
+        req.setRequestHeader('X-Song-ID', dojo.byId('song_id').value);
 		req.send(file);
+
             this.changeInfos(req.responseText);
 
 

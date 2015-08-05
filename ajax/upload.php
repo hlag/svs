@@ -76,12 +76,23 @@ class uploader
             }
         }
 
-
         $this->song = new Song();
-        if ($this->headers['song_id'] != 'new')
-            $this->song->getSongByID($this->headers['song_id']);
+        if ($this->headers['X-Song-ID'] != 'new')
+        {
+            $this->song->getSongByID($this->headers['X-Song-ID']);
+            switch($this->headers['fileType'])
+            {
+                case 'mp3':
+                    require_once PATH.'extern/getID3-1.9.9/getid3/getid3.php';
+                    require_once PATH.'extern/getID3-1.9.9/getid3/module.audio.mp3.php';
+                    $getID3 = new getID3();
+                    $this->FileInfo = $getID3->analyze(PATH . 'files/temp/temp.mp3');
+                    break;
+            }
+        }
         else
         {
+            $this->song->id = $this->headers['X-Song-ID'];
             switch($this->headers['fileType'])
             {
                 case 'mp3':
@@ -89,19 +100,22 @@ class uploader
                     break;
             }
         }
+
     }
 
     private function processSong()
     {
+
         require_once PATH.'extern/getID3-1.9.9/getid3/getid3.php';
         require_once PATH.'extern/getID3-1.9.9/getid3/module.audio.mp3.php';
         $getID3 = new getID3();
         $this->FileInfo = $getID3->analyze(PATH . 'files/temp/temp.mp3');
+
+
         $this->song->title = $this->FileInfo['tags']['id3v1']['title'][0];
         $this->song->interpret = $this->FileInfo['tags']['id3v1']['artist'][0];
         $this->song->setKennung();
         $this->song->id = 'new';
-       // return  round($this->FileInfo['playtime_seconds']);
     }
 
 }

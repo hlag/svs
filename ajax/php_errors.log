@@ -1942,3 +1942,434 @@
 [29-Jul-2015 16:10:39 UTC] PHP   5. playlist_bloecke->getSongs() /home/klaus/Projekte/svs/ajax/Songsorter.php:31
 [29-Jul-2015 16:10:39 UTC] PHP   6. playlist_bloecke->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:86
 [29-Jul-2015 16:10:39 UTC] PHP   7. playlistSong->setSong() /home/klaus/Projekte/svs/classes/Songs/playlist_bloecke.php:97
+[05-Aug-2015 16:06:11 UTC] PHP Parse error:  syntax error, unexpected 'z' (T_STRING) in /home/klaus/Projekte/svs/ajax/upload.php on line 105
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 106
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: c in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 61
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 62
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: duration in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 69
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: g_name in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 70
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: instrument in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 71
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 71
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: r in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 23
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: arr_r in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 24
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: k in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 23
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: arr_k in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 24
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: p in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 23
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index: t in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 23
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:11:06 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:11:06 UTC] PHP Stack trace:
+[05-Aug-2015 16:11:06 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:11:06 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:11:06 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:11:06 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:11:06 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:81
+[05-Aug-2015 16:11:06 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:11:06 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:11:06 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 106
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: c in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 61
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: arr_c in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 62
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: duration in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 69
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: g_name in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 70
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: instrument in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 71
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 71
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: r in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 23
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: arr_r in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 24
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: k in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 23
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: arr_k in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 24
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: p in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 23
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index: t in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 23
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 25
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
+[05-Aug-2015 16:15:47 UTC] PHP Notice:  Undefined index:  in /home/klaus/Projekte/svs/classes/Musiker/Musiker.php on line 26
+[05-Aug-2015 16:15:47 UTC] PHP Stack trace:
+[05-Aug-2015 16:15:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/upload.php:0
+[05-Aug-2015 16:15:47 UTC] PHP   2. uploader->__construct() /home/klaus/Projekte/svs/ajax/upload.php:9
+[05-Aug-2015 16:15:47 UTC] PHP   3. uploader->start() /home/klaus/Projekte/svs/ajax/upload.php:21
+[05-Aug-2015 16:15:47 UTC] PHP   4. uploader->getSong() /home/klaus/Projekte/svs/ajax/upload.php:27
+[05-Aug-2015 16:15:47 UTC] PHP   5. Song->getSongByID() /home/klaus/Projekte/svs/ajax/upload.php:82
+[05-Aug-2015 16:15:47 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:109
+[05-Aug-2015 16:15:47 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:72
+[05-Aug-2015 16:15:47 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:158
