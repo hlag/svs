@@ -26,6 +26,7 @@ class Song
     private $pl_datum = null;
     private $txt_link = '';
     private $mp3_link = '';
+    private $angefangen = '0000-00-00';
 
     private $demolink = '';
     private $demo=0;

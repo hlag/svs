@@ -31784,3 +31784,33 @@ Stack trace:
 [29-Jul-2015 16:03:42 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
 [29-Jul-2015 16:03:42 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
 [29-Jul-2015 16:03:42 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[11-Aug-2015 07:51:55 UTC] PHP Fatal error:  Class 'angefangenDatum.php' not found in /home/klaus/Projekte/svs/classes/controller.php on line 54
+[11-Aug-2015 07:51:55 UTC] PHP Stack trace:
+[11-Aug-2015 07:51:55 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[11-Aug-2015 07:51:55 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[11-Aug-2015 07:51:55 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[11-Aug-2015 07:52:31 UTC] PHP Fatal error:  Class 'angefangenDatum.php' not found in /home/klaus/Projekte/svs/classes/controller.php on line 54
+[11-Aug-2015 07:52:31 UTC] PHP Stack trace:
+[11-Aug-2015 07:52:31 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[11-Aug-2015 07:52:31 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[11-Aug-2015 07:52:31 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[11-Aug-2015 07:52:42 UTC] PHP Fatal error:  Class 'angefangenDatum' not found in /home/klaus/Projekte/svs/classes/controller.php on line 54
+[11-Aug-2015 07:52:42 UTC] PHP Stack trace:
+[11-Aug-2015 07:52:42 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[11-Aug-2015 07:52:42 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[11-Aug-2015 07:52:42 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[11-Aug-2015 07:52:52 UTC] PHP Fatal error:  Class 'angefangenDatum' not found in /home/klaus/Projekte/svs/classes/controller.php on line 54
+[11-Aug-2015 07:52:52 UTC] PHP Stack trace:
+[11-Aug-2015 07:52:52 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[11-Aug-2015 07:52:52 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[11-Aug-2015 07:52:52 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[11-Aug-2015 07:53:39 UTC] PHP Fatal error:  Class 'angefangenDatum' not found in /home/klaus/Projekte/svs/classes/controller.php on line 54
+[11-Aug-2015 07:53:39 UTC] PHP Stack trace:
+[11-Aug-2015 07:53:39 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[11-Aug-2015 07:53:39 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[11-Aug-2015 07:53:39 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[11-Aug-2015 07:53:42 UTC] PHP Fatal error:  Class 'angefangenDatum' not found in /home/klaus/Projekte/svs/classes/controller.php on line 54
+[11-Aug-2015 07:53:42 UTC] PHP Stack trace:
+[11-Aug-2015 07:53:42 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[11-Aug-2015 07:53:42 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[11-Aug-2015 07:53:42 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
