@@ -93,6 +93,7 @@ class uploader
         else
         {
             $this->song->id = $this->headers['X-Song-ID'];
+            $this->song->__set('angefangen', date("Y-m-d"));
             switch($this->headers['fileType'])
             {
                 case 'mp3':

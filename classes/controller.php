@@ -64,7 +64,7 @@ class controller
         $navi = array('Liste&status=all' => 'alle',
             'Liste&status=1' => 'Vorschlag',
             'Liste&status=5' => 'neu',
-            'Liste&status=2' => 'nächsteProbe', 'Liste&status=repertoire'=>'Repertoire','genres'=>'Genres', 'upload'=>'Upload', 'playlist&pl_id=1'=>'Playlist');
+            'Liste&status=2' => 'nächsteProbe', 'Liste&status=repertoire'=>'Repertoire','genres'=>'Genres','erschienen'=>'erschienen', 'upload'=>'Upload', 'playlist&pl_id=1'=>'Playlist');
         $this->data['header'] = isset($navi[Request::getInstance()->getGetRequests('idt')]) ? $navi[Request::getInstance()->getGetRequests('idt')] : '--';
         $retval = '<ul class="nav navbar-nav">';
         foreach ($navi AS $link => $linktext)

@@ -27,7 +27,9 @@ class Song
     private $txt_link = '';
     private $mp3_link = '';
     private $angefangen = '0000-00-00';
-
+    private $angefangen_gen = '';
+    private $erschienen;
+    private $erschienen_gen;
     private $demolink = '';
     private $demo=0;
     private static $geamtZaehler = 1;
@@ -72,7 +74,10 @@ class Song
         $this->instrumentKlaus = $inst[$song['instrument']];
         $this->setMusiker($song);
         $this->setStatusClass();
-        $this->txt_link = $this->txt!=''?'<a href="/files/'.$this->txt.'">txt</a>':'';
+        $this->angefangen_gen = TimestampConverter::getInstance()->convertSQLtoLesbar($this->angefangen);
+        $this->erschienen_gen = TimestampConverter::getInstance()->convertSQLtoLesbar($this->erschienen);
+        $this->txt_link =
+            $this->txt!=''?'<a href="/files/'.$this->txt.'">txt</a>':'';
         $this->mp3_link = $this->mp3!=''?'<a href="/files/'.$this->mp3.'">mp3</a>':'';
     }
 
@@ -159,7 +164,7 @@ class Song
             $this->musiker[$key]->setMusiker($song);
     }
 
-    public function renderSong()
+    public function renderSong($template = 'songListItem')
     {
         $vars = get_object_vars($this);
         foreach (array_keys($this->musiker) AS $key)
@@ -168,7 +173,7 @@ class Song
             $vars['class_' . $key] = $this->musiker[$key]->getStatusClass();
         }
         $vars['statusClass'] = $this->statusClass;
-        return TemplateParser::getInstance()->parseTemplate($vars, 'Song/songListItem.html');
+        return TemplateParser::getInstance()->parseTemplate($vars, 'Song/'.$template.'.html');
     }
 
     public function renderArrangement()
