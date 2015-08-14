@@ -28,7 +28,7 @@ class Song
     private $mp3_link = '';
     private $angefangen = '0000-00-00';
     private $angefangen_gen = '';
-    public $erschienen;
+    public $erschienen = '0000-00-00';
     public $erschienen_gen;
     public $erschienen_gen_short;
     private $demolink = '';

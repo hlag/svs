@@ -1,2 +1,44 @@
-<input type="hidden" name="song_id" value="new" id="song_id">
-<div id="uploader" style="height :800px; width: 500px;border:1px solid grey;"></div>
+<br><br>
+<br><br>
+<br><br>
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Notiz-Song anlegen
+            </div>
+            <div class="panel-body">
+                <form action="index.php?idt=upload" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-md-3" for="title">Titel</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" name="title" id="title"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3" for="interpret">Interpret</label>
+                        <div class="col-md-9">
+                            <input class="form-control" type="text" name="interpret" id="interpret"/>
+                        </div>
+                    </div>
+                    <input name="command" type="hidden" value="saveSongNotiz"/>
+                    <div class="form-group">
+                        <div class="col-md-9 col-md-offset-3">
+                            <input type="submit" value="Speichern"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="col-md-6">
+        <input type="hidden" name="song_id" value="new" id="song_id">
+        <div id="uploader" style="height :400px; width: 400px;border:1px solid grey;">mp3 einwerfen</div>
+        <div id="test"></div>
+    </div>
+</div>
+

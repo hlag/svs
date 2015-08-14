@@ -26,7 +26,8 @@ class editSong
                 $this->song->updateSong(Request::getInstance()->getPostRequests());
                 break;
             default:
-                z(Request::getInstance()->getPostRequests());
+               // z(Request::getInstance()->getPostRequests());
+                break;
 
 
 

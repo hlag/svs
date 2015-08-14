@@ -5,6 +5,8 @@ require_once PATH . 'lib/Request/Request.php';
 require_once PATH . 'lib/template/TemplateParserHlag.php';
 require_once PATH . 'classes/Songs/Song.php';
 require_once PATH . 'classes/Musiker/Musiker.php';
+require_once PATH . 'lib/Request/Request.php';
+require_once PATH . 'lib/Timestamp/TimestampConverter.php';
 
 new Uploader();
 

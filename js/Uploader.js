@@ -157,6 +157,10 @@ dojo.declare('Uploader', null,
     changeInfos: function (responseText)
     {
         dojo.byId('song_id').value = responseText;
+
+        console.log(responseText);
+
+        dojo.byId('test').innerHTML = '<meta http-equiv="refresh" content="0;http://www.svs.hlag/index.php?idt=editSong&song_id='+responseText+'">';
     },
 
         /**
