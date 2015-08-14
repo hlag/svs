@@ -28,11 +28,13 @@ class Song
     private $mp3_link = '';
     private $angefangen = '0000-00-00';
     private $angefangen_gen = '';
-    private $erschienen;
-    private $erschienen_gen;
+    public $erschienen;
+    public $erschienen_gen;
+    public $erschienen_gen_short;
     private $demolink = '';
     private $demo=0;
     private static $geamtZaehler = 1;
+    private $classFifty = '';
 
 
     public function __construct()
@@ -59,6 +61,17 @@ class Song
         return $this->id;
     }
 
+    public function setClassForFifty()
+    {
+        if($this->erschienen < (date("Y")-35).'-'.date("m-d"))
+            $this->classFifty = 'text-muted';
+    }
+
+    public function getCentury()
+    {
+        return substr($this->erschienen, 0,3).'0';
+    }
+
     public function setSong($song)
     {
         $song['b'] = $song['c'];
@@ -76,6 +89,7 @@ class Song
         $this->setStatusClass();
         $this->angefangen_gen = TimestampConverter::getInstance()->convertSQLtoLesbar($this->angefangen);
         $this->erschienen_gen = TimestampConverter::getInstance()->convertSQLtoLesbar($this->erschienen);
+        $this->erschienen_gen_short = substr($this->erschienen, 0,4);
         $this->txt_link =
             $this->txt!=''?'<a href="/files/'.$this->txt.'">txt</a>':'';
         $this->mp3_link = $this->mp3!=''?'<a href="/files/'.$this->mp3.'">mp3</a>':'';
@@ -172,6 +186,7 @@ class Song
             $vars['icon_' . $key] = $this->musiker[$key]->getStatusIcon();
             $vars['class_' . $key] = $this->musiker[$key]->getStatusClass();
         }
+        $vars['q']= str_replace(' ', '+', $this->title.' '.$this->interpret);
         $vars['statusClass'] = $this->statusClass;
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/'.$template.'.html');
     }

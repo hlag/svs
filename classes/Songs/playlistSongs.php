@@ -87,7 +87,6 @@ class playlistSong EXTENDS Song
     public function renderPlaylistSong()
     {
         $vars = get_object_vars($this);
-
         $vars['title'] = $this->title;
         $vars['interpret'] = $this->interpret;
         $vars['instrumentKlaus'] = $this->instrumentKlaus;

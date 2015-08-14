@@ -36,7 +36,7 @@ class Liste
         }
         elseif($status == 'erschienen')
         {
-            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website  ORDER BY erschienen DESC");
+            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website  ORDER BY erschienen DESC, interpret");
         }
         elseif($status == 2)
         {

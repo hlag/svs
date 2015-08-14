@@ -1,11 +1,11 @@
-<div class="row">
-    <div class="col-md-2">
-        {title}
+<div class="row {classFifty}">
+    <div class="col-md-2  {classFifty}">
+        <a href="https://www.google.de/search?q={q}" target="Wikipedia" class=" {classFifty}"  onclick="getSingleDatum('SVsongs', 'erschienen', {id}, 'id')" >{title}</a>
     </div>
     <div class="col-md-2">
-        {interpret}
+        <a href="https://www.google.de/search?q={q}+wikipedia" target="Wikipedia"  class=" {classFifty}"  onclick="getSingleDatum('SVsongs', 'erschienen', {id}, 'id')" >{interpret}</a>
     </div>
-    <div class="col-md-2" onclick="getSingleDatum('SVsongs', 'erschienen', {id}, 'id')" id="SVsongs_erschienen_{id}">
+    <div class="col-md-2  {classFifty}" onclick="getSingleDatum('SVsongs', 'erschienen', {id}, 'id')" id="SVsongs_erschienen_{id}">
         {erschienen_gen}
     </div>
 </div>
