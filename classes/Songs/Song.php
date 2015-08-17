@@ -7,6 +7,7 @@ class Song
     private $title = 'neuer Title';
     private $interpret = 'neuer Interpret';
     private $genre ='unbekannt';
+    private $website = 0;
     private $g_id = 0;
     private $bpm = 0;
     private $instrumentKlaus;
@@ -84,6 +85,8 @@ class Song
                 $this->$key = trim($value);
         $this->duration = $song['duration'] == 0 ? 200 : $song['duration'];
         $this->genre = $song['g_name'];
+        $this->website = $song['g_id'];
+
         $this->instrumentKlaus = $inst[$song['instrument']];
         $this->setMusiker($song);
         $this->setStatusClass();
