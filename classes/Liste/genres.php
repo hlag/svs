@@ -16,7 +16,7 @@ class genres
         $data['songs'] = $this->renderGroups();
         $data['nichtZugerodnet'] = $this->renderGroups(true);
 
-        return TemplateParser::getInstance()->parseTemplate($data, 'Liste/genres.html');
+        return   TemplateParser::getInstance()->parseTemplate($data, 'Liste/genres.html');
     }
 
     private function renderGroups($reste = false)
