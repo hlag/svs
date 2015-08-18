@@ -17,7 +17,7 @@ class playlistSong EXTENDS Song
 
     public function getSongByPlaylist($ps_id)
     {
-        $song = AGDO::getInstance()->GetFirst("SELECT * FROM playlist_songs JOIN SVsongs USING (id) JOIN  playlists USING (pl_id) JOIN  sv_song_genres ON website = g_id WHERE ps_id = ".$ps_id);
+        $song = AGDO::getInstance()->GetFirst("SELECT * FROM playlist_songs JOIN SVsongs USING (id) JOIN  playlists USING (pl_id) JOIN  sv_song_genres USING (g_id)  WHERE ps_id = ".$ps_id);
         $this->setSong($song);
 
     }

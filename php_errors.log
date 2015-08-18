@@ -421,3 +421,98 @@
 [14-Aug-2015 14:09:11 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Upload/upload.php:23
 [14-Aug-2015 14:09:11 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:88
 [14-Aug-2015 14:09:11 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:178
+[17-Aug-2015 12:29:07 UTC] PHP Fatal error:  Call to undefined method playlistPDFgenerator::SetCellMargin() in /home/klaus/Projekte/svs/classes/Songs/playlistPDFgenerator.php on line 24
+[17-Aug-2015 12:29:07 UTC] PHP Stack trace:
+[17-Aug-2015 12:29:07 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[17-Aug-2015 12:29:07 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[17-Aug-2015 12:29:07 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[17-Aug-2015 12:29:07 UTC] PHP   4. playlistPDF->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[17-Aug-2015 12:29:07 UTC] PHP   5. playlistPDFgenerator->generatePDF() /home/klaus/Projekte/svs/classes/Songs/playlistPDF.php:22
+[17-Aug-2015 12:29:49 UTC] PHP Fatal error:  Call to undefined method playlistPDFgenerator::SetMultiCellMargins() in /home/klaus/Projekte/svs/classes/Songs/playlistPDFgenerator.php on line 24
+[17-Aug-2015 12:29:49 UTC] PHP Stack trace:
+[17-Aug-2015 12:29:49 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[17-Aug-2015 12:29:49 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[17-Aug-2015 12:29:49 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[17-Aug-2015 12:29:49 UTC] PHP   4. playlistPDF->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[17-Aug-2015 12:29:49 UTC] PHP   5. playlistPDFgenerator->generatePDF() /home/klaus/Projekte/svs/classes/Songs/playlistPDF.php:22
+[18-Aug-2015 07:33:03 UTC] PHP Fatal error:  Class 'genres' not found in /home/klaus/Projekte/svs/classes/controller.php on line 54
+[18-Aug-2015 07:33:03 UTC] PHP Stack trace:
+[18-Aug-2015 07:33:03 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:33:03 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:33:03 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:48:56 UTC] PHP Fatal error:  Call to undefined method genres::renderSongs() in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 16
+[18-Aug-2015 07:48:56 UTC] PHP Stack trace:
+[18-Aug-2015 07:48:56 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:48:56 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:48:56 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:48:56 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16
+[18-Aug-2015 07:55:23 UTC] PHP Notice:  Undefined index: g_id in /home/klaus/Projekte/svs/classes/Liste/genres.php on line 26
+[18-Aug-2015 07:55:23 UTC] PHP Stack trace:
+[18-Aug-2015 07:55:23 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[18-Aug-2015 07:55:23 UTC] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[18-Aug-2015 07:55:23 UTC] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:26
+[18-Aug-2015 07:55:23 UTC] PHP   4. genres->getContent() /home/klaus/Projekte/svs/classes/controller.php:55
+[18-Aug-2015 07:55:23 UTC] PHP   5. genres->renderSongs() /home/klaus/Projekte/svs/classes/Liste/genres.php:16

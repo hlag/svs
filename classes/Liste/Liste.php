@@ -24,35 +24,35 @@ class Liste
     {
         if($status == 'all')
         {
-            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website ORDER BY title");
+            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id) ORDER BY title");
         }
         elseif($status == 'repertoire')
         {
-            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe != 1 AND probe != 5 ORDER BY title");
+            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe != 1 AND probe != 5 ORDER BY title");
         }
         elseif($status == 'uebrige')
         {
-            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe != 1 AND probe != 5 ORDER BY g_id,  title");
+            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe != 1 AND probe != 5 ORDER BY g_id,  title");
         }
         elseif($status == 'erschienen')
         {
-            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website  ORDER BY erschienen DESC, interpret");
+            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)   ORDER BY erschienen DESC, interpret");
         }
         elseif($status == 2)
         {
-            $dringend = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe = 3 ORDER BY title");
-            $proben = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe = 2 ORDER BY title");
-            $sonstige = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe = 4 ORDER BY letzteProbe");
+            $dringend = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 3 ORDER BY title");
+            $proben = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 2 ORDER BY title");
+            $sonstige = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 4 ORDER BY letzteProbe");
             $songs = array_merge($dringend, $proben, $sonstige);
         }
         elseif($status == 5)
         {
-            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE
+            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE
                     angefangen > '".date("Y-m-d", time()-3600*24*21)."' OR probe = '5' ORDER BY angefangen DESC");
         }
         else
         {
-            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE probe = '".$status."' ORDER BY title");
+            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = '".$status."' ORDER BY title");
         }
 
 

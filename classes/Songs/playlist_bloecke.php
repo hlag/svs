@@ -80,7 +80,7 @@ class playlist_bloecke
 
     public function getSongs()
     {
-        $songs = AGDO::getInstance()->GetAll("SELECT * FROM playlist_songs JOIN SVsongs USING (id)  LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE pl_id = " . $this->pl_id . " AND pb_id = " . $this->pb_id . " ORDER BY ps_sort_order");
+        $songs = AGDO::getInstance()->GetAll("SELECT * FROM playlist_songs JOIN SVsongs USING (id)  LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE pl_id = " . $this->pl_id . " AND pb_id = " . $this->pb_id . " ORDER BY ps_sort_order");
 
         foreach ($songs AS $song)
             $this->setSong($song);

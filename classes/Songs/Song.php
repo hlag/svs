@@ -85,7 +85,7 @@ class Song
                 $this->$key = trim($value);
         $this->duration = $song['duration'] == 0 ? 200 : $song['duration'];
         $this->genre = $song['g_name'];
-        $this->website = $song['g_id'];
+        $this->g_id = $song['g_id'];
 
         $this->instrumentKlaus = $inst[$song['instrument']];
         $this->setMusiker($song);
@@ -124,7 +124,7 @@ class Song
         }
         else
         {
-            $song = AGDO::getInstance()->GetFirst("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres ON g_id = website WHERE id = " . $song_id);
+            $song = AGDO::getInstance()->GetFirst("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE id = " . $song_id);
             $song['b'] = $song['c'];
             $song['arr_b'] = $song['arr_c'];
             $song['arr_t'] = '';
@@ -257,8 +257,8 @@ class Song
             $vars['probe'] = 5;
             AGDO::getInstance()->AutoExecute('SVsongs', $vars, 'INSERT');
             $this->id = AGDO::getInstance()->Insert_ID();
-
         }
+        $this->clearCache();
     }
 
     public function delete()
@@ -270,7 +270,14 @@ class Song
         if(file_exists($txt))
             unlink($txt);
         AGDO::getInstance()->Execute("DELETE  FROM SVsongs  WHERE id = " . $this->id);
+        $this->clearCache();
         header("location:index.php?idt=Liste&status=1");
+    }
+
+    private function clearCache()
+    {
+        echo file_get_contents('../sweetvillage/cache/rock.html');
+        unlink('../sweetvillage/cache/rock.html');
     }
 
 }
