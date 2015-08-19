@@ -105,7 +105,9 @@ class ajax
                 case 'updateProbeDatum':
                     AGDO::getInstance()->Execute("UPDATE SVsongs SET letzteProbe = '".date('Y-m-d')."', probe=4 WHERE id=".$p['id']);
                     break;
-
+                case 'setGenre':
+                    $this->setGenre($p['song_id'], $p['g_id']);
+                    break;
 
 
                 default:
@@ -220,6 +222,18 @@ class ajax
         $song->setPlayedStatus($status);
         echo json_encode($song->getPlayedStatus());
 
+    }
+
+    private function setGenre($song_id, $g_id)
+    {
+        $song_id = str_replace('song_', '', $song_id);
+        $g_id = str_replace('genre_', '', $g_id);
+        z($g_id);
+        $song = new Song();
+
+        $song->getSongByID($song_id);
+        $song->g_id = $g_id;
+        $song->saveSong();
     }
 
 

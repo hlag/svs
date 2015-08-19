@@ -1,6 +1,7 @@
 dojo.require("dijit.Dialog");
 dojo.require("dijit/focus");
 dojo.require('dojo.dnd.Source');
+dojo.require('dojo/dom-attr');
 dojo.subscribe('/dnd/drop', this, 'endDrop');
 
 dojo.require("dojox.widget.Toaster");
@@ -38,29 +39,44 @@ function endDrop(source, nodeX) {
 }
 
 function workOnDOM() {
-    deliquent = dojo.byId(node[0].id);
+    var Liste = dojo.attr(node[0].id, 'liste');
+    z(Liste);
+    deliquent = node[0];
     parent = deliquent.parentNode;
-
     childs = parent.childNodes;
-    var x = 0;
-    for (var key in childs) {
-        if (childs[key].id) {
-            x++;
 
-            if (node[0].id == childs[key].id) {
-                dojo.xhrPost({
-                    url: '/ajax/ajax.php',
-                    handleAs: 'json',
-                    postData: 'cmd=sortSong&song_id=' + node[0].id + '&position=' + x + '&parent_id=' + parent.id,
-                    load: function (resp) {
-                        changeValues(resp['v']);
-                        changeClasses(resp['c']);
-                    }
-                });
+    if(Liste == 'genre')
+    {
+        dojo.xhrPost({
+            url: '/ajax/ajax.php',
+            handleAs: 'json',
+            postData: 'cmd=setGenre&song_id=' + node[0].id +  '&g_id=' + parent.id,
+            load: function (resp) {
+
+            }
+        });
+    }
+    else {
+        var x = 0;
+        for (var key in childs) {
+            if (childs[key].id) {
+                x++;
+
+                if (node[0].id == childs[key].id) {
+                    dojo.xhrPost({
+                        url: '/ajax/ajax.php',
+                        handleAs: 'json',
+                        postData: 'cmd=sortSong&song_id=' + node[0].id + '&position=' + x + '&parent_id=' + parent.id,
+                        load: function (resp) {
+                            changeValues(resp['v']);
+                            changeClasses(resp['c']);
+                        }
+                    });
+                }
+
             }
 
         }
-
     }
 }
 

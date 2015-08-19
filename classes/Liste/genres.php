@@ -28,6 +28,7 @@ class genres
             {
                 $data = array();
                 $data['header'] = $genre['g_name'];
+                $data['g_id'] = $genre['g_id'];
                 $data['songs'] = $this->renderSongs($genre['songs']);
                 $retval .= TemplateParser::getInstance()->parseTemplate($data, 'Liste/Block.html');
             }

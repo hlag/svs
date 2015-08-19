@@ -278,7 +278,7 @@ class Song
     {
         $genres = AGDO::getInstance()->GetAll("SELECT * FROM sv_song_genres");
         foreach($genres AS $genre)
-            unlink('../sweetvillage/cache/'.$genre['g_link.html']);
+            unlink('../sweetvillage/cache/'.$genre['g_link']);
         unlink('../sweetvillage/cache/partymusik.html');
     }
 
