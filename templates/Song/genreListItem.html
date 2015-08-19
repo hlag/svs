@@ -2,11 +2,17 @@
     <div class="col-md-5  {classFifty}">
         <a href="https://www.google.de/search?q={q}" target="Wikipedia" class=" {classFifty}"  onclick="getSingleDatum('SVsongs', 'erschienen', {id}, 'id')" >{title}</a>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-4">
         <a href="https://www.google.de/search?q={q}+wikipedia" target="Wikipedia"  class=" {classFifty}"  onclick="getSingleDatum('SVsongs', 'erschienen', {id}, 'id')" >{interpret}</a>
     </div>
-    <div class="col-md-2  {classFifty}" onclick="getSingleDatum('SVsongs', 'erschienen', {id}, 'id')" id="SVsongs_erschienen_{id}">
-        {erschienen_gen}
+    <div class="col-md-1  {classFifty}" onclick="getSingleDatum('SVsongs', 'erschienen', {id}, 'id')" id="SVsongs_erschienen_{id}">
+        {erschienen_gen_short}
+    </div>
+    <div class="col-md-1  {classFifty}" >
+        <i class="fa {website_activ_icon} {website_activ_class}" onclick="websiteActive.toggle({id}, 'website')"  id="website_aktiv_{id}"></i>
+    </div>
+    <div class="col-md-1  {classFifty}" >
+        <i class="fa {highlight_activ_icon} {highlight_activ_class}" onclick="websiteActive.toggle({id}, 'highlight')"  id="highlight_aktiv_{id}"></i>
     </div>
 </div>
 

@@ -472,6 +472,35 @@ dojo.declare('playedManager', null, {
 });
 var playedManager = new playedManager();
 
+dojo.declare('websiteActive', null, {
+
+
+
+    toggle: function (id, variable) {
+
+        dojo.xhrPost({
+            url: 'ajax/ajax.php',
+            postData: 'cmd=toggleWebsiteActive&id=' + id +'&var='+variable,
+            handleAs: 'json',
+            load: function (resp) {
+
+                var node = dojo.byId(variable+'_aktiv_' + id);
+                dojo.removeClass(node, 'text-muted');
+                dojo.removeClass(node, 'text-success');
+                dojo.removeClass(node, 'fa-toggle-on');
+                dojo.removeClass(node, 'fa-toggle-off');
+                dojo.removeClass(node, 'fa-thumbs-o-up');
+                dojo.removeClass(node, 'fa-thumbs-up');
+                dojo.addClass(node, resp.class);
+                dojo.addClass(node, resp.icon);
+
+
+            }
+        });
+    }
+});
+var websiteActive = new websiteActive();
+
 var tabs = new Array();
 function countBPM()
 {

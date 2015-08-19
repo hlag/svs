@@ -3,11 +3,16 @@
 class Song
 {
     private $id;
-    private $probe =5;
+    private $probe = 5;
     private $title = 'neuer Title';
     private $interpret = 'neuer Interpret';
-    private $genre ='unbekannt';
+    private $genre = 'unbekannt';
     private $website = 0;
+    private $website_activ_class = 'text-muted';
+    private $website_activ_icon;
+    private $highlight = 0;
+    private $highlight_activ_class = 'text-muted';
+    private $highlight_activ_icon;
     private $g_id = 0;
     private $bpm = 0;
     private $instrumentKlaus;
@@ -18,7 +23,6 @@ class Song
     private $musiker = array('r' => null, 'b' => null, 'k' => null, 'p' => null, 't' => null);
     private $txt = '';
     private $mp3 = '';
-    private $highlight = 0;
     private $qualitaet = 0;
     private $ps_played;
     private $zaehler;
@@ -33,7 +37,7 @@ class Song
     public $erschienen_gen;
     public $erschienen_gen_short;
     private $demolink = '';
-    private $demo=0;
+    private $demo = 0;
     private static $geamtZaehler = 1;
     private $classFifty = '';
 
@@ -64,13 +68,13 @@ class Song
 
     public function setClassForFifty()
     {
-        if($this->erschienen < (date("Y")-35).'-'.date("m-d"))
+        if ($this->erschienen < (date("Y") - 35) . '-' . date("m-d"))
             $this->classFifty = 'text-muted';
     }
 
     public function getCentury()
     {
-        return substr($this->erschienen, 0,3).'0';
+        return substr($this->erschienen, 0, 3) . '0';
     }
 
     public function setSong($song)
@@ -92,10 +96,13 @@ class Song
         $this->setStatusClass();
         $this->angefangen_gen = TimestampConverter::getInstance()->convertSQLtoLesbar($this->angefangen);
         $this->erschienen_gen = TimestampConverter::getInstance()->convertSQLtoLesbar($this->erschienen);
-        $this->erschienen_gen_short = substr($this->erschienen, 0,4);
-        $this->txt_link =
-            $this->txt!=''?'<a href="/files/'.$this->txt.'">txt</a>':'';
-        $this->mp3_link = $this->mp3!=''?'<a href="/files/'.$this->mp3.'">mp3</a>':'';
+        $this->erschienen_gen_short = substr($this->erschienen, 0, 4);
+        $this->txt_link = $this->txt != '' ? '<a href="/files/' . $this->txt . '">txt</a>' : '';
+        $this->mp3_link = $this->mp3 != '' ? '<a href="/files/' . $this->mp3 . '">mp3</a>' : '';
+        $this->website_activ_class = $this->website == 1 ? 'text-success' : 'text-muted';
+        $this->website_activ_icon = $this->website == 1 ? 'fa-toggle-on' : 'fa-toggle-off';
+        $this->highlight_activ_class = $this->highlight == 1 ? 'text-success' : 'text-muted';
+        $this->highlight_activ_icon = $this->highlight == 1 ? 'fa-thumbs-up' : 'fa-thumbs-o-up';
     }
 
     public function setKennung()
@@ -106,11 +113,11 @@ class Song
     private function clean($str)
     {
         $str = trim(strtolower($str));
-        $str = str_replace(' ','-', $str);
-        $str = str_replace('ä','ae', $str);
-        $str = str_replace('ö','oe', $str);
-        $str = str_replace('ü','ue', $str);
-        $str = str_replace('ß','ss', $str);
+        $str = str_replace(' ', '-', $str);
+        $str = str_replace('ä', 'ae', $str);
+        $str = str_replace('ö', 'oe', $str);
+        $str = str_replace('ü', 'ue', $str);
+        $str = str_replace('ß', 'ss', $str);
 
         return $str;
     }
@@ -189,9 +196,9 @@ class Song
             $vars['icon_' . $key] = $this->musiker[$key]->getStatusIcon();
             $vars['class_' . $key] = $this->musiker[$key]->getStatusClass();
         }
-        $vars['q']= str_replace(' ', '+', $this->title.' '.$this->interpret);
+        $vars['q'] = str_replace(' ', '+', $this->title . ' ' . $this->interpret);
         $vars['statusClass'] = $this->statusClass;
-        return TemplateParser::getInstance()->parseTemplate($vars, 'Song/'.$template.'.html');
+        return TemplateParser::getInstance()->parseTemplate($vars, 'Song/' . $template . '.html');
     }
 
     public function renderArrangement()
@@ -226,7 +233,7 @@ class Song
     public function renderUebrigeSong($blockNumber)
     {
         $vars = get_object_vars($this);
-        $vars['playedButton']='';
+        $vars['playedButton'] = '';
         $vars['lastBlockNumber'] = $blockNumber;
 
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/playlistSongItem.html', PATH);
@@ -240,7 +247,7 @@ class Song
 
     public function updateSong($post)
     {
-        foreach($post AS $var=>$value)
+        foreach ($post AS $var => $value)
             if (property_exists($this, $var))
                 $this->$var = trim($value);
         $this->saveSong();
@@ -261,13 +268,34 @@ class Song
         $this->clearCache();
     }
 
+    public function toggleWebsiteActive($var)
+    {
+        switch ($var)
+        {
+            case 'website':
+                $this->website = $this->website == 1 ? 0 : 1;
+                $this->website_activ_class = $this->website == 1 ? 'text-success' : 'text-muted';
+                $this->website_activ_icon = $this->website == 1 ? 'fa-toggle-on' : 'fa-toggle-off';
+                return array('class' => $this->website_activ_class, 'icon' => $this->website_activ_icon);
+                break;
+            case 'highlight':
+                $this->highlight = $this->highlight == 1 ? 0 : 1;
+                $this->highlight_activ_class = $this->highlight == 1 ? 'text-success' : 'text-muted';
+                $this->highlight_activ_icon = $this->highlight == 1 ? 'fa-thumbs-up' : 'fa-thumbs-o-up';
+                return array('class' => $this->highlight_activ_class, 'icon' => $this->highlight_activ_icon);
+                break;
+            default:
+                return $var.$var;
+        }
+    }
+
     public function delete()
     {
-        $mp3 = PATH.'files/'.$this->mp3;
-        if(file_exists($mp3))
+        $mp3 = PATH . 'files/' . $this->mp3;
+        if (file_exists($mp3))
             unlink($mp3);
-        $txt = PATH.'files/'.$this->txt;
-        if(file_exists($txt))
+        $txt = PATH . 'files/' . $this->txt;
+        if (file_exists($txt))
             unlink($txt);
         AGDO::getInstance()->Execute("DELETE  FROM SVsongs  WHERE id = " . $this->id);
         $this->clearCache();
@@ -277,8 +305,8 @@ class Song
     private function clearCache()
     {
         $genres = AGDO::getInstance()->GetAll("SELECT * FROM sv_song_genres");
-        foreach($genres AS $genre)
-            unlink('../sweetvillage/cache/'.$genre['g_link']);
+        foreach ($genres AS $genre)
+            unlink('../sweetvillage/cache/' . $genre['g_link']);
         unlink('../sweetvillage/cache/partymusik.html');
     }
 

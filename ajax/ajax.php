@@ -108,7 +108,9 @@ class ajax
                 case 'setGenre':
                     $this->setGenre($p['song_id'], $p['g_id']);
                     break;
-
+                case 'toggleWebsiteActive':
+                    $this->toggleWebsiteActive($p['id'], $p['var']);
+                    break;
 
                 default:
                     z(Request::getInstance()->getPostRequests());
@@ -228,12 +230,20 @@ class ajax
     {
         $song_id = str_replace('song_', '', $song_id);
         $g_id = str_replace('genre_', '', $g_id);
-        z($g_id);
         $song = new Song();
 
         $song->getSongByID($song_id);
         $song->g_id = $g_id;
         $song->saveSong();
+    }
+
+    private function toggleWebsiteActive($song_id, $var)
+    {
+        $song = new Song();
+        $song->getSongByID($song_id);
+        $retval = $song->toggleWebsiteActive($var);
+        $song->saveSong();
+        echo json_encode($retval);
     }
 
 
