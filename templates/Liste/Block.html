@@ -1,8 +1,11 @@
 <div class="panel panel-default">
-    <div class="panel-heading">
+
+    <div class="panel-heading" data-toggle="collapse" data-target="#collapse_genre_{g_id}" >
+        <!--<a href="#collapse_genre_{g_id}" data-toggle="collapse">{header}</a>-->
         {header}
     </div>
+
     <div class="panel-body" dojotype="dojo.dnd.Source" id="genre_{g_id}" >
-        {songs}
+        <div class="collapse" id="collapse_genre_{g_id}">{songs}</div><br>
     </div>
 </div>

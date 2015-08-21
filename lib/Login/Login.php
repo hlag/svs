@@ -17,6 +17,7 @@ class Login
     {
         if (!session_id())
             session_start();
+
         $this->userTable = 'musiker';
         $this->tryLogin();
     }
@@ -37,8 +38,8 @@ class Login
     private function tryLogin()
     {
         $request = Request::getInstance()->getRequests();
-        $this->isLoggedIn=false;
-        if(isset($request['Logout']) && $request['Logout']=='Logout')
+        $this->isLoggedIn = false;
+        if (isset($request['Logout']) && $request['Logout'] == 'Logout')
         {
             $this->logout();
         }
@@ -46,7 +47,7 @@ class Login
         {
             if (isset($request['username']) && (isset($request['passwort']) || isset($request['passwort_crypt'])))
             {
-                $UserQuery = "SELECT * FROM ".$this->userTable." WHERE username = '".trim($request['username'])."' AND userActive = 1";
+                $UserQuery = "SELECT * FROM " . $this->userTable . " WHERE username = '" . trim($request['username']) . "' AND userActive = 1";
                 $result = AGDO::getInstance()->GetAll($UserQuery);
                 if (!empty($result))
                 {
@@ -54,17 +55,17 @@ class Login
                     {
                         if ($request['passwort_crypt'] == $result[0]['passwort'])
                         {
-                            $this->isLoggedIn=true;
+                            $this->isLoggedIn = true;
                         }
                     }
                     if (isset($request['passwort']))
                     {
 
-			if (md5($request['passwort']) == $result[0]['passwort'])
+                        if (md5($request['passwort']) == $result[0]['passwort'])
                         {
-                           $this->isLoggedIn=true;
-                           Request::getInstance()->addVariable('passwort_crypt',$result[0]['passwort'],'SESSION');
-                           Request::getInstance()->addVariable('username',$result[0]['username'],'SESSION');
+                            $this->isLoggedIn = true;
+                            Request::getInstance()->addVariable('passwort_crypt', $result[0]['passwort'], 'SESSION');
+                            Request::getInstance()->addVariable('username', $result[0]['username'], 'SESSION');
                         }
 
                     }
@@ -92,7 +93,7 @@ class Login
 
     public function getUser()
     {
-        $user = AGDO::getInstance()->GetAll("SELECT * FROM ".$this->userTable." WHERE betreuer_id = ".$this->getUserID());
+        $user = AGDO::getInstance()->GetAll("SELECT * FROM " . $this->userTable . " WHERE betreuer_id = " . $this->getUserID());
         return $user[0];
     }
 
@@ -108,9 +109,8 @@ class Login
 
     public function logout()
     {
-        $this->isLoggedIn=false;
-	unset($_SESSION);
+        $this->isLoggedIn = false;
+        unset($_SESSION);
         session_destroy();
     }
 }
-?>

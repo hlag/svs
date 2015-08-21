@@ -4122,3 +4122,27 @@
 [19-Aug-2015 08:17:56 UTC] PHP   6. Song->setSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:132
 [19-Aug-2015 08:17:56 UTC] PHP   7. Song->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:91
 [19-Aug-2015 08:17:56 UTC] PHP   8. Musiker->setMusiker() /home/klaus/Projekte/svs/classes/Songs/Song.php:181
+[21-Aug-2015 13:26:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/klaus/Projekte/svs/classes/Songs/playlist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/klaus/Projekte/svs/ajax/ajax.php on line 12
+[21-Aug-2015 13:26:13 UTC] PHP Stack trace:
+[21-Aug-2015 13:26:13 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[21-Aug-2015 13:26:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/klaus/Projekte/svs/classes/Songs/playlist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/klaus/Projekte/svs/ajax/ajax.php on line 12
+[21-Aug-2015 13:26:30 UTC] PHP Stack trace:
+[21-Aug-2015 13:26:30 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[21-Aug-2015 13:26:37 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/klaus/Projekte/svs/classes/Songs/playlist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/klaus/Projekte/svs/ajax/ajax.php on line 12
+[21-Aug-2015 13:26:37 UTC] PHP Stack trace:
+[21-Aug-2015 13:26:37 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[21-Aug-2015 13:26:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/klaus/Projekte/svs/classes/Songs/playlist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/klaus/Projekte/svs/ajax/ajax.php on line 12
+[21-Aug-2015 13:26:44 UTC] PHP Stack trace:
+[21-Aug-2015 13:26:44 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[21-Aug-2015 13:27:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/klaus/Projekte/svs/classes/Songs/playlist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/klaus/Projekte/svs/ajax/ajax.php on line 12
+[21-Aug-2015 13:27:47 UTC] PHP Stack trace:
+[21-Aug-2015 13:27:47 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[21-Aug-2015 13:44:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/klaus/Projekte/svs/classes/Songs/playlist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/klaus/Projekte/svs/ajax/ajax.php on line 12
+[21-Aug-2015 13:44:44 UTC] PHP Stack trace:
+[21-Aug-2015 13:44:44 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[21-Aug-2015 13:45:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/klaus/Projekte/svs/classes/Songs/playlist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/klaus/Projekte/svs/ajax/ajax.php on line 12
+[21-Aug-2015 13:45:22 UTC] PHP Stack trace:
+[21-Aug-2015 13:45:22 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0
+[21-Aug-2015 13:45:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/klaus/Projekte/svs/classes/Songs/playlist.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/klaus/Projekte/svs/ajax/ajax.php on line 12
+[21-Aug-2015 13:45:28 UTC] PHP Stack trace:
+[21-Aug-2015 13:45:28 UTC] PHP   1. {main}() /home/klaus/Projekte/svs/ajax/ajax.php:0

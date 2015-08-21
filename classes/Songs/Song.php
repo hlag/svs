@@ -304,10 +304,19 @@ class Song
 
     private function clearCache()
     {
+
         $genres = AGDO::getInstance()->GetAll("SELECT * FROM sv_song_genres");
         foreach ($genres AS $genre)
-            unlink('../sweetvillage/cache/' . $genre['g_link']);
-        unlink('../sweetvillage/cache/partymusik.html');
+        {
+            $file = $_SERVER['HOME'].'sweetvillage/cache/' . $genre['g_link'];
+
+            if(file_exists($file))
+                unlink($file);
+
+        }
+        $file = $_SERVER['HOME'].'sweetvillage/cache/partymusik.html';
+        if(file_exists($file))
+            unlink($file);
     }
 
 }

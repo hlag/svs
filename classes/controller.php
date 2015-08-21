@@ -1,4 +1,5 @@
 <?php
+
 class controller
 {
     private $data;
@@ -15,7 +16,8 @@ class controller
     public function getSite()
     {
         if (Request::getInstance()->getGetRequests('logout'))
-            Login::getInstance()->logout();
+           Login::getInstance()->logout();
+
         if (Login::getInstance()->isLoggedIn())
         {
             $idt = Request::getInstance()->getGetRequests('idt');
@@ -29,6 +31,7 @@ class controller
         }
         else
         {
+
             $this->data['content'] = '';
             $this->data['user'] = '';
             $this->data['logout'] = '';
@@ -42,7 +45,6 @@ class controller
 
 
         return templateParser::getInstance()->parseTemplate($this->data, 'mainTemplate.html', false, false);
-
     }
 
     private function getContent($idt)
@@ -52,7 +54,7 @@ class controller
 
             default:
                 $class = new $idt();
-                return $class->getContent();
+              return $class->getContent();
 
 
         } //
@@ -61,10 +63,7 @@ class controller
 
     private function getNavi()
     {
-        $navi = array('Liste&status=all' => 'alle',
-            'Liste&status=1' => 'Vorschlag',
-            'Liste&status=5' => 'neu',
-            'Liste&status=2' => 'nächsteProbe', 'Liste&status=repertoire'=>'Repertoire','genres'=>'Genres','erschienen'=>'erschienen', 'upload'=>'Upload', 'playlist&pl_id=1'=>'Playlist');
+        $navi = array('Liste&status=all' => 'alle', 'Liste&status=1' => 'Vorschlag', 'Liste&status=5' => 'neu', 'Liste&status=2' => 'nächsteProbe', 'Liste&status=repertoire' => 'Repertoire', 'genres' => 'Genres', 'erschienen' => 'erschienen', 'upload' => 'Upload', 'playlist&pl_id=1' => 'Playlist');
         $this->data['header'] = isset($navi[Request::getInstance()->getGetRequests('idt')]) ? $navi[Request::getInstance()->getGetRequests('idt')] : '--';
         $retval = '<ul class="nav navbar-nav">';
         foreach ($navi AS $link => $linktext)

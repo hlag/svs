@@ -35,9 +35,30 @@ class playlist
 
     public function getContent()
     {
-        $this->getPlaylistByID(Request::getInstance()->getGetRequests('pl_id'));
-        return $this->renderHTML();
+        if(Request::getInstance()->getGetRequests('pl_id'))
+            return $this->getPlaylist(Request::getInstance()->getGetRequests('pl_id'));
+        else
+            return $this->getAllPlaylists();
 
+
+
+    }
+    private function getAllPlaylists()
+    {
+        $listen = AGDO::getInstance()->GetAll("SELECT * FROM playlists ORDER BY pl_datum DESC");
+        $data['listen'] = '';
+        foreach($listen AS $liste)
+        {
+            $liste['datumLesbar'] = TimestampConverter::getInstance()->convertSQLtoLesbar($liste['pl_datum']);
+            $data['listen'] .= TemplateParser::getInstance()->parseTemplate($liste, 'Playlist/playlistListItem.html');
+        }
+        return TemplateParser::getInstance()->parseTemplate($data, 'Playlist/playlistUebersicht.html');
+    }
+
+    private function getPlaylist($pl_id)
+    {
+        $this->getPlaylistByID($pl_id);
+        return $this->renderHTML();
     }
 
     public function getCountSongs()

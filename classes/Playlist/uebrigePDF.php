@@ -19,7 +19,7 @@ class uebrigePDF
         $playlist = new playlist();
         $playlist->getPlaylistByID(Request::getInstance()->getGetRequests('pl_id'));
         $playlist->getUebrigeSongsSorted();
-        require_once PATH.'classes/Songs/uebrigePDFgenerator.php';
+        require_once PATH . 'classes/Playlist/uebrigePDFgenerator.php';
         $uebrigePDFgenerator = new uebrigePDFgenerator();
         $uebrigePDFgenerator->generatePDF($playlist);
         die();
