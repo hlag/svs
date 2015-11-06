@@ -11,6 +11,8 @@
     color:#bbb;
 }
 
+.verySmall{font-size: 50%}
+
 .strong {
     font-weight: 800;
 }
@@ -80,3 +82,13 @@ body, html {
             padding:10px;
             overflow: auto;
         }
+.flexColumn40 {
+    width:40%;
+    padding:10px;
+    overflow: auto;
+}
+.flexColumn60 {
+    width:60%;
+    padding:10px;
+    overflow: auto;
+}

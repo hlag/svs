@@ -7,8 +7,13 @@ class playlistSong EXTENDS Song
     private $songs;
     private $playlist;
     private $pl_datum;
+    private $ps_played;
     private $played_class;
     private $played_icon;
+
+    private $ps_erfolg;
+    private $erfolg_class;
+    private $erfolg_icon;
     public function __construct()
     {
         $this->organizePost(Request::getInstance()->getPostRequests('command'))   ;
@@ -24,14 +29,32 @@ class playlistSong EXTENDS Song
 
     public function setPlayedStatus($status)
     {
+        z($this->id);
+        z($status);
         $this->ps_played = $status;
         $this->setPlayedButton();
         AGDO::getInstance()->Execute("UPDATE playlist_songs SET ps_played= ".$status." WHERE ps_id=".$this->ps_id);
-        if($status == 3)
-            AGDO::getInstance()->Execute("UPDATE SVsongs SET letzteProbe = '".$this->pl_datum."', probe=4 WHERE id=".$this->id);
+        switch($status)
+        {
+            case 1:
+            case 2:
+                AGDO::getInstance()->Execute("UPDATE SVsongs SET letzteProbe = '".$this->pl_datum."', probe=3 WHERE id=".$this->id);
+                break;
+            case 3:
+                AGDO::getInstance()->Execute("UPDATE SVsongs SET letzteProbe = '".$this->pl_datum."', probe=4 WHERE id=".$this->id);
+                break;
 
 
+        }
     }
+
+    public function setErfolgStatus($status)
+    {
+        $this->ps_erfolg = $status;
+        $this->setErfolgButton();
+        AGDO::getInstance()->Execute("UPDATE playlist_songs SET ps_erfolg= ".$status." WHERE ps_id=".$this->ps_id);
+    }
+
 
     public function getPlayedStatus()
     {
@@ -41,9 +64,10 @@ class playlistSong EXTENDS Song
 
     public function getSongByPS_ID($ps_id)
     {
-        $song = AGDO::getInstance()->GetFirst("SELECT * FROM playlist_songs JOIN SVsongs USING (id) JOIN  sv_song_genres ON website = g_id JOIN playlists USING (pl_id) WHERE ps_id = ".$ps_id);
+        $song = AGDO::getInstance()->GetFirst("SELECT * FROM playlist_songs JOIN SVsongs USING (id) LEFT OUTER JOIN  sv_song_genres ON website = sv_song_genres.g_id JOIN playlists USING (pl_id) WHERE ps_id = ".$ps_id);
         $this->setSong($song);
         $this->setPlayedButton();
+        $this->setErfolgButton();
     }
 
     public function setSong($song)
@@ -52,6 +76,8 @@ class playlistSong EXTENDS Song
         $this->ps_id = $song['ps_id'];
         $this->pl_id = $song['pl_id'];
         $this->pb_id = $song['pb_id'];
+        $this->ps_played = $song['ps_played'];
+        $this->ps_erfolg = $song['ps_erfolg'];
         $this->pl_datum = $song['pl_datum'];
         $this->setPlayedButton();
 
@@ -82,7 +108,12 @@ class playlistSong EXTENDS Song
 
     }
 
+    public function renderErfolgStatusEdit()
+    {
+        $data['ps_id'] = $this->ps_id;
+        return TemplateParser::getInstance()->parseTemplate($data, 'Playlist/erfolgStatusEdit.html', PATH);
 
+    }
 
     public function renderPlaylistSong()
     {
@@ -94,6 +125,7 @@ class playlistSong EXTENDS Song
         $vars['g_id'] = $this->g_id;
         $vars['id'] = $this->id;
         $vars['playedButton'] = $this->managePlayedButton();
+        $vars['erfolgButton'] = $this->manageErfolgButton();
 
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/playlistSongItem.html', PATH);
     }
@@ -131,6 +163,8 @@ class playlistSong EXTENDS Song
         }
     }
 
+
+
     private function managePlayedButton()
     {
         if(date("Y-m-d") < $this->pl_datum)
@@ -145,11 +179,46 @@ class playlistSong EXTENDS Song
 
             return TemplateParser::getInstance()->parseTemplate($data, 'Playlist/playedButton.html');
         }
+    }
+    private function manageErfolgButton()
+    {
+        if(date("Y-m-d") < $this->pl_datum || $this->ps_played == 5)
+            return '';
+        else
+        {
 
 
+            return $this->setErfolgButton();
+        }
+    }
+    private function setErfolgButton()
+    {
+        for($x=0;$x<5;$x++)
+        {
+            if($this->ps_erfolg >= $x)
+            {
+                $data['icon_color_class_'.$x] = 'text-warning';
+                $data['iconClass_'.$x] = 'fa-star';
+
+            }
+            else
+            {
+                $data['icon_color_class_'.$x] = 'text-muted';
+                $data['iconClass_'.$x] = 'fa-star-o';
+            }
+
+        }
+        $data['ps_id'] = $this->ps_id;
+        return TemplateParser::getInstance()->parseTemplate($data, 'Playlist/erfolgButton.html', PATH);
     }
 
+    public function saveErfolgStatus($status)
+    {
+        $this->ps_erfolg = $status;
+        AGDO::getInstance()->Execute("UPDATE playlist_songs SET ps_erfolg = ".$status." WHERE ps_id=".$this->ps_id);
+        return $this->setErfolgButton();
 
+    }
 
     private function organizePost($command)
     {

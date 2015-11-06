@@ -4,7 +4,7 @@ class Liste
     private $songs = array();
     public function __construct()
     {
-
+       // z(Request::getInstance());
     }
 
     public function __get($var)
@@ -48,7 +48,7 @@ class Liste
         elseif($status == 5)
         {
             $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE
-                    angefangen > '".date("Y-m-d", time()-3600*24*21)."' OR probe = '5' ORDER BY angefangen DESC");
+                    angefangen > '".date("Y-m-d", time()-3600*24*60)."' OR probe = '5' ORDER BY angefangen DESC");
         }
         else
         {

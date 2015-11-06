@@ -1,69 +1,60 @@
 <br><br><br>
 
 
-<script>
-
-    require(["dojo/window"], function (win) {
-        // Get the viewport-size of the document:
-        var vs = win.getBox();
-        dojo.byId('hlag1').style.height = (vs.h - 110) + 'px';
-        dojo.byId('hlag1').style.overflow = 'auto';
-        dojo.byId('hlag2').style.height = (vs.h - 110) + 'px';
-        dojo.byId('hlag2').style.overflow = 'auto';
-    });
-</script>
-
-<div class="row">
-    <div class="col-md-6  ">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <div class="row">
-                    <div class="col-md-7">
-                        Playlist:
-                        <strong>
-                            <span onclick="getPlaylistDatum({pl_id})" id="playlists_pl_datum_{pl_id}">{pl_datum_gen}</span>
-                            <span onclick="getSingleDatum('playlists', 'pl_name', {pl_id}, 'pl_id')" id="playlists_pl_name_{pl_id}">{pl_name}</span>
-                        </strong>
-                        &rarr;
-                        <a href="index.php?idt=playlistPDF&pl_id={pl_id}" target="_blank">PDF</a>
-                    </div>
-                    <div class="col-md-3" align="right"">
-                        Beginn: <span onclick="playlistManager.editPlaylistStart({pl_id})"  id="playlist_uhrzeitStart_{pl_id}">{uhrzeitStart}</span>
-                    </div>
-                    <div class="col-md-2" align="right" id="playlist_dauer_{pl_id}">
-                        {dauer_min}
+<div class="containerEins">
+    <div class="containerZwei">
+        <div class="flexColumn60">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-md-7">
+                            Playlist:
+                            <strong>
+                                <span onclick="edit.getPlaylistDatum({pl_id})" id="playlists_pl_datum_{pl_id}">{pl_datum_gen}</span>
+                                <span onclick="getSingleDatum('playlists', 'pl_name', {pl_id}, 'pl_id')" id="playlists_pl_name_{pl_id}">{pl_name}</span>
+                            </strong>
+                            &rarr;
+                            <a href="index.php?idt=playlistPDF&pl_id={pl_id}" target="_blank">PDF</a>
+                        </div>
+                        <div class="col-md-3" align="right">
+                            Beginn:
+                            <span onclick="playlistManager.editPlaylistStart({pl_id})" id="playlist_uhrzeitStart_{pl_id}">{uhrzeitStart}</span>
+                        </div>
+                        <div class="col-md-2" align="right" id="playlist_dauer_{pl_id}">
+                            {dauer_min}
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel-body" id="hlag1">
-                <div class="col-md-12" id="playlistRahmen">
-                    {songs}
+                <div class="panel-body" id="hlag1">
+                    <div class="col-md-12" id="playlistRahmen">
+                        {songs}
 
-                    <div id="playlistBlockZiel"></div>
-                </div>
-                <div class="col-md-12" id="AddButton">
-                    <button class="btn btn-default" onclick="newPlaylistBlock({pl_id})"><i class="fa fa-plus"></i>
-                    </button>
+                        <div id="playlistBlockZiel"></div>
+                    </div>
+                    <div class="col-md-12" id="AddButton">
+                        <button class="btn btn-default" onclick="newPlaylistBlock({pl_id})"><i class="fa fa-plus"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="flexColumn40">
+            <div class="panel panel-default">
+                <div class="panel-heading">Übrige Songs &rarr;
+                    <a href="index.php?idt=uebrigePDF&pl_id={pl_id}" target="_blank">PDF</a>
 
-    </div>
-
-    <div class="col-md-6">
-        <div class="panel panel-default">
-            <div class="panel-heading">Übrige Songs &rarr;
-                <a href="index.php?idt=uebrigePDF&pl_id={pl_id}" target="_blank">PDF</a>
-
-                <button class="btn btn_default" onclick="songFilter.filterSongs(2)">X</button>
-            </div>
-            <div id="hlag2">
-                <div class="panel-body" dojotype="dojo.dnd.Source" id="block_uebrige_{pl_id}">
-                    {uebrigeSongs}
+                    <button class="btn btn_default" onclick="songFilter.filterSongs(2)">X</button>
+                </div>
+                <div id="hlag2">
+                    <div class="panel-body" dojotype="dojo.dnd.Source" id="block_uebrige_{pl_id}">
+                        {uebrigeSongs}
+                    </div>
                 </div>
             </div>
+
         </div>
-
     </div>
-
 </div>
+
+
+

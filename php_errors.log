@@ -1,0 +1,445 @@
+[06-Nov-2015 11:00:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in /home/klaus/Projekte/svs/classes/Playlist/playlistSongs.php on line 55
+[06-Nov-2015 11:00:43 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 11:00:43 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 11:00:43 Europe/Berlin] PHP   2. direktories() /home/klaus/Projekte/svs/index.php:15
+[06-Nov-2015 11:00:43 Europe/Berlin] PHP   3. direktories() /home/klaus/Projekte/svs/index.php:32
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 318
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:16:56 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 318
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:21 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 318
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:32 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 312
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Notice:  Undefined index: HOME in /home/klaus/Projekte/svs/classes/Songs/Song.php on line 318
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP Stack trace:
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   1. {main}() /home/klaus/Projekte/svs/index.php:0
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   2. controller->getSite() /home/klaus/Projekte/svs/index.php:44
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   3. controller->getContent() /home/klaus/Projekte/svs/classes/controller.php:28
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   4. editSong->__construct() /home/klaus/Projekte/svs/classes/controller.php:56
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   5. editSong->organizePost() /home/klaus/Projekte/svs/classes/Songs/editSong.php:9
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   6. Song->updateSong() /home/klaus/Projekte/svs/classes/Songs/editSong.php:26
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   7. Song->saveSong() /home/klaus/Projekte/svs/classes/Songs/Song.php:254
+[06-Nov-2015 19:17:47 Europe/Berlin] PHP   8. Song->clearCache() /home/klaus/Projekte/svs/classes/Songs/Song.php:269

@@ -413,14 +413,14 @@ dojo.declare('playedManager', null, {
     karneval: true,
 
 
-    changePlayedStatus: function (id, pl_id) {
+    changePlayedStatus: function (ps_id) {
         if (typeof popup != 'undefined')
             popup.destroy();
         popup = new dijit.Dialog();
         popup.attr("title", 'Song gespielt');
 
         dojo.xhrGet({
-            url: 'ajax/ajax.php?cmd=getPlayedStatus&id=' + id + '&pl_id=' + pl_id,
+            url: 'ajax/ajax.php?cmd=getPlayedStatus&ps_id=' + ps_id,
             handleAs: 'text',
             load: function (resp) {
                 popup.attr("content", resp);
@@ -452,8 +452,11 @@ dojo.declare('playedManager', null, {
                 dojo.removeClass(node, 'text-success');
                 dojo.addClass(node, resp.class);
 
+                if(resp.class == 'text-muted'){
+                    dojo.byId('erfolg_class_' + resp.ps_id).outerHTML = '';
+                }
 
-                z(resp.class);
+
             }
         });
         popup.destroy();
@@ -471,7 +474,57 @@ dojo.declare('playedManager', null, {
     }
 });
 var playedManager = new playedManager();
+dojo.declare('erfolgManager', null, {
+    karneval: true,
 
+
+    changeErfolgStatus: function (ps_id) {
+        if (typeof popup != 'undefined')
+            popup.destroy();
+        popup = new dijit.Dialog();
+        popup.attr("title", 'Tanz-Erfolg');
+
+        dojo.xhrGet({
+            url: 'ajax/ajax.php?cmd=getErfolgStatus&ps_id=' + ps_id,
+            handleAs: 'text',
+            load: function (resp) {
+                popup.attr("content", resp);
+            }
+        });
+        popup.show();
+    },
+    changeClasses: function (status){
+        for(var x = 0; x < 5; x++) {
+
+            if (status >= x) {
+                var node = dojo.byId('erfolg_button_' + x);
+                dojo.removeClass(node, 'btn-muted');
+                dojo.addClass(node, 'btn-danger');
+            }
+            else {
+                var node = dojo.byId('erfolg_button_' + x);
+                dojo.removeClass(node, 'btn-danger');
+                dojo.addClass(node, 'btn-muted');
+            }
+
+
+         }
+
+    },
+    saveErfolgStatus: function (ps_id, status) {
+
+        dojo.xhrPost({
+            url: 'ajax/ajax.php',
+            postData: 'cmd=saveErfolgStatus&ps_id=' + ps_id + '&status=' + status,
+            handleAs: 'text',
+            load: function (resp) {
+                dojo.byId('erfolg_class_'+ps_id).outerHTML = resp;
+            }
+        });
+        popup.destroy();
+    }
+});
+var erfolgManager = new erfolgManager();
 dojo.declare('websiteActive', null, {
 
 
@@ -534,6 +587,17 @@ function calculateBPM(tempTime)
     return bpm;
 };
 
+
+
+dojo.declare('edit', null, {
+    getPlaylistDatum: function (playlist_id){
+        z(playlist_id);
+    }
+
+
+
+});
+var edit = new edit();
 function z(v) {
     console.log(v);
 }

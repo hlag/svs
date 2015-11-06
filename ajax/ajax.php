@@ -1,5 +1,5 @@
 <?php
-define('PATH', $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR);
+define('PATH', $_SERVER['DOCUMENT_ROOT'] .DIRECTORY_SEPARATOR);
 define('LOCAL', $_SERVER['SERVER_ADDR'] == '127.0.0.1' ? true : false);
 require_once PATH . 'classes/controller.php';
 require_once PATH . 'lib/HTML/htmlGenerator.php';
@@ -9,9 +9,9 @@ require_once PATH . 'lib/template/TemplateParserHlag.php';
 require_once PATH . 'lib/LaenderSelect/LaenderSelect.php';
 require_once PATH . 'lib/Bootstrap/FormRenderer.php';
 require_once PATH . 'classes/Songs/Song.php';
-require_once PATH . 'classes/Songs/playlist.php';
-require_once PATH . 'classes/Songs/playlistSongs.php';
-require_once PATH . 'classes/Songs/playlist_bloecke.php';
+require_once PATH . 'classes/Playlist/playlist.php';
+require_once PATH . 'classes/Playlist/playlistSongs.php';
+require_once PATH . 'classes/Playlist/playlist_bloecke.php';
 require_once PATH . 'classes/Musiker/Musiker.php';
 require_once PATH . 'ajax/Songsorter.php';
 require_once PATH . 'lib/Timestamp/TimestampConverter.php';
@@ -52,7 +52,10 @@ class ajax
                     echo $this->getPlaylistStart(Request::getInstance()->getGetRequests('pl_id'));
                     break;
                 case 'getPlayedStatus':
-                    echo $this->getPlayedStatus(Request::getInstance()->getGetRequests('id'),Request::getInstance()->getGetRequests('pl_id'));
+                    echo $this->getPlayedStatus(Request::getInstance()->getGetRequests('ps_id'));
+                    break;
+                case 'getErfolgStatus':
+                    echo $this->getErfolgStatus(Request::getInstance()->getGetRequests('ps_id'));
                     break;
                 default:
                     z(Request::getInstance()->getGetRequests());//
@@ -102,6 +105,9 @@ class ajax
                 case 'savePlayedStatus':
                     echo $this->savePlayedStatus($p['ps_id'], $p['status']);
                     break;
+                case 'saveErfolgStatus':
+                    echo $this->saveErfolgStatus($p['ps_id'], $p['status']);
+                    break;
                 case 'updateProbeDatum':
                     AGDO::getInstance()->Execute("UPDATE SVsongs SET letzteProbe = '".date('Y-m-d')."', probe=4 WHERE id=".$p['id']);
                     break;
@@ -111,6 +117,7 @@ class ajax
                 case 'toggleWebsiteActive':
                     $this->toggleWebsiteActive($p['id'], $p['var']);
                     break;
+
 
                 default:
                     z(Request::getInstance()->getPostRequests());
@@ -210,10 +217,10 @@ class ajax
         echo json_encode($retval);
     }
 
-    private function getPlayedStatus($ps_id, $pl_id)
+    private function getPlayedStatus($ps_id)
     {
         $song = new playlistSong();
-        $song->getSongByPlaylist($ps_id);
+        $song->getSongByPS_ID($ps_id);
         echo $song->renderPlayedStatusEdit();
     }
 
@@ -224,6 +231,21 @@ class ajax
         $song->setPlayedStatus($status);
         echo json_encode($song->getPlayedStatus());
 
+    }
+
+    private function getErfolgStatus($ps_id)
+    {
+
+        $song = new playlistSong();
+        $song->getSongByPS_ID($ps_id);
+        echo $song->renderErfolgStatusEdit();
+    }
+
+    private function saveErfolgStatus($ps_id, $status)
+    {
+        $song = new playlistSong();
+        $song->getSongByPS_ID($ps_id);
+        echo $song->saveErfolgStatus($status);
     }
 
     private function setGenre($song_id, $g_id)

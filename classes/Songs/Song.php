@@ -234,6 +234,7 @@ class Song
     {
         $vars = get_object_vars($this);
         $vars['playedButton'] = '';
+        $vars['erfolgButton'] = '';
         $vars['lastBlockNumber'] = $blockNumber;
 
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/playlistSongItem.html', PATH);
