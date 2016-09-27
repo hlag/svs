@@ -1,5 +1,5 @@
 <?php
-define('PATH', $_SERVER['DOCUMENT_ROOT'] .DIRECTORY_SEPARATOR);
+define('PATH', $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR);
 define('LOCAL', $_SERVER['SERVER_ADDR'] == '127.0.0.1' ? true : false);
 require_once PATH . 'classes/controller.php';
 require_once PATH . 'lib/HTML/htmlGenerator.php';
@@ -15,8 +15,7 @@ require_once PATH . 'classes/Playlist/playlist_bloecke.php';
 require_once PATH . 'classes/Musiker/Musiker.php';
 require_once PATH . 'ajax/Songsorter.php';
 require_once PATH . 'lib/Timestamp/TimestampConverter.php';
-
-
+require_once PATH . 'lib/Login/Login.php';
 new ajax();
 
 class ajax
@@ -57,6 +56,9 @@ class ajax
                 case 'getErfolgStatus':
                     echo $this->getErfolgStatus(Request::getInstance()->getGetRequests('ps_id'));
                     break;
+                case 'getPlaylistDatum':
+                    echo $this->getPlaylistDatum(Request::getInstance()->getGetRequests('pl_id'));
+                    break;
                 default:
                     z(Request::getInstance()->getGetRequests());//
                     break;
@@ -84,7 +86,6 @@ class ajax
                     $songSorter = new Songsorter();
                     echo $songSorter->sortSong($p);
                     break;
-
                 case 'saveSingleDatum':
                     AGDO::getInstance()->Execute("UPDATE " . $p['table'] . " SET  " . $p['field'] . " = '" . $p['value'] . "' WHERE " . $p['id_name'] . " = '" . $p['id'] . "'");
                     echo $p['value'];
@@ -109,7 +110,7 @@ class ajax
                     echo $this->saveErfolgStatus($p['ps_id'], $p['status']);
                     break;
                 case 'updateProbeDatum':
-                    AGDO::getInstance()->Execute("UPDATE SVsongs SET letzteProbe = '".date('Y-m-d')."', probe=4 WHERE id=".$p['id']);
+                    $this->updateProbeDatum($p['id']);
                     break;
                 case 'setGenre':
                     $this->setGenre($p['song_id'], $p['g_id']);
@@ -117,8 +118,6 @@ class ajax
                 case 'toggleWebsiteActive':
                     $this->toggleWebsiteActive($p['id'], $p['var']);
                     break;
-
-
                 default:
                     z(Request::getInstance()->getPostRequests());
                     break;
@@ -130,16 +129,12 @@ class ajax
     {
         $pl = new playlist();
         $pl->getPlaylistByID($pl_id);
-
-
         $block = new playlist_bloecke();
         $block->pl_id = $pl_id;
         $block->pb_sort_order = $pl->getNextSortorder();
         $block->pb_id = 'new';
         $block->saveBlock();
         echo $block->renderHTML($block->pb_sort_order) . '<div id="playlistBlockZiel"></div>';
-
-
     }
 
     private function getSingleDatum($table, $field, $id, $id_name)
@@ -150,8 +145,6 @@ class ajax
         $data['id'] = $id;
         $data['id_name'] = $id_name;
         $data['value'] = $res[$field];
-
-
         return TemplateParser::getInstance()->parseTemplate($data, 'ajax/ajaxSingleForm.html', PATH);;
     }
 
@@ -191,7 +184,6 @@ class ajax
         $block->getBlockByID($pb_id);
         $block->setPause($pause);
         $block->saveBlock();
-
         $pl = new playlist();
         $pl->getPlaylistByID($block->pl_id);
         $retval = $pl->getDataForJson();
@@ -207,7 +199,6 @@ class ajax
 
     private function savePlaylistStartzeit($pl_id, $uhrzeitStart)
     {
-
         $pl = new playlist();
         $pl->getPlaylistByID($pl_id);
         $pl->setStartUhrzeit($uhrzeitStart);
@@ -230,12 +221,10 @@ class ajax
         $song->getSongByPS_ID($ps_id);
         $song->setPlayedStatus($status);
         echo json_encode($song->getPlayedStatus());
-
     }
 
     private function getErfolgStatus($ps_id)
     {
-
         $song = new playlistSong();
         $song->getSongByPS_ID($ps_id);
         echo $song->renderErfolgStatusEdit();
@@ -248,12 +237,29 @@ class ajax
         echo $song->saveErfolgStatus($status);
     }
 
+    private function updateProbeDatum($id)
+    {
+        $m_id = Login::getInstance()->getUserID();
+        $sql = "SELECT * FROM letzteProbe WHERE id = " . $id . " AND m_id=" . $m_id;
+        $letzteProbe = AGDO::getInstance()->GetFirst($sql);
+        if (!isset($letzteProbe['lp_id']))
+        {
+            $sql = "INSERT INTO letzteProbe SET id = " . $id . ", m_id=" . $m_id . ", lp_datum='" . date("Y-m-d H:i:s") . "'";
+            AGDO::getInstance()->Execute($sql);
+        }
+        else
+        {
+            $sql = "UPDATE letzteProbe SET  lp_datum='" . date("Y-m-d H:i:s") . "' WHERE lp_id=".$letzteProbe['lp_id'];
+            AGDO::getInstance()->Execute($sql);
+        }
+        z($sql);
+    }
+
     private function setGenre($song_id, $g_id)
     {
         $song_id = str_replace('song_', '', $song_id);
         $g_id = str_replace('genre_', '', $g_id);
         $song = new Song();
-
         $song->getSongByID($song_id);
         $song->g_id = $g_id;
         $song->saveSong();
@@ -268,14 +274,18 @@ class ajax
         echo json_encode($retval);
     }
 
+    private function getPlaylistDatum($pl_id)
+    {
+        $PL = new playlist();
+        $PL->getPlaylistByID($pl_id);
+        echo $PL->getDatum();
+    }
 
 }
-
 
 function z($r)
 {
     echo '<pre>';
     print_r($r);
     echo '</pre>';
-
 }

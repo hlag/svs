@@ -43,6 +43,17 @@ class playlist
 
 
     }
+
+    public function getDatum()
+    {
+        return TimestampConverter::getInstance()->convertSQLtoLesbar($this->pl_datum);
+    }
+
+    public function setDatum($datumLesbar)
+    {
+        $this->pl_datum = TimestampConverter::getInstance()->convertLesbarToSQL($datumLesbar);
+    }
+
     private function getAllPlaylists()
     {
         $listen = AGDO::getInstance()->GetAll("SELECT * FROM playlists ORDER BY pl_datum DESC");

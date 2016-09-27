@@ -590,8 +590,19 @@ function calculateBPM(tempTime)
 
 
 dojo.declare('edit', null, {
-    getPlaylistDatum: function (playlist_id){
-        z(playlist_id);
+    getPlaylistDatum: function (pl_id){
+        popup = new dijit.Dialog();
+        popup.attr("style", "width: 500px");
+        popup.attr("style", "height: 200px");
+        dojo.xhrGet({
+            url: '/ajax/ajax.php?cmd=getPlaylistDatum&pl_id=' + pl_id + '&rnd=' + Date.now(),
+            handleAs: 'text',
+            load: function (resp) {
+                popup.attr("content", resp);
+                popup.show();
+
+            }
+        });
     }
 
 

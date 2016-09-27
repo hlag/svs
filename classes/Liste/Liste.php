@@ -5,6 +5,7 @@ class Liste
     public function __construct()
     {
        // z(Request::getInstance());
+
     }
 
     public function __get($var)
@@ -42,7 +43,10 @@ class Liste
         {
             $dringend = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 3 ORDER BY title");
             $proben = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 2 ORDER BY title");
-            $sonstige = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 4 ORDER BY letzteProbe");
+            $sonstige = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id) LEFT OUTER JOIN letzteProbe USING (id)  WHERE probe = 4
+
+                  AND (letzteProbe.m_id = ".Login::getInstance()->getUserID()." OR  letzteProbe.m_id IS NULL)
+                  ORDER BY lp_datum");
             $songs = array_merge($dringend, $proben, $sonstige);
         }
         elseif($status == 5)
