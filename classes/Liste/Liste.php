@@ -43,10 +43,8 @@ class Liste
         {
             $dringend = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 3 ORDER BY title");
             $proben = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 2 ORDER BY title");
-            $sonstige = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id) LEFT OUTER JOIN letzteProbe USING (id)  WHERE probe = 4
+            $sonstige = $this->getSonstige();
 
-                  AND (letzteProbe.m_id = ".Login::getInstance()->getUserID()." OR  letzteProbe.m_id IS NULL)
-                  ORDER BY lp_datum");
             $songs = array_merge($dringend, $proben, $sonstige);
         }
         elseif($status == 5)
@@ -74,6 +72,40 @@ class Liste
         }
 
         return $this->songs;
+    }
+
+    private function getSonstige()
+    {
+        $songs = array();
+        $res = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id) WHERE probe = 4 ");
+        foreach($res AS $s)
+            $songs[$s['id']] = $s;
+
+
+
+
+        $m_id = Login::getInstance()->getUserID();
+        $sql = "SELECT * FROM letzteProbe WHERE m_id = ".$m_id." ORDER BY lp_datum";
+        $dates = AGDO::getInstance()->GetAll($sql);
+        $index = array();
+        foreach($dates AS $date)
+            $index[$date['id']] = true;
+        $played = array();
+
+
+        foreach(array_keys($index) AS $key)
+        {
+            if(isset($songs[$key]))
+            {
+                $played[$key] = $songs[$key];
+                unset($songs[$key]);
+            }
+        }
+
+
+        $merged = array_merge($songs, $played);
+        return $merged;
+
     }
 
     private function renderSongs()

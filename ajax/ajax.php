@@ -249,7 +249,7 @@ class ajax
         }
         else
         {
-            $sql = "UPDATE letzteProbe SET  lp_datum='" . date("Y-m-d H:i:s") . "' WHERE lp_id=".$letzteProbe['lp_id'];
+            $sql = "UPDATE letzteProbe SET  lp_datum='" . date("Y-m-d H:i:s") . "' WHERE lp_id=".$letzteProbe['lp_id']." AND m_id=" . $m_id;
             AGDO::getInstance()->Execute($sql);
         }
         z($sql);
