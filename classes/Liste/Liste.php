@@ -23,6 +23,7 @@ class Liste
 
     public function getSongs($status)
     {
+
         if($status == 'all')
         {
             $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id) ORDER BY title");

@@ -1,0 +1,20 @@
+<br><br><br>
+
+<div class="col-md-6 col-md-offset-3">
+    <div class="panel panel-danger">
+        <div class="panel-heading">Löschen bestätigen</div>
+        <div class="panel-body">
+
+            <div class="alert alert-{class_txt}" role="alert">{meldung_txt}</div>
+            <div class="alert alert-{class_mp3}" role="alert">{meldung_mp3}</div>
+            <div class="alert alert-{class_sng}" role="alert">{meldung_sng}</div>
+
+
+            <form action="index.php?idt=deleteSong&song_id={song_id}" method="post">
+                <input type="hidden" name="song_id" value="{song_id}">
+                <input type="hidden" name="command" value="deleteSong">
+                <input type="submit" class="btn btn-danger btn-lg" name="delete" value="delete">
+            </form>
+        </div>
+    </div>
+</div>
