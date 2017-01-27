@@ -21,23 +21,28 @@ class deleteSong
 
     public function getContent()
     {
-        $this->id = Request::getInstance()->getGetRequests('song_id');
-        $this->controlSong();
 
-        $this->data['song_id'] = $this->id;
-
-        return TemplateParser::getInstance()->parseTemplate($this->data, 'Delete/confirmDelete.html');
+        if(Login::getInstance()->getUserID() == 126);
+        {
+            $this->id = Request::getInstance()->getGetRequests('song_id');
+            $this->controlSong();
+            $this->data['song_id'] = $this->id;
+            return TemplateParser::getInstance()->parseTemplate($this->data, 'Delete/confirmDelete.html');
+        }
     }
 
     private function controlSong()
     {
         $sql = "SELECT * FROM SVsongs  WHERE id = " . $this->id;
         $this->data = AGDO::getInstance()->GetFirst($sql);
+
         // Text verwendet?
         $sql = "SELECT * FROM SVsongs  WHERE  txt = '" . $this->data['txt'] . "' AND  id != " . $this->id;
         $text = AGDO::getInstance()->GetFirst($sql);
         if (isset($text['txt']))
+        {
             $this->delTxt = false;
+        }
         // mp3 verwendet?
         $sql = "SELECT * FROM SVsongs  WHERE  mp3 = '" . $this->data['mp3'] . "' AND  id != " . $this->id;
         $mp3 = AGDO::getInstance()->GetFirst($sql);
