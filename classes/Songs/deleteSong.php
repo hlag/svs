@@ -94,19 +94,19 @@ class deleteSong
         $this->controlSong();
         if ($this->delTxt && $this->del_song)
         {
-            z(PATH . 'files/' . $this->data['txt']);
-            //unlink(PATH . 'files/' . $this->data['txt']);
+           // z(PATH . 'files/' . $this->data['txt']);
+            unlink(PATH . 'files/' . $this->data['txt']);
         }
         if ($this->delMp3 && $this->del_song)
         {
-            z(PATH . 'files/' . $this->data['mp3']);
-            //unlink(PATH . 'files/' . $this->data['mp3']);
+            //z(PATH . 'files/' . $this->data['mp3']);
+            unlink(PATH . 'files/' . $this->data['mp3']);
         }
         if ($this->del_song)
         {
-            z('DELETE FROM SVsongs');
-            //AGDO::getInstance()->Execute("DELETE FROM SVsongs  WHERE id = " . $this->id);
-            //AGDO::getInstance()->Execute("DELETE FROM playlist_songs  WHERE id = " . $this->id);
+            //z('DELETE FROM SVsongs');
+            AGDO::getInstance()->Execute("DELETE FROM SVsongs  WHERE id = " . $this->id);
+            AGDO::getInstance()->Execute("DELETE FROM playlist_songs  WHERE id = " . $this->id);
         }
     }
 
@@ -114,7 +114,6 @@ class deleteSong
     {
         if ($command AND $command  == 'deleteSong')
         {
-            z('deleteSong');
             $post = Request::getInstance()->getPostRequests();
             $this->id = $post['song_id'];
             $this->delete();

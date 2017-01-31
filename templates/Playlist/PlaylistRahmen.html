@@ -7,7 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <div class="row">
-                        <div class="col-md-7">
+                        <div class="col-md-6">
                             Playlist:
                             <strong>
                                 <span onclick="edit.getPlaylistDatum({pl_id})" id="playlists_pl_datum_{pl_id}">{pl_datum_gen}</span>
@@ -15,6 +15,9 @@
                             </strong>
                             &rarr;
                             <a href="index.php?idt=playlistPDF&pl_id={pl_id}" target="_blank">PDF</a>
+                        </div>
+                        <div class="col-md-1">
+                            <button id="copyPlaylist" data-pl_id="{pl_id}" class="glyphicon glyphicon-duplicate btn btn-default btn-xs text-muted"></button>
                         </div>
                         <div class="col-md-3" align="right">
                             Beginn:
@@ -56,5 +59,13 @@
     </div>
 </div>
 
+<script type="application/javascript">
 
+    var playlistCopy;
+    require(["avaris/playlistCopy", "dojo/ready"], function (playlistCopy, ready) {
+        ready(function () {
+            playlistCopy = new playlistCopy();
+        });
+    });
+</script>
 

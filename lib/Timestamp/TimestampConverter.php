@@ -100,7 +100,7 @@ class TimestampConverter
             $temp = explode('.', $datum);
             if ($temp[2] < 1000)
                 $temp[2] += 2000;
-            return trim($temp[2]) . '-' . trim($temp[1]) . '-' . trim($temp[0]);
+            return trim($temp[2]) . '-' . str_pad(trim($temp[1]),2, 0, STR_PAD_LEFT) . '-' . str_pad(trim($temp[0]),2, 0, STR_PAD_LEFT);
         }
         else
             return '0000-00-00';

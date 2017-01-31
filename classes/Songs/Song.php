@@ -97,8 +97,8 @@ class Song
         $this->angefangen_gen = TimestampConverter::getInstance()->convertSQLtoLesbar($this->angefangen);
         $this->erschienen_gen = TimestampConverter::getInstance()->convertSQLtoLesbar($this->erschienen);
         $this->erschienen_gen_short = substr($this->erschienen, 0, 4);
-        $this->txt_link = $this->txt != '' ? '<a href="/files/' . $this->txt . '">txt</a>' : '';
-        $this->mp3_link = $this->mp3 != '' ? '<a href="/files/' . $this->mp3 . '">mp3</a>' : '';
+        $this->txt_link = $this->txt != '' ? '<a class="{class_txt}" href="/files/' . $this->txt . '">txt</a>' : '';
+        $this->mp3_link = $this->mp3 != '' ? '<a  class="{class_mp3}" href="/files/' . $this->mp3 . '">mp3</a>' : '';
         $this->website_activ_class = $this->website == 1 ? 'text-success' : 'text-muted';
         $this->website_activ_icon = $this->website == 1 ? 'fa-toggle-on' : 'fa-toggle-off';
         $this->highlight_activ_class = $this->highlight == 1 ? 'text-success' : 'text-muted';
@@ -196,6 +196,9 @@ class Song
             $vars['icon_' . $key] = $this->musiker[$key]->getStatusIcon();
             $vars['class_' . $key] = $this->musiker[$key]->getStatusClass();
         }
+        $vars['class_txt'] = file_exists(PATH.'files/'.$vars['txt'])?'':'text-danger strong';
+        $vars['class_mp3'] = file_exists(PATH.'files/'.$vars['mp3'])?'':'text-danger strong';
+
         $vars['q'] = str_replace(' ', '+', $this->title . ' ' . $this->interpret);
         $vars['statusClass'] = $this->statusClass;
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/' . $template . '.html');

@@ -1,6 +1,7 @@
-<div class="form-group">
-    <label for="{id}" class="col-sm-2 control-label {class}">{label}</label>
-    <div class="col-sm-8">
-        <input {required} type="text" class="form-control {pflichtClass}" onblur="check('{id}')" onkeyup="check('{id}')" id="{id}" name="{name}" value="{value}" placeholder="{placeholder}">
+<div class="form-group {errorClass}">
+    <label for="{id}" class="col-sm-3 control-label">{label}</label>
+    <div class="col-sm-9">
+        <input type="text" class="form-control {class}" id="{id}" name="{name}" value="{value}" placeholder="{placeholder} {tabindex}"  autocomplete="off">
     </div>
+    <div class="clearfix"></div>
 </div>

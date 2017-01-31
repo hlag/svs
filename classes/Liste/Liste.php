@@ -61,8 +61,6 @@ class Liste
 
         foreach($songs AS $song)
         {
-
-
             $song['b'] = $song['c'];
             $song['arr_b'] = $song['arr_c'];
             $song['arr_t'] = '';

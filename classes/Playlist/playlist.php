@@ -32,6 +32,11 @@ class playlist
         if (property_exists($this, $var))
             return $this->$var;
     }
+    public function getVar($var)
+    {
+        if (property_exists($this, $var))
+            return $this->$var;
+    }
 
     public function getContent()
     {
@@ -98,7 +103,8 @@ class playlist
 
     private function getListe($pl_id)
     {
-        $playlist = AGDO::getInstance()->GetFirst("SELECT * FROM playlists WHERE pl_id = " . $pl_id);
+        $sql = "SELECT * FROM playlists WHERE pl_id = " . $pl_id;
+        $playlist = AGDO::getInstance()->GetFirst($sql);
         if(!isset($playlist['pl_id']))
         {
             AGDO::getInstance()->Execute("INSERT INTO playlists SET pl_name = 'neu', pl_datum='".date('Y-m-d')."', pl_id = ".$pl_id);
@@ -107,10 +113,10 @@ class playlist
         }
 
         $this->pl_id = $playlist['pl_id'];
-        $this->name = $playlist['pl_name'];
+        $this->name = $playlist['pl_name'] == ''?'unbenannt':$playlist['pl_name'];
         $this->pl_datum = $playlist['pl_datum'];
         $this->pl_start = $playlist['pl_start'];
-        $this->pl_datum_gen = TimestampConverter::getInstance()->convertSQLtoLesbarMitTag($playlist['pl_datum']);
+        $this->pl_datum_gen = TimestampConverter::getInstance()->convertSQLtoLesbarMitTag($this->pl_datum);
     }
 
     private function getBloecke()

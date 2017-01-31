@@ -18,22 +18,21 @@ class erschienen
         $songs  =  $liste->getSongs('erschienen');
         $this->sortSongToCentury($songs);
 
-        $retval = '<br><br><h2>erschienen</h2>';
+        $data['erschienenListitems'] ='';
         foreach($this->centuries AS $year=> $Songs)
         {
-            $retval .= '<h1>'.substr($year,2,2).'\'er</h1>';
+            $data['erschienenListitems'] .= '<h2>'.substr($year,2,2).'\'er</h2>';
             foreach ($Songs AS $song)
             {
                 $song->setClassForFifty();
-                $retval .= $song->renderSong('songErschienenListItem');
+                $data['erschienenListitems'] .= $song->renderSong('songErschienenListItem');
             }
         }
-        return $retval;
+        return TemplateParser::getInstance()->parseTemplate($data, 'Liste/erschienen.html');
     }
 
     private function sortSongToCentury($songs)
     {
-
         foreach($songs AS $song)
         {
             $this->centuries[$song->getCentury()][]=$song;

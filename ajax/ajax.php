@@ -12,6 +12,9 @@ require_once PATH . 'classes/Songs/Song.php';
 require_once PATH . 'classes/Playlist/playlist.php';
 require_once PATH . 'classes/Playlist/playlistSongs.php';
 require_once PATH . 'classes/Playlist/playlist_bloecke.php';
+require_once PATH . 'classes/Playlist/duplicatePlaylist.php';
+
+
 require_once PATH . 'classes/Musiker/Musiker.php';
 require_once PATH . 'ajax/Songsorter.php';
 require_once PATH . 'lib/Timestamp/TimestampConverter.php';
@@ -58,6 +61,9 @@ class ajax
                     break;
                 case 'getPlaylistDatum':
                     echo $this->getPlaylistDatum(Request::getInstance()->getGetRequests('pl_id'));
+                    break;
+                case 'getCopyPopup':
+                     echo $this->getCopyPopup(Request::getInstance()->getGetRequests('pl_id'));
                     break;
                 default:
                     z(Request::getInstance()->getGetRequests());//
@@ -118,6 +124,8 @@ class ajax
                 case 'toggleWebsiteActive':
                     $this->toggleWebsiteActive($p['id'], $p['var']);
                     break;
+                case 'copyPlayList':
+                    $this->copyPlayList($p['old_pl_id'], $p['pl_name'], $p['pl_datum']);
                 default:
                     z(Request::getInstance()->getPostRequests());
                     break;
@@ -279,6 +287,18 @@ class ajax
         $PL = new playlist();
         $PL->getPlaylistByID($pl_id);
         echo $PL->getDatum();
+    }
+
+    private function getCopyPopup($pl_id)
+    {
+        $dp = new duplicatePlaylist();
+        return $dp->getCopyForm($pl_id);
+    }
+
+    private function copyPlayList($old_pl_id, $pl_name, $pl_datum)
+    {
+        $dp = new duplicatePlaylist();
+        $dp->copyPlayList($old_pl_id, $pl_name, $pl_datum);
     }
 
 }

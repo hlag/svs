@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sweet Village Song Manager</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="robots" content="no-index, no-follow" />
-    <link rel="shortcut icon" href="/assets/favicon.ico" />
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="robots" content="no-index, no-follow"/>
+    <link rel="shortcut icon" href="/assets/favicon.ico"/>
 
     <!-- Bootstrap -->
     <link href="/extern/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,14 +22,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
-
     <script type="text/javascript">
         var djConfig = {
             parseOnLoad: true,
             usePlainJson: true,
             locale: 'de',
             isDebug: true,
-            debugAtAllCosts: true
+            debugAtAllCosts: true,
+            packages: [
+                {
+                    name: "avaris",
+                    location: "/js/avaris"
+                }]
         };
     </script>
 
@@ -37,9 +41,7 @@
 
 
 </head>
-
 <body class="nihilo">
-
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -49,7 +51,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php?idt=Liste&status=all"><img src="/templates/img/sweet_village_logo.png" class="logo"> Song Manager</a>
+            <a class="navbar-brand" href="index.php?idt=Liste&status=all"><img src="/templates/img/sweet_village_logo.png" class="logo">
+                Song Manager</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             {navi}
@@ -61,7 +64,6 @@
         </div>
     </div>
 </nav>
-
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-12XX">
@@ -70,20 +72,13 @@
                 <div id="tabber" class="tabber " onclick="countBPM()">bpm</div>
 
 
-
                 {content}
             </div><!-- EOF content -->
         </div>
     </div>
 </div><!-- EOF Container -->
-
-
 <script src="/extern/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/Uploader.js"></script>
-
-
 <script type="text/javascript" src="/js/common.js"></script>
-
-
 </body>
 </html>
