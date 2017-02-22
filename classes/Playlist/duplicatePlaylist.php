@@ -27,30 +27,35 @@ class duplicatePlaylist
     public function copyPlayList($old_pl_id, $pl_name, $pl_datum_lesbar)
     {
         $pl_datum = TimestampConverter::getInstance()->convertLesbarToSQL($pl_datum_lesbar);
-
-        $sql = "INSERT INTO playlists SET pl_name ='" . $pl_name . "', pl_datum ='".$pl_datum."'";
+        $sql = "INSERT INTO playlists SET pl_name ='" . $pl_name . "', pl_datum ='" . $pl_datum . "'";
         AGDO::getInstance()->Execute($sql);
         $pl_id = AGDO::getInstance()->Insert_ID();
-
-        $bloecke = AGDO::getInstance()->GetAll("SELECT * FROM playlist_bloecke WHERE pl_id=".$old_pl_id);
-
-        foreach($bloecke AS $block)
+        $bloecke = AGDO::getInstance()->GetAll("SELECT * FROM playlist_bloecke WHERE pl_id=" . $old_pl_id);
+        foreach ($bloecke AS $block)
         {
-            $sql = "INSERT INTO playlist_bloecke SET pl_id=".$pl_id.", pb_name='".$block['pb_name']."', pb_pause='".$block['pb_pause']."', pb_sort_order='".$block['pb_sort_order']."' ";
+            $sql = "INSERT INTO playlist_bloecke SET pl_id=" . $pl_id . ", pb_name='" . $block['pb_name'] . "', pb_pause='" . $block['pb_pause'] . "', pb_sort_order='" . $block['pb_sort_order'] . "' ";
             AGDO::getInstance()->Execute($sql);
-            $pb_id =  AGDO::getInstance()->Insert_ID();
-
-            $songs = AGDO::getInstance()->GetAll("SELECT * ,id, ps_sort_order FROM playlist_songs WHERE pb_id = ".$block['pb_id']);
-            foreach($songs AS $song)
+            $pb_id = AGDO::getInstance()->Insert_ID();
+            $songs = AGDO::getInstance()->GetAll("SELECT * ,id, ps_sort_order FROM playlist_songs WHERE pb_id = " . $block['pb_id']);
+            foreach ($songs AS $song)
             {
-                $sql = "INSERT INTO playlist_songs SET pl_id = ".$pl_id.",pb_id =".$pb_id.", id=".$song['id'].",  ps_sort_order=".$song['ps_sort_order'];
+                $sql = "INSERT INTO playlist_songs SET pl_id = " . $pl_id . ",pb_id =" . $pb_id . ", id=" . $song['id'] . ",  ps_sort_order=" . $song['ps_sort_order'];
                 AGDO::getInstance()->Execute($sql);
             }
         }
+        return $pl_id;
+    }
 
-        header("location:/index.php?idt=playlist&pl_id=".$pl_id);
+    public function getDeleteForm($pl_id)
+    {
+        $pl = new playlist();
+        $pl->getPlaylistByID($pl_id);
+        $data['playListName'] = $pl->getVar('name');
 
-
-
+        if($pl->isDeletable())
+        {
+            $data['pl_id'] = $pl_id;
+            return TemplateParser::getInstance()->parseTemplate($data, 'Playlist/deleteForm.html', PATH);
+        }
     }
 }

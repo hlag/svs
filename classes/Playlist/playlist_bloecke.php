@@ -20,7 +20,6 @@ class playlist_bloecke
 
     public function __construct()
     {
-
     }
 
     public function __get($var)
@@ -39,6 +38,7 @@ class playlist_bloecke
     {
         return TimestampConverter::getInstance()->secToMinute($this->duration);
     }
+
     public function getPausenMin()
     {
         return TimestampConverter::getInstance()->secToMinute($this->pb_pause);
@@ -51,9 +51,13 @@ class playlist_bloecke
 
     public function getUhrzeit()
     {
-        return date("G:i",$this->pb_start);
+        return date("G:i", $this->pb_start);
     }
 
+    public function getSongArray()
+    {
+        return array_keys($this->songs);
+    }
 
     public function getBlockByID($pb_id, $pl_id = false)
     {
@@ -81,7 +85,6 @@ class playlist_bloecke
     public function getSongs()
     {
         $songs = AGDO::getInstance()->GetAll("SELECT * FROM playlist_songs JOIN SVsongs USING (id)  LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE pl_id = " . $this->pl_id . " AND pb_id = " . $this->pb_id . " ORDER BY ps_sort_order");
-
         foreach ($songs AS $song)
             $this->setSong($song);
     }
@@ -99,6 +102,16 @@ class playlist_bloecke
         $this->songs[$data['id']] = $S;
     }
 
+    public function isDeletable()
+    {
+        foreach (array_keys($this->songs) AS $song_id)
+        {
+            if (!$this->songs[$song_id]->isDeletable())
+                return false;
+        }
+        return true;
+    }
+
     public function resortSongs($newPos, $id)
     {
         if (isset($this->songs[$id]))
@@ -110,9 +123,7 @@ class playlist_bloecke
         {
             $method = 'INSERT';
             AGDO::getInstance()->Execute("DELETE FROM playlist_songs WHERE  id=" . $id . " AND pl_id = " . $this->pl_id);
-
         }
-
         $count = 1;
         foreach ($this->songs AS $song)
         {
@@ -128,14 +139,11 @@ class playlist_bloecke
                 }
                 $count++;
             }
-
             AGDO::getInstance()->Execute("UPDATE playlist_songs SET ps_sort_order =  " . $count . " WHERE id=" . $song->id . " AND pb_id = " . $this->pb_id);
             $count++;
         }
-
         if ($newPos > count($this->songs))
             AGDO::getInstance()->Execute("INSERT INTO playlist_songs SET ps_sort_order =  " . $newPos . ", id=" . $id . ", pb_id = " . $this->pb_id . ", pl_id = " . $this->pl_id);
-
         //z($song);
     }
 
@@ -164,14 +172,11 @@ class playlist_bloecke
 
     public function renderEditMaske()
     {
-
         $vars = get_object_vars($this);
         $vars['value'] = $this->pb_name;
         $vars['field'] = 'pb_name';
         $vars['id'] = $this->pb_id;
-
         return TemplateParser::getInstance()->parseTemplate($vars, 'Playlist/editSingleData.html', PATH);
-
     }
 
     public function getPauseEdit()
@@ -192,7 +197,6 @@ class playlist_bloecke
             $vars['pb_name'] = 'neu';
             $vars['pb_pause'] = 180;
             $this->pb_pause = 180;
-
             AGDO::getInstance()->AutoExecute('playlist_bloecke', $vars);
             $this->pb_id = AGDO::getInstance()->Insert_ID();
         }
@@ -204,6 +208,15 @@ class playlist_bloecke
         $this->getSongs();
         if (count($this->songs) == 0)
             AGDO::getInstance()->Execute("DELETE FROM playlist_bloecke WHERE pb_id=" . $this->pb_id);
+    }
 
+    public function deleteSongsAndBlock()
+    {
+        foreach (array_keys($this->songs) AS $song_id)
+        {
+            $this->songs[$song_id]->deleteSong();
+            unset($this->songs[$song_id]);
+        }
+        $this->deleteBlock($this->pb_id);
     }
 }

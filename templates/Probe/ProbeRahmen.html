@@ -1,0 +1,38 @@
+
+<div class="panel panel-default">
+    <div class="panel-heading">Liste</div>
+    <div class="panel-body">
+        <table class="table">
+            <tr>
+                <th align="right">Nr</th>
+                <th>Title</th>
+                <th>Interpret</th>
+                <th>BPM</th>
+                <th>Info</th>
+                <th>edit</th>
+                <th>TXT</th>
+                <th>MP3</th>
+                <th>r</th>
+                <th>b</th>
+                <th>k</th>
+                <th>t</th>
+                <th>Probe</th>
+                <th>Notiz</th>
+                <th><select id="playlistSelect">{options}</select></th>
+            </tr>
+            {rows}
+        </table>
+    </div>
+</div>
+
+
+<script type="application/javascript">
+
+    var probeFilter;
+    require(["avaris/probeFilter", "dojo/ready"], function (probeFilter, ready) {
+        ready(function () {
+            probeFilter = new probeFilter();
+        });
+    });
+</script>
+

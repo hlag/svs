@@ -6,6 +6,7 @@ require_once PATH.'lib/HTML/htmlGenerator.php';
 require_once PATH.'lib/Timestamp/TimestampConverter.php';
 require_once PATH.'lib/Login/Login.php';
 require_once PATH.'lib/Database/AGDO.php';
+require_once PATH.'lib/varTester/varTester.php';
 require_once PATH.'lib/Request/Request.php';
 require_once PATH.'lib/template/TemplateParserHlag.php';
 require_once PATH.'lib/LaenderSelect/LaenderSelect.php';

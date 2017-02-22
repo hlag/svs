@@ -45,7 +45,6 @@ class Liste
             $dringend = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 3 ORDER BY title");
             $proben = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe = 2 ORDER BY title");
             $sonstige = $this->getSonstige();
-
             $songs = array_merge($dringend, $proben, $sonstige);
         }
         elseif($status == 5)
@@ -79,9 +78,6 @@ class Liste
         $res = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id) WHERE probe = 4 ");
         foreach($res AS $s)
             $songs[$s['id']] = $s;
-
-
-
 
         $m_id = Login::getInstance()->getUserID();
         $sql = "SELECT * FROM letzteProbe WHERE m_id = ".$m_id." ORDER BY lp_datum";

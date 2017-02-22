@@ -164,6 +164,20 @@ function saveSingleData(table, field, id, id_name) {
 
 }
 
+function savePlaylistDatum(pl_id) {
+
+    dojo.xhrPost({
+        url: '/ajax/ajax.php',
+        form: 'myform',
+        handleAs: 'text',
+        load: function (resp) {
+            dojo.byId('playlists_pl_datum_' + pl_id).innerHTML = resp;
+        }
+    });
+    popup.destroy();
+
+}
+
 function getArr(id) {
     dojo.xhrGet({
         url: 'ajax/ajax.php?cmd=getArrangement&id=' + id,

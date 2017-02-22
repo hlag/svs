@@ -67,14 +67,15 @@ class controller
             'Liste&status=all' => 'alle',
             'Liste&status=1' => 'Vorschlag',
             'Liste&status=5' => 'neu',
-            'Liste&status=2' => 'nächsteProbe',
+            'probe' => 'nächsteProbe',
             'Liste&status=6' => 'Midis machen',
 
             'Liste&status=repertoire' => 'Repertoire',
             'genres' => 'Genres',
             'erschienen' => 'erschienen',
             'upload' => 'Upload',
-            'playlist' => 'Playlist');
+            'playlist' => 'Playlist',
+            'links'=>'Links');
         $this->data['header'] = isset($navi[Request::getInstance()->getGetRequests('idt')]) ? $navi[Request::getInstance()->getGetRequests('idt')] : '--';
         $retval = '<ul class="nav navbar-nav">';
         foreach ($navi AS $link => $linktext)

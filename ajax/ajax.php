@@ -13,6 +13,7 @@ require_once PATH . 'classes/Playlist/playlist.php';
 require_once PATH . 'classes/Playlist/playlistSongs.php';
 require_once PATH . 'classes/Playlist/playlist_bloecke.php';
 require_once PATH . 'classes/Playlist/duplicatePlaylist.php';
+require_once PATH.'lib/varTester/varTester.php';
 
 
 require_once PATH . 'classes/Musiker/Musiker.php';
@@ -62,8 +63,14 @@ class ajax
                 case 'getPlaylistDatum':
                     echo $this->getPlaylistDatum(Request::getInstance()->getGetRequests('pl_id'));
                     break;
+                case 'getPlaylistSongs':
+                    echo $this->getPlaylistSongs(Request::getInstance()->getGetRequests('pl_id'));
+                    break;
                 case 'getCopyPopup':
                      echo $this->getCopyPopup(Request::getInstance()->getGetRequests('pl_id'));
+                    break;
+                case 'getDeletePopup':
+                     echo $this->getDeletePopup(Request::getInstance()->getGetRequests('pl_id'));
                     break;
                 default:
                     z(Request::getInstance()->getGetRequests());//
@@ -125,7 +132,23 @@ class ajax
                     $this->toggleWebsiteActive($p['id'], $p['var']);
                     break;
                 case 'copyPlayList':
-                    $this->copyPlayList($p['old_pl_id'], $p['pl_name'], $p['pl_datum']);
+                    echo $this->copyPlayList($p['old_pl_id'], $p['pl_name'], $p['pl_datum']);
+                    break;
+                case 'deletePlaylist':
+                    $pl = new playlist();
+                    $pl->getPlaylistByID($p['pl_id']);
+                    $pl->delete();
+                    break;
+                case 'savePlaylistDatum':
+                    $pl = new playlist();
+                    $pl->getPlaylistByID($p['pl_id']);
+                    $pl->setDatum($p['datumLesbar']);
+                    $pl->savePlaylist();
+                    echo $p['datumLesbar'];
+                    break;
+
+
+
                 default:
                     z(Request::getInstance()->getPostRequests());
                     break;
@@ -286,7 +309,16 @@ class ajax
     {
         $PL = new playlist();
         $PL->getPlaylistByID($pl_id);
-        echo $PL->getDatum();
+        $data['datumLesbar'] = $PL->getDatum();
+        $data['pl_id'] = $pl_id;
+        echo TemplateParser::getInstance()->parseTemplate($data, 'Playlist/dataForm.html', PATH);
+    }
+
+    private function getPlaylistSongs($pl_id)
+    {
+        $PL = new playlist();
+        $PL->getPlaylistByID($pl_id);
+        return json_encode(array_flip($PL->getSongArray()));
     }
 
     private function getCopyPopup($pl_id)
@@ -295,10 +327,18 @@ class ajax
         return $dp->getCopyForm($pl_id);
     }
 
+    private function getDeletePopup($pl_id)
+    {
+        $dp = new duplicatePlaylist();
+        return $dp->getDeleteForm($pl_id);
+    }
+
+
+
     private function copyPlayList($old_pl_id, $pl_name, $pl_datum)
     {
         $dp = new duplicatePlaylist();
-        $dp->copyPlayList($old_pl_id, $pl_name, $pl_datum);
+        return $dp->copyPlayList($old_pl_id, $pl_name, $pl_datum);
     }
 
 }

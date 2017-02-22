@@ -28,10 +28,11 @@ define([
 
             constructor: function () {
                 this.pl_id = domAttr.get(dom.byId('copyPlaylist'), 'data-pl_id');
-                this.connectButton();
+                this.connectCopyButton();
+                this.connectDeleteButton();
             },
 
-            connectButton: function () {
+            connectCopyButton: function () {
                 on(dom.byId('copyPlaylist'), "click", dojo.hitch(this, function () {
                     this.copyPopup();
                 }));
@@ -46,13 +47,13 @@ define([
                 }).then(dojo.hitch(this, function (resp) {
                     this.popup.attr("content", resp);
                     this.popup.show();
-                    this.connectCopyButton();
+                    this.connectCopyConfirmButton();
                 }));
 
 
             },
 
-            connectCopyButton: function () {
+            connectCopyConfirmButton: function () {
                 on(dom.byId('copyPlaylistReally'), "click", dojo.hitch(this, function () {
                     this.copyPlaylist();
                 }));
@@ -65,47 +66,48 @@ define([
                 var url = '/ajax/ajax.php';
                 xhr(url, {
                     method: 'POST',
-                    data: 'cmd=copyPlayList&old_pl_id='+old_pl_id+'&pl_name='+pl_name+'&pl_datum='+pl_datum,
+                    data: 'cmd=copyPlayList&old_pl_id=' + old_pl_id + '&pl_name=' + pl_name + '&pl_datum=' + pl_datum,
 
                 }).then(dojo.hitch(this, function (resp) {
-
+                        document.location.href = 'index.php?idt=playlist&pl_id=' + resp;
                     })
                 );
             },
 
-            getBuchungsInput: function (rows, gesamtBetrag) {
-                var node = lang.clone(rows[rows.length - 1]);
-                var id_new = new Date().getTime().toString();
-                var matches = node.id.match(/gegenBuchung_(\d+)/);
-                var needle = 'bp\\[' + matches[1].toString() + '\\]';
-                var html = node.innerHTML;
-                var replacer = new RegExp(needle, "g");
-                node.innerHTML = html.replace(replacer, 'bp[' + id_new + ']');
-                node.id = 'gegenBuchung_' + id_new;
-                rows[rows.length] = node;
-                var inputs = dom.byId('inputs');
-                domConstruct.place(node, inputs);
-                domConstruct.place(node, inputs);
-
-                domAttr.set(dom.byId('id_bp[' + id_new + '][' + habenOderSollGegenKonto + ']'), 'value', gesamtBetrag.toFixed(2));
-                domAttr.set(dom.byId('id_bp[' + id_new + '][posten_id]'), 'value', id_new);
-
-                on(dom.byId('id_bp[' + id_new + '][' + habenOderSollGegenKonto + ']'), "change", dojo.hitch(this, function () {
-                    this.searchBetraege();
+            connectDeleteButton: function () {
+                on(dom.byId('deletePlaylist'), "click", dojo.hitch(this, function () {
+                    this.deletePopup();
                 }));
             },
 
-            controlKontoBelegnummerInput: function () {
-                var rows = dojo.query('.gegenBuchung');
-                if (rows.length > 1) {
-                    dom.byId('kontoBelegInput').innerHTML = '<div class="form-group"><label for="id_p[belegnummer]" class="col-sm-2 control-label">Sammel-Beleg</label><div class="col-sm-10"><input type="text" class="form-control " id="id_p[belegnummer]" name="p[belegnummer]" value="" placeholder="P[belegnummer]"></div><div class="clearfix"></div> </div>';
+            deletePopup: function () {
+                this.popup = new dijit.Dialog();
+                this.popup.attr("title", 'Playlist löschen');
+                xhr('/ajax/ajax.php?cmd=getDeletePopup&pl_id=' + this.pl_id, {
+                    handleAs: 'txt'
+                }).then(dojo.hitch(this, function (resp) {
+                    this.popup.attr("content", resp);
+                    this.popup.show();
+                    this.connectDeleteConfirmButton();
+                }));
+            },
 
-                }
-                else {
-                    dom.byId('kontoBelegInput').innerHTML = '';
-                }
+            connectDeleteConfirmButton: function () {
+                on(dom.byId('deletePlaylistReally'), "click", dojo.hitch(this, function () {
+                    this.deletePlaylist();
+                }));
+            },
+            deletePlaylist: function () {
 
+                var url = '/ajax/ajax.php';
+                xhr(url, {
+                    method: 'POST',
+                    data: 'cmd=deletePlaylist&pl_id=' + this.pl_id,
 
+                }).then(dojo.hitch(this, function (resp) {
+                        document.location.href = 'index.php?idt=playlist';
+                    })
+                );
             }
 
         });

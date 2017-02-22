@@ -1,0 +1,14 @@
+<div class="col-md-12">
+    <form id="myform" method="post" class="form-horizontal">
+        <div class="form-group">
+            <input type="text" class="form-control" name="datumLesbar" rows="1" id="datumLesbar" value="{datumLesbar}">
+        </div>
+        <input type="hidden" name="cmd" value="savePlaylistDatum"/>
+        <input type="hidden" name="pl_id" value="{pl_id}"/>
+        <input type="hidden" name="id_name" value="pl_id"/>
+
+        <div class="form-group">
+            <span onclick="savePlaylistDatum({pl_id});" class="btn btn-default" id="speichern">Speichern</span>
+        </div>
+    </form>
+</div>
