@@ -69,7 +69,7 @@ define([
             schowSongs: function () {
                 for (var song_id = 0; song_id < this.songs.length; song_id++) {
                     if (typeof this.songs[song_id] != 'undefined') {
-                        style.set(dom.byId('song_' + song_id), 'display', '');
+                        this.wipeInSong(song_id);
                         this.songs[song_id].displayed = true;
                     }
 
@@ -83,22 +83,29 @@ define([
 
 
                         if (typeof playlistSongs[song_id] != 'undefined') {
-                            this.songs[song_id].displayed = true;
-                            style.set(dom.byId('song_' + song_id), 'display', '');
-
+                            this.wipeInSong(song_id);
                         }
                         else {
-                            // song wird nicht gespielt
-                            //style.set(dom.byId('song_' + song_id), 'display', 'none');
                             this.wipeOutSong(song_id);
-
                         }
                     }
                 }
             },
 
+            wipeInSong: function (song_id) {
+                if (!this.songs[song_id].displayed) {
+                    var node = dom.byId('song_' + song_id);
+                    style.set(node, "display", "none");
+                    coreFx.wipeIn({
+                        node: node
+                    }).play();
+                    this.songs[song_id].displayed = true;
+                }
+
+            },
+
             wipeOutSong: function (song_id) {
-                if(this.songs[song_id].displayed) {
+                if (this.songs[song_id].displayed) {
                     var node = dom.byId('song_' + song_id);
                     style.set(node, {
                         height: "",
