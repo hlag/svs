@@ -1,21 +1,21 @@
 
 
 <div class="row songRow" id="song_{id}" data-songid="{id}" data-title="{title}">
-    <div class="col-md-1" align="right">{zaehler})</div>
-    <div class="col-md-2 {statusClass} indikator" id="title_{id}">{title}</div>
-    <div class="col-md-2 {statusClass} indikator" id="interpret_{id}">{interpret}</div>
-    <div class="col-md-3">
-        <div class="col-md-1 {statusClass} indikator" id="SVsongs_bpm_{id}" align="right" onclick="getSingleDatum('SVsongs', 'bpm', {id}, 'id')">
+    <div class="col-xs-1 col-md-1 zaehler" align="right"  id="zaehler_{id}" data-zaehler="{zaehler}" data-songid="{id}">{zaehler})</div>
+    <div class="col-xs-5 col-md-2 {statusClass} indikator" id="title_{id}">{title}</div>
+    <div class="col-xs-6  col-md-2 {statusClass} indikator" id="interpret_{id}">{interpret}</div>
+    <div class="col-xs-12 col-md-3">
+        <div class="col-xs-1 col-md-1 {statusClass} indikator" id="SVsongs_bpm_{id}" align="right" onclick="getSingleDatum('SVsongs', 'bpm', {id}, 'id')">
         {bpm}</div>
-        <div class="col-md-1"><span class="glyphicon glyphicon-info-sign" onclick="getArr({id})" style="cursor:pointer"></span></div>
-        <div class="col-md-1"><a href="index.php?idt=editSong&song_id={id}"><span class="glyphicon glyphicon-pencil"></span></a></div>
-        <div class="col-md-1">{txt_link}</div>
-        <div class="col-md-1">{mp3_link}</div>
-        <div class="col-md-1"><i class="fa  {icon_r} {class_r}" id="r_{id}" onclick="muckerMenue({id}, 'r')"></i></div>
-        <div class="col-md-1"><i class="fa  {icon_b} {class_b}" id="b_{id}" onclick="muckerMenue({id}, 'b')"></i></div>
-        <div class="col-md-1"><i class="fa  {icon_k} {class_k}" id="k_{id}" onclick="muckerMenue({id}, 'k')"></i></div>
-        <div class="col-md-1"><i class="fa  {icon_t} {class_t}" id="t_{id}" onclick="muckerMenue({id}, 't')"></i></div>
-        <div class="col-md-2"><i class="fa fa-smile-o text-primary" id="geprobt_{id}" onclick="playedManager.updateProbeDatum({id})"></i></div>
+        <div class="col-xs-1 col-md-1"><span class="glyphicon glyphicon-info-sign" onclick="getArr({id})" style="cursor:pointer"></span></div>
+        <div class="col-xs-1 col-md-1"><a href="index.php?idt=editSong&song_id={id}"><span class="glyphicon glyphicon-pencil"></span></a></div>
+        <div class="col-xs-1 col-md-1">{txt_link}</div>
+        <div class="col-xs-1 col-md-1">{mp3_link}</div>
+        <div class="col-xs-1 col-md-1"><i class="fa  {icon_r} {class_r}" id="r_{id}" onclick="muckerMenue({id}, 'r')"></i></div>
+        <div class="col-xs-1 col-md-1"><i class="fa  {icon_b} {class_b}" id="b_{id}" onclick="muckerMenue({id}, 'b')"></i></div>
+        <div class="col-xs-1 col-md-1"><i class="fa  {icon_k} {class_k}" id="k_{id}" onclick="muckerMenue({id}, 'k')"></i></div>
+        <div class="col-xs-1 col-md-1"><i class="fa  {icon_t} {class_t}" id="t_{id}" onclick="muckerMenue({id}, 't')"></i></div>
+        <div class="col-xs-1 col-md-2"><i class="fa fa-smile-o text-primary" id="geprobt_{id}" onclick="playedManager.updateProbeDatum({id})"></i></div>
     </div>
-        <div class="col-md-4"><small>{notiz}</small></div>
+        <div class="col-xs-12 col-md-4" ><small>{notiz}</small></div>
 </div>

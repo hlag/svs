@@ -1,3 +1,9 @@
+.songRow {
+border-bottom: 1px solid #eee;
+}
+.songRow:hover {
+background-color: #eee;
+}
 .logo {
     float: left;
     max-width: 100%;

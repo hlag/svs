@@ -64,6 +64,23 @@ define([
                 else {
                     this.schowSongs();
                 }
+                setTimeout(this.countSongs, 2000);
+
+            },
+
+            countSongs: function () {
+                var nodes = dojo.query(".zaehler")
+
+                var count = 1;
+                array.forEach(nodes, dojo.hitch(this, function (zaehler, i) {
+                    var songid = domAttr.get(zaehler, 'data-songid')
+                    var display = style.get(dom.byId('song_' + songid), "display");
+                    if (display != 'none') {
+                        zaehler.innerHTML = count + ')';
+                        count++;
+                    }
+
+                }));
             },
 
             schowSongs: function () {
@@ -80,8 +97,6 @@ define([
             filterSongs: function (playlistSongs) {
                 for (var song_id = 0; song_id < this.songs.length; song_id++) {
                     if (typeof this.songs[song_id] != 'undefined') {
-
-
                         if (typeof playlistSongs[song_id] != 'undefined') {
                             this.wipeInSong(song_id);
                         }
