@@ -1,5 +1,6 @@
 .songRow {
 border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
 }
 .songRow:hover {
 background-color: #eee;

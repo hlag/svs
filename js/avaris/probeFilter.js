@@ -32,11 +32,18 @@ define([
                 this.songs = Array();
                 this.connectSelectBox();
                 this.searchSongs();
+                if(window.location.hash != '')
+                {
+                    var hash = window.location.hash.replace('#','');
+                    var pl_id = parseInt(hash);
+                    this.getPlaylistSongs(pl_id);
+                }
             },
 
             connectSelectBox: function () {
                 on(dom.byId('playlistSelect'), "change", dojo.hitch(this, function () {
                     this.getPlaylistSongs(dom.byId('playlistSelect').value);
+                    window.location.hash = dom.byId('playlistSelect').value;
                 }));
             },
 
@@ -70,7 +77,6 @@ define([
 
             countSongs: function () {
                 var nodes = dojo.query(".zaehler")
-
                 var count = 1;
                 array.forEach(nodes, dojo.hitch(this, function (zaehler, i) {
                     var songid = domAttr.get(zaehler, 'data-songid')

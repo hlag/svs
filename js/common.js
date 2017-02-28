@@ -22,7 +22,7 @@ var tools = dojo.mixin({
             dropTarget: 'uploader',
             language: 1,
             languageShort: 'de',
-            maxKBytes: 5000000,
+            maxKBytes: 10000000,
             maxNumFiles: 10
         });
     }

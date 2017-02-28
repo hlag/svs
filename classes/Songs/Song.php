@@ -6,6 +6,7 @@ class Song
     private $probe = 5;
     private $title = 'neuer Title';
     private $interpret = 'neuer Interpret';
+    private $geschlecht = 0;
     private $genre = 'unbekannt';
     private $website = 0;
     private $website_activ_class = 'text-muted';
@@ -40,7 +41,7 @@ class Song
     private $demo = 0;
     private static $geamtZaehler = 1;
     private $classFifty = '';
-
+    private $icons = array('nix', 'fa-venus', 'fa-mars', 'fa-venus-mars');
 
     public function __construct()
     {
@@ -87,10 +88,14 @@ class Song
         foreach ($song AS $key => $value)
             if (property_exists($this, $key))
                 $this->$key = trim($value);
+        if ($this->txt == '_.doc')
+            $this->txt = '';
+        if ($this->mp3 == '_.mp3')
+            $this->mp3 = '';
+        $this->setKennung();
         $this->duration = $song['duration'] == 0 ? 200 : $song['duration'];
         $this->genre = $song['g_name'];
         $this->g_id = $song['g_id'];
-
         $this->instrumentKlaus = $inst[$song['instrument']];
         $this->setMusiker($song);
         $this->setStatusClass();
@@ -118,16 +123,13 @@ class Song
         $str = str_replace('ö', 'oe', $str);
         $str = str_replace('ü', 'ue', $str);
         $str = str_replace('ß', 'ss', $str);
-
         return $str;
     }
-
 
     public function getSongByID($song_id)
     {
         if ($song_id == 'new')
         {
-
         }
         else
         {
@@ -173,8 +175,6 @@ class Song
                     break;
             }
         }
-
-
     }
 
     public function getDuration()
@@ -196,9 +196,8 @@ class Song
             $vars['icon_' . $key] = $this->musiker[$key]->getStatusIcon();
             $vars['class_' . $key] = $this->musiker[$key]->getStatusClass();
         }
-        $vars['class_txt'] = file_exists(PATH.'files/'.$vars['txt'])?'':'text-danger strong';
-        $vars['class_mp3'] = file_exists(PATH.'files/'.$vars['mp3'])?'':'text-danger strong';
-
+        $vars['class_txt'] = file_exists(PATH . 'files/' . $vars['txt']) ? '' : 'text-danger strong';
+        $vars['class_mp3'] = file_exists(PATH . 'files/' . $vars['mp3']) ? '' : 'text-danger strong';
         $vars['q'] = str_replace(' ', '+', $this->title . ' ' . $this->interpret);
         $vars['statusClass'] = $this->statusClass;
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/' . $template . '.html');
@@ -211,15 +210,11 @@ class Song
         {
             $vars['arr_' . $key] = $this->musiker[$key]->getArrangement();
         }
-
-
         for ($x = 0; $x < 6; $x++)
             $vars[$x . '_checked'] = $this->probe == $x ? ' checked="checked"' : '';
         for ($x = 0; $x < 4; $x++)
             $vars[$x . '_i_checked'] = $this->instrument == $x ? ' checked="checked"' : '';
-
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/arrangementInfo.html', PATH);
-
     }
 
     public function renderMuckermeinung($musiker)
@@ -239,7 +234,6 @@ class Song
         $vars['playedButton'] = '';
         $vars['erfolgButton'] = '';
         $vars['lastBlockNumber'] = $blockNumber;
-
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/playlistSongItem.html', PATH);
     }
 
@@ -255,7 +249,6 @@ class Song
             if (property_exists($this, $var))
                 $this->$var = trim($value);
         $this->saveSong();
-
     }
 
     public function saveSong()
@@ -289,7 +282,7 @@ class Song
                 return array('class' => $this->highlight_activ_class, 'icon' => $this->highlight_activ_icon);
                 break;
             default:
-                return $var.$var;
+                return $var . $var;
         }
     }
 
@@ -308,18 +301,15 @@ class Song
 
     private function clearCache()
     {
-
         $genres = AGDO::getInstance()->GetAll("SELECT * FROM sv_song_genres");
         foreach ($genres AS $genre)
         {
-            $file = $_SERVER['HOME'].'sweetvillage/cache/' . $genre['g_link'];
-
-            if(file_exists($file))
+            $file = $_SERVER['HOME'] . 'sweetvillage/cache/' . $genre['g_link'];
+            if (file_exists($file))
                 unlink($file);
-
         }
-        $file = $_SERVER['HOME'].'sweetvillage/cache/partymusik.html';
-        if(file_exists($file))
+        $file = $_SERVER['HOME'] . 'sweetvillage/cache/partymusik.html';
+        if (file_exists($file))
             unlink($file);
     }
 

@@ -113,6 +113,7 @@ dojo.declare('Uploader', null,
                     //console.log(this.files[i]);
                     var file = this.files[i];
                     //console.log(file);
+					console.log('Uploading File: '+file.name);
                     dojo.publish('globalToasterMessage',[{message:'Uploading File: '+file.name, type: 'message'}]);
                     this.upload(this.files[i]);
 		}
@@ -146,8 +147,8 @@ dojo.declare('Uploader', null,
 		req.setRequestHeader("Content-Type", "application/octet-stream; charset=UTF-8");
         req.setRequestHeader('X-Song-ID', dojo.byId('song_id').value);
 		req.send(file);
-
-            this.changeInfos(req.responseText);
+			z(req);
+        this.changeInfos(req.responseText);
 
 
 		return dfd;
@@ -175,9 +176,8 @@ dojo.declare('Uploader', null,
 				if (req.status == 200 || req.status == 201) {
 					window.setTimeout(function() {
 						//bar.complete();
-                                                dojo.publish('globalToasterMessage',[{message:'Upload completed', type: 'message'}]);
-                                               // BilderUpdater.updateBilder(dojo.byId('articleID').value, langShort, language);
-                                                //console.log("upload ende");
+                        dojo.publish('globalToasterMessage',[{message:'Upload completed', type: 'message'}]);
+                        console.log("upload ende");
 						dfd.resolve();
 					}, 500);
 				}

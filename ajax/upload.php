@@ -40,6 +40,7 @@ class uploader
                 break;
 
         }
+        z($this->song);
         $this->song->saveSong();
         echo $this->song->id;
 
@@ -79,6 +80,8 @@ class uploader
         }
 
         $this->song = new Song();
+
+        // bekannter Song
         if ($this->headers['X-Song-ID'] != 'new')
         {
             $this->song->getSongByID($this->headers['X-Song-ID']);
@@ -92,7 +95,7 @@ class uploader
                     break;
             }
         }
-        else
+        else // neuer Song
         {
             $this->song->id = $this->headers['X-Song-ID'];
             $this->song->__set('angefangen', date("Y-m-d"));
