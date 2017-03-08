@@ -9,15 +9,15 @@ dojo.require("dojox.widget.Toaster");
 var tools = dojo.mixin({
 
 
-    init: function() {
+    init: function () {
         /* setup toaster */
         var toasterNode = dojo.doc.createElement('div');
-        toasterNode.id="globalToaster";
+        toasterNode.id = "globalToaster";
         dojo.body().appendChild(toasterNode);
-        this.toaster = new dojox.widget.Toaster({messageTopic: 'globalToasterMessage', duration: 3000},toasterNode);
+        this.toaster = new dojox.widget.Toaster({messageTopic: 'globalToasterMessage', duration: 3000}, toasterNode);
 
 
-       new Uploader({
+        new Uploader({
             url: '/godot/Bildupload/uploaderfnc.php',
             dropTarget: 'uploader',
             language: 1,
@@ -27,9 +27,11 @@ var tools = dojo.mixin({
         });
     }
 
-},tools);
+}, tools);
 
-dojo.addOnLoad(function(){tools.init();});
+dojo.addOnLoad(function () {
+    tools.init();
+});
 
 
 var node;
@@ -40,17 +42,16 @@ function endDrop(source, nodeX) {
 
 function workOnDOM() {
     var Liste = dojo.attr(node[0].id, 'liste');
-    z(Liste);
+    z(node[0]);
     deliquent = node[0];
     parent = deliquent.parentNode;
     childs = parent.childNodes;
 
-    if(Liste == 'genre')
-    {
+    if (Liste == 'genre') {
         dojo.xhrPost({
             url: '/ajax/ajax.php',
             handleAs: 'json',
-            postData: 'cmd=setGenre&song_id=' + node[0].id +  '&g_id=' + parent.id,
+            postData: 'cmd=setGenre&song_id=' + node[0].id + '&g_id=' + parent.id,
             load: function (resp) {
 
             }
@@ -202,8 +203,8 @@ function textarea(tb, id) {
     text = node.innerHTML.replace(/<br>/g, "\n");
     dojo.attr(node, "onclick", "");
     node.innerHTML = '<textarea class="form-control" rows="3" id="text_' + tb + '_' + id + '"' +
-    ' onkeyup="saveArr(' + id + ', \'' + tb + '\')" ' +
-    ' onblur="saveArrAndExit(' + id + ', \'' + tb + '\')" >' + text + '</textarea>';
+        ' onkeyup="saveArr(' + id + ', \'' + tb + '\')" ' +
+        ' onblur="saveArrAndExit(' + id + ', \'' + tb + '\')" >' + text + '</textarea>';
     dojo.byId('text_' + tb + '_' + id).focus();
 }
 function saveArrAndExit(id, tb) {
@@ -231,6 +232,36 @@ function submitInstrument(id, instrument) {
         postData: 'cmd=saveInstrument&instrument=' + instrument + '&id=' + id
     });
 }
+function submitGeschlecht(id, geschlecht) {
+    dojo.xhrPost({
+        url: 'ajax/ajax.php',
+        postData: 'cmd=saveGeschlecht&geschlecht=' + geschlecht + '&id=' + id
+    });
+    var node = dojo.byId('geschlechtIcon_' + id + '');
+
+    dojo.removeClass(node, "fa-venus");
+    dojo.removeClass(node, "fa-mars");
+    dojo.removeClass(node, "fa-venus-mars");
+
+
+    switch (geschlecht) {
+
+        case 1:
+            dojo.addClass(node, "fa-venus");
+            break;
+
+        case 2:
+            dojo.addClass(node, "fa-mars");
+            break;
+
+        case 3:
+            dojo.addClass(node, "fa-venus-mars");
+            break;
+
+    }
+
+}
+
 
 function submitStatus(id, status) {
     dojo.xhrPost({
@@ -466,7 +497,7 @@ dojo.declare('playedManager', null, {
                 dojo.removeClass(node, 'text-success');
                 dojo.addClass(node, resp.class);
 
-                if(resp.class == 'text-muted'){
+                if (resp.class == 'text-muted') {
                     dojo.byId('erfolg_class_' + resp.ps_id).outerHTML = '';
                 }
 
@@ -477,7 +508,7 @@ dojo.declare('playedManager', null, {
     },
     updateProbeDatum: function (id) {
         var wipeArgs = {
-            node: "song_"+id,
+            node: "song_" + id,
             duration: 1000
         };
         dojo.fadeOut(wipeArgs).play();
@@ -507,8 +538,8 @@ dojo.declare('erfolgManager', null, {
         });
         popup.show();
     },
-    changeClasses: function (status){
-        for(var x = 0; x < 5; x++) {
+    changeClasses: function (status) {
+        for (var x = 0; x < 5; x++) {
 
             if (status >= x) {
                 var node = dojo.byId('erfolg_button_' + x);
@@ -522,7 +553,7 @@ dojo.declare('erfolgManager', null, {
             }
 
 
-         }
+        }
 
     },
     saveErfolgStatus: function (ps_id, status) {
@@ -532,7 +563,7 @@ dojo.declare('erfolgManager', null, {
             postData: 'cmd=saveErfolgStatus&ps_id=' + ps_id + '&status=' + status,
             handleAs: 'text',
             load: function (resp) {
-                dojo.byId('erfolg_class_'+ps_id).outerHTML = resp;
+                dojo.byId('erfolg_class_' + ps_id).outerHTML = resp;
             }
         });
         popup.destroy();
@@ -542,16 +573,15 @@ var erfolgManager = new erfolgManager();
 dojo.declare('websiteActive', null, {
 
 
-
     toggle: function (id, variable) {
 
         dojo.xhrPost({
             url: 'ajax/ajax.php',
-            postData: 'cmd=toggleWebsiteActive&id=' + id +'&var='+variable,
+            postData: 'cmd=toggleWebsiteActive&id=' + id + '&var=' + variable,
             handleAs: 'json',
             load: function (resp) {
 
-                var node = dojo.byId(variable+'_aktiv_' + id);
+                var node = dojo.byId(variable + '_aktiv_' + id);
                 dojo.removeClass(node, 'text-muted');
                 dojo.removeClass(node, 'text-success');
                 dojo.removeClass(node, 'fa-toggle-on');
@@ -569,31 +599,29 @@ dojo.declare('websiteActive', null, {
 var websiteActive = new websiteActive();
 
 var tabs = new Array();
-function countBPM()
-{
+function countBPM() {
     tempTime = new Date().getTime();
     dauer = calculateBPM(tempTime);
     dojo.byId('tabber').innerHTML = dauer;
 };
 
-function calculateBPM(tempTime)
-{
-    if(tabs[1])
-    {
-        var dauer = (tabs[tabs.length-1] - tabs[0]) / (tabs.length -1);
-        if((tempTime - tabs[tabs.length-1]) > dauer * 3)
-            tabs =  new Array();
-    };
-    if(tabs[0] && !tabs[1])
-    {
+function calculateBPM(tempTime) {
+    if (tabs[1]) {
+        var dauer = (tabs[tabs.length - 1] - tabs[0]) / (tabs.length - 1);
+        if ((tempTime - tabs[tabs.length - 1]) > dauer * 3)
+            tabs = new Array();
+    }
+    ;
+    if (tabs[0] && !tabs[1]) {
 
-        if((tempTime - tabs[0]) > 2000)
-            tabs =  new Array();
-    };
+        if ((tempTime - tabs[0]) > 2000)
+            tabs = new Array();
+    }
+    ;
 
     tabs[tabs.length] = tempTime;
-    if(tabs[1])
-        bpm = (60000 *(tabs.length -1) /(tabs[tabs.length-1] - tabs[0])).toFixed(1) ;
+    if (tabs[1])
+        bpm = (60000 * (tabs.length - 1) / (tabs[tabs.length - 1] - tabs[0])).toFixed(1);
     else {
 
         bpm = 'bpm';
@@ -602,9 +630,8 @@ function calculateBPM(tempTime)
 };
 
 
-
 dojo.declare('edit', null, {
-    getPlaylistDatum: function (pl_id){
+    getPlaylistDatum: function (pl_id) {
         popup = new dijit.Dialog();
         popup.attr("style", "width: 500px");
         popup.attr("style", "height: 200px");
@@ -618,7 +645,6 @@ dojo.declare('edit', null, {
             }
         });
     }
-
 
 
 });

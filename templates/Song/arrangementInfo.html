@@ -14,8 +14,18 @@
 <div class="panel panel-default">
     <div class="panel-heading">Klaus</div>
     <div class="panel-body" id="arr_k_{id}" onclick="textarea('arr_k', {id})">{arr_k}</div>
-
 </div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Gesang</div>
+    <div class="panel-body">
+        <label><input type="radio" name="geschlecht" onclick="submitGeschlecht({id}, 0)" {0_geschlecht_checked}> nix</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name="geschlecht" onclick="submitGeschlecht({id}, 1)" {1_geschlecht_checked}> <i class="fa fa-venus"></i></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name="geschlecht" onclick="submitGeschlecht({id}, 2)" {2_geschlecht_checked}> <i class="fa fa-mars"></i></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="radio" name="geschlecht" onclick="submitGeschlecht({id}, 3)" {4_geschlecht_checked}> <i class="fa fa-venus-mars"></i></label>
+    </div>
+</div>
+
 <div class="panel panel-default">
     <div class="panel-heading">Status</div>
     <div class="panel-body">

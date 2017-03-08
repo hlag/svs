@@ -30,8 +30,7 @@ class playlistPDFgenerator EXTENDS TCPDF
     {
         //z($this->playlist);
         $this->SetFont('Helvetica', 'B', 18);
-        $this->Cell(180, 0, 'Playlist: '.$this->playlist->datum.' '.$this->playlist->name, 0, 1);
-
+        $this->Cell(180, 0, 'Playlist: '.$this->playlist->pl_datum_gen.' '.$this->playlist->name, 0, 1);
     }
 
     private function bloecke()
@@ -39,7 +38,6 @@ class playlistPDFgenerator EXTENDS TCPDF
        foreach(array_keys($this->playlist->bloecke) AS $key)
        {
            $this->ln(2);
-           $countSongs = count($this->playlist->bloecke[$key]->songs);
            $this->SetFont('Helvetica', 'B', 11);
            $this->Cell(80, 0, $this->playlist->bloecke[$key]->number.'. '.$this->playlist->bloecke[$key]->pb_name, 0, 0);
            $this->SetFont('Helvetica', '', 8);
@@ -70,6 +68,11 @@ class playlistPDFgenerator EXTENDS TCPDF
         $this->Cell(80, 0, $this->playlist->getMinutes(), 0, 1, 'R');
         $this->Cell(80, 0, 'Songs', 0, 0);
         $this->Cell(80, 0, $this->playlist->getCountSongs(), 0, 1, 'R');
-
+        $this->Cell(80, 0, 'Ruth', 0, 0);
+        $this->Cell(80, 0, $this->playlist->getCountRuth(), 0, 1, 'R');
+                $this->Cell(80, 0, 'Klaus', 0, 0);
+        $this->Cell(80, 0, $this->playlist->getCountKlaus(), 0, 1, 'R');
+                $this->Cell(80, 0, 'Duetts', 0, 0);
+        $this->Cell(80, 0, $this->playlist->getCountDuetts(), 0, 1, 'R');
     }
 }

@@ -7,6 +7,8 @@ class Song
     private $title = 'neuer Title';
     private $interpret = 'neuer Interpret';
     private $geschlecht = 0;
+    private $geschlechtIcon;
+    private $geschlechtColor;
     private $genre = 'unbekannt';
     private $website = 0;
     private $website_activ_class = 'text-muted';
@@ -42,6 +44,7 @@ class Song
     private static $geamtZaehler = 1;
     private $classFifty = '';
     private $icons = array('nix', 'fa-venus', 'fa-mars', 'fa-venus-mars');
+    private $colors = array('', '#ffeeee', '#eeeeff', '#ffddff');
 
     public function __construct()
     {
@@ -108,6 +111,12 @@ class Song
         $this->website_activ_icon = $this->website == 1 ? 'fa-toggle-on' : 'fa-toggle-off';
         $this->highlight_activ_class = $this->highlight == 1 ? 'text-success' : 'text-muted';
         $this->highlight_activ_icon = $this->highlight == 1 ? 'fa-thumbs-up' : 'fa-thumbs-o-up';
+        $this->geschlechtIcon = $this->icons[$this->geschlecht];
+        $this->geschlechtColor = $this->colors[$this->geschlecht];
+
+
+
+
     }
 
     public function setKennung()
@@ -214,6 +223,8 @@ class Song
             $vars[$x . '_checked'] = $this->probe == $x ? ' checked="checked"' : '';
         for ($x = 0; $x < 4; $x++)
             $vars[$x . '_i_checked'] = $this->instrument == $x ? ' checked="checked"' : '';
+        for ($x = 0; $x < 4; $x++)
+            $vars[$x . '_geschlecht_checked'] = $this->geschlecht == $x ? ' checked="checked"' : '';
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/arrangementInfo.html', PATH);
     }
 

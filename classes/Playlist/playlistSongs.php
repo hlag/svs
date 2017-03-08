@@ -35,14 +35,12 @@ class playlistSong EXTENDS Song
 
     public function deleteSong()
     {
-        if($this->isDeletable())
+        if ($this->isDeletable())
             AGDO::getInstance()->Execute("DELETE FROM playlist_songs WHERE ps_id = " . $this->ps_id);
     }
 
     public function setPlayedStatus($status)
     {
-        z($this->id);
-        z($status);
         $this->ps_played = $status;
         $this->setPlayedButton();
         AGDO::getInstance()->Execute("UPDATE playlist_songs SET ps_played= " . $status . " WHERE ps_id=" . $this->ps_id);
@@ -72,7 +70,7 @@ class playlistSong EXTENDS Song
 
     public function getSongByPS_ID($ps_id)
     {
-        $song = AGDO::getInstance()->GetFirst("SELECT * FROM playlist_songs JOIN SVsongs USING (id) LEFT OUTER JOIN  sv_song_genres ON website = sv_song_genres.g_id JOIN playlists USING (pl_id) WHERE ps_id = " . $ps_id);
+        $song = AGDO::getInstance()->GetFirst("SELECT * FROM playlist_songs JOIN SVsongs USING (id) JOIN playlists USING (pl_id) LEFT OUTER JOIN  sv_song_genres ON website = sv_song_genres.g_id  WHERE ps_id = " . $ps_id);
         $this->setSong($song);
         $this->setPlayedButton();
         $this->setErfolgButton();
@@ -81,12 +79,18 @@ class playlistSong EXTENDS Song
     public function setSong($song)
     {
         parent::setSong($song);
-        $this->ps_id = $song['ps_id'];
-        $this->pl_id = $song['pl_id'];
-        $this->pb_id = $song['pb_id'];
-        $this->ps_played = $song['ps_played'];
-        $this->ps_erfolg = $song['ps_erfolg'];
-        $this->pl_datum = $song['pl_datum'];
+        if (isset($song['ps_id']))
+            $this->ps_id = $song['ps_id'];
+        if (isset($song['pl_id']))
+            $this->pl_id = $song['pl_id'];
+        if (isset($song['pb_id']))
+            $this->pb_id = $song['pb_id'];
+        if (isset($song['ps_played']))
+            $this->ps_played = $song['ps_played'];
+        if (isset($song['ps_erfolg']))
+            $this->ps_erfolg = $song['ps_erfolg'];
+        if (isset($song['pl_datum']))
+            $this->pl_datum = $song['pl_datum'];
         $this->setPlayedButton();
     }
 
@@ -129,6 +133,7 @@ class playlistSong EXTENDS Song
         $vars['bpm'] = $this->bpm;
         $vars['g_id'] = $this->g_id;
         $vars['id'] = $this->id;
+        $vars['geschlechtColor'] = $this->geschlechtColor;
         $vars['playedButton'] = $this->managePlayedButton();
         $vars['erfolgButton'] = $this->manageErfolgButton();
         return TemplateParser::getInstance()->parseTemplate($vars, 'Song/playlistSongItem.html', PATH);

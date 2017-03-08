@@ -16,6 +16,9 @@ class playlist
     private $genreStats = array();
     private $tempoStats = array();
     private $songCount = 0;
+    private $countKlaus = 0;
+    private $countRuth = 0;
+    private $countDuetts = 0;
 
     public function __construct()
     {
@@ -78,6 +81,24 @@ class playlist
     {
         return count($this->usedSongs);
     }
+
+    public function getCountDuetts()
+    {
+        return $this->countDuetts;
+
+    }
+
+    public function getCountRuth()
+    {
+        return $this->countRuth;
+    }
+
+        public function getCountKlaus()
+    {
+        return $this->countKlaus;
+
+    }
+
 
     public function getNextSortorder()
     {
@@ -165,6 +186,22 @@ class playlist
             $song['pl_datum'] = $this->pl_datum;
             $this->bloecke[$song['pb_id']]->setSong($song);
             $this->usedSongs[$song['id']] = $song['id'];
+
+
+            switch($song['geschlecht'])
+            {
+                case 1:
+                    $this->countRuth++;
+                    break;
+                case 2:
+                    $this->countKlaus++;
+                    break;
+                case 3:
+                    $this->countDuetts++;
+                    break;
+            }
+
+
         }
     }
 

@@ -13,9 +13,7 @@ require_once PATH . 'classes/Playlist/playlist.php';
 require_once PATH . 'classes/Playlist/playlistSongs.php';
 require_once PATH . 'classes/Playlist/playlist_bloecke.php';
 require_once PATH . 'classes/Playlist/duplicatePlaylist.php';
-require_once PATH.'lib/varTester/varTester.php';
-
-
+require_once PATH . 'lib/varTester/varTester.php';
 require_once PATH . 'classes/Musiker/Musiker.php';
 require_once PATH . 'ajax/Songsorter.php';
 require_once PATH . 'lib/Timestamp/TimestampConverter.php';
@@ -67,10 +65,10 @@ class ajax
                     echo $this->getPlaylistSongs(Request::getInstance()->getGetRequests('pl_id'));
                     break;
                 case 'getCopyPopup':
-                     echo $this->getCopyPopup(Request::getInstance()->getGetRequests('pl_id'));
+                    echo $this->getCopyPopup(Request::getInstance()->getGetRequests('pl_id'));
                     break;
                 case 'getDeletePopup':
-                     echo $this->getDeletePopup(Request::getInstance()->getGetRequests('pl_id'));
+                    echo $this->getDeletePopup(Request::getInstance()->getGetRequests('pl_id'));
                     break;
                 default:
                     z(Request::getInstance()->getGetRequests());//
@@ -90,6 +88,9 @@ class ajax
                     break;
                 case 'saveStatus':
                     AGDO::getInstance()->Execute("UPDATE SVsongs SET probe = '" . $p['status'] . "' WHERE id=" . $p['id']);
+                    break;
+                case 'saveGeschlecht':
+                    AGDO::getInstance()->Execute("UPDATE SVsongs SET geschlecht = '" . $p['status'] . "' WHERE id=" . $p['id']);
                     break;
                 case 'saveMuckermeinung':
                     $p['musiker'] = $p['musiker'] == 'b' ? 'c' : $p['musiker'];
@@ -146,9 +147,6 @@ class ajax
                     $pl->savePlaylist();
                     echo $p['datumLesbar'];
                     break;
-
-
-
                 default:
                     z(Request::getInstance()->getPostRequests());
                     break;
@@ -280,7 +278,7 @@ class ajax
         }
         else
         {
-            $sql = "UPDATE letzteProbe SET  lp_datum='" . date("Y-m-d H:i:s") . "' WHERE lp_id=".$letzteProbe['lp_id']." AND m_id=" . $m_id;
+            $sql = "UPDATE letzteProbe SET  lp_datum='" . date("Y-m-d H:i:s") . "' WHERE lp_id=" . $letzteProbe['lp_id'] . " AND m_id=" . $m_id;
             AGDO::getInstance()->Execute($sql);
         }
         z($sql);
@@ -332,8 +330,6 @@ class ajax
         $dp = new duplicatePlaylist();
         return $dp->getDeleteForm($pl_id);
     }
-
-
 
     private function copyPlayList($old_pl_id, $pl_name, $pl_datum)
     {
