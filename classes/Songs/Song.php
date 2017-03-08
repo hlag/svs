@@ -45,6 +45,7 @@ class Song
     private $classFifty = '';
     private $icons = array('nix', 'fa-venus', 'fa-mars', 'fa-venus-mars');
     private $colors = array('', '#ffeeee', '#eeeeff', '#ffddff');
+    private $saengerClass = '';
 
     public function __construct()
     {
@@ -113,10 +114,26 @@ class Song
         $this->highlight_activ_icon = $this->highlight == 1 ? 'fa-thumbs-up' : 'fa-thumbs-o-up';
         $this->geschlechtIcon = $this->icons[$this->geschlecht];
         $this->geschlechtColor = $this->colors[$this->geschlecht];
+        $this->setSaengerClass();
+    }
 
-
-
-
+    public function setSaengerClass()
+    {
+        switch ($this->geschlecht)
+        {
+            case 0:
+                $this->saengerClass = '';
+                break;
+            case 1:
+                $this->saengerClass = ' venus ';
+                break;
+            case 2:
+                $this->saengerClass = ' mars ';
+                break;
+            case 3:
+                $this->saengerClass = ' venus mars ';
+                break;
+        }
     }
 
     public function setKennung()

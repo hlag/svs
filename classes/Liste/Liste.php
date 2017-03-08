@@ -34,7 +34,7 @@ class Liste
         }
         elseif($status == 'uebrige')
         {
-            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe != 1 AND probe != 5 ORDER BY g_id,  title");
+            $songs = AGDO::getInstance()->GetAll("SELECT * FROM SVsongs LEFT OUTER JOIN sv_song_genres USING (g_id)  WHERE probe != 1 AND probe != 5  AND probe != 6 ORDER BY g_id,  title");
         }
         elseif($status == 'erschienen')
         {

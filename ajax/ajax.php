@@ -90,7 +90,7 @@ class ajax
                     AGDO::getInstance()->Execute("UPDATE SVsongs SET probe = '" . $p['status'] . "' WHERE id=" . $p['id']);
                     break;
                 case 'saveGeschlecht':
-                    AGDO::getInstance()->Execute("UPDATE SVsongs SET geschlecht = '" . $p['status'] . "' WHERE id=" . $p['id']);
+                    AGDO::getInstance()->Execute("UPDATE SVsongs SET geschlecht = '" . $p['geschlecht'] . "' WHERE id=" . $p['id']);
                     break;
                 case 'saveMuckermeinung':
                     $p['musiker'] = $p['musiker'] == 'b' ? 'c' : $p['musiker'];

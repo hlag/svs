@@ -48,11 +48,14 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Übrige Songs &rarr;
                     <a href="index.php?idt=uebrigePDF&pl_id={pl_id}" target="_blank">PDF</a>
+                    <button class="btn btn_default fa fa-eraser" id="nix"></button>
 
-                    <button class="btn btn_default" onclick="songFilter.filterSongs(2)">X</button>
+                    <button class="btn btn_default fa fa-venus" id="venus"></button>
+                    <button class="btn btn_default fa fa-mars" id="mars"></button>
+                    <button class="btn btn_default fa fa-venus-mars" id="venus-mars"></button>
                 </div>
                 <div id="hlag2">
-                    <div class="panel-body" dojotype="dojo.dnd.Source" id="block_uebrige_{pl_id}">
+                    <div class="panel-body" dojotype="dojo.dnd.Source" id="block_uebrige">
                         {uebrigeSongs}
                     </div>
                 </div>
@@ -63,11 +66,16 @@
 </div>
 
 <script type="application/javascript">
-
     var playlistCopy;
     require(["avaris/playlistCopy", "dojo/ready"], function (playlistCopy, ready) {
         ready(function () {
             playlistCopy = new playlistCopy();
+        });
+    });
+    var playlistFilter;
+    require(["avaris/playlistFilter", "dojo/ready"], function (playlistFilter, ready) {
+        ready(function () {
+            playlistFilter = new playlistFilter();
         });
     });
 </script>
