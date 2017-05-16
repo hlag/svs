@@ -42,7 +42,6 @@ function endDrop(source, nodeX) {
 
 function workOnDOM() {
     var Liste = dojo.attr(node[0].id, 'liste');
-    z(node[0]);
     deliquent = node[0];
     parent = deliquent.parentNode;
     childs = parent.childNodes;
@@ -107,7 +106,6 @@ function newPlaylistBlock(pl_id) {
         }
     });
     dojo.subscribe('/dnd/drop', this, 'endDrop');
-
 }
 function deleteblock(pb_id) {
     dojo.xhrPost({

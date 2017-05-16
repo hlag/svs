@@ -85,7 +85,6 @@ class playlist
     public function getCountDuetts()
     {
         return $this->countDuetts;
-
     }
 
     public function getCountRuth()
@@ -93,12 +92,10 @@ class playlist
         return $this->countRuth;
     }
 
-        public function getCountKlaus()
+    public function getCountKlaus()
     {
         return $this->countKlaus;
-
     }
-
 
     public function getNextSortorder()
     {
@@ -112,8 +109,6 @@ class playlist
         $this->getSongs();
         $this->setUhrzeiten();
         $this->calculateDuration();
-
-
         $this->getSongArray();
     }
 
@@ -162,6 +157,35 @@ class playlist
         }
     }
 
+    public function resortBloecke($blockId, $sibling_id)
+    {
+        $x = 1;
+        foreach (array_keys($this->bloecke) AS $pb_id)
+        {
+            if ($pb_id == $sibling_id)
+            {
+                $this->bloecke[$blockId]->pb_sort_order = $x;
+                $this->bloecke[$blockId]->saveBlock();
+                $x++;
+            }
+
+            if($pb_id != $blockId )
+            {
+                $this->bloecke[$pb_id]->pb_sort_order = $x;
+                $this->bloecke[$pb_id]->saveBlock();
+                $x++;
+            }
+        }
+
+        if(is_null($sibling_id))
+        {
+                $this->bloecke[$blockId]->pb_sort_order = $x;
+                $this->bloecke[$blockId]->saveBlock();
+        }
+        $this->bloecke = array();
+        $this->getBloecke();
+    }
+
     public function setStartUhrzeit($uhrzeitStart)
     {
         $this->pl_start = TimestampConverter::getInstance()->convertDatumAnUhrzeitToUnix($this->pl_datum, $uhrzeitStart);
@@ -186,9 +210,7 @@ class playlist
             $song['pl_datum'] = $this->pl_datum;
             $this->bloecke[$song['pb_id']]->setSong($song);
             $this->usedSongs[$song['id']] = $song['id'];
-
-
-            switch($song['geschlecht'])
+            switch ($song['geschlecht'])
             {
                 case 1:
                     $this->countRuth++;
@@ -200,8 +222,6 @@ class playlist
                     $this->countDuetts++;
                     break;
             }
-
-
         }
     }
 

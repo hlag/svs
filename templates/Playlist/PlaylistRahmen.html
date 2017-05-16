@@ -1,5 +1,5 @@
 <br><br><br>
-
+<input type="hidden" name="pl_id" id="pl_id" value="{pl_id}">
 
 <div class="containerEins">
     <div class="containerZwei">
@@ -49,13 +49,12 @@
                 <div class="panel-heading">Übrige Songs &rarr;
                     <a href="index.php?idt=uebrigePDF&pl_id={pl_id}" target="_blank">PDF</a>
                     <button class="btn btn_default fa fa-eraser" id="nix"></button>
-
                     <button class="btn btn_default fa fa-venus" id="venus"></button>
                     <button class="btn btn_default fa fa-mars" id="mars"></button>
                     <button class="btn btn_default fa fa-venus-mars" id="venus-mars"></button>
                 </div>
                 <div id="hlag2">
-                    <div class="panel-body" dojotype="dojo.dnd.Source" id="block_uebrige">
+                    <div class="panel-body" dojotype="dojo.dnd.Source" id="block_uebrige_{pl_id}">
                         {uebrigeSongs}
                     </div>
                 </div>
@@ -78,5 +77,13 @@
             playlistFilter = new playlistFilter();
         });
     });
+    var objektDragNDrop;
+    require(["avaris/objektDragNDrop", "dojo/ready"], function (objektDragNDrop, ready) {
+        ready(function () {
+            objektDragNDrop = new objektDragNDrop();
+        });
+    });
+
+
 </script>
 

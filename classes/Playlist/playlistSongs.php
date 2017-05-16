@@ -96,7 +96,8 @@ class playlistSong EXTENDS Song
 
     public function getPosition($pl_id)
     {
-        $pos = AGDO::getInstance()->GetFirst("SELECT * FROM playlist_songs WHERE pl_id = " . $pl_id . " AND id=" . $this->id);
+        $sql = "SELECT * FROM playlist_songs WHERE pl_id = " . $pl_id . " AND id=" . $this->id;
+        $pos = AGDO::getInstance()->GetFirst($sql);
         if (isset($pos['ps_id']))
         {
             $this->ps_id = $pos['ps_id'];
@@ -109,7 +110,8 @@ class playlistSong EXTENDS Song
 
     public function eraseFromPlaylist()
     {
-        AGDO::getInstance()->Execute("DELETE FROM playlist_songs WHERE ps_id=" . $this->ps_id);
+        $sql = "DELETE FROM playlist_songs WHERE ps_id=" . $this->ps_id;
+        AGDO::getInstance()->Execute($sql);
     }
 
     public function renderPlayedStatusEdit()

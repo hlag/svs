@@ -100,6 +100,10 @@ class ajax
                     $songSorter = new Songsorter();
                     echo $songSorter->sortSong($p);
                     break;
+                case 'sortBlock':
+                    $songSorter = new Songsorter();
+                    echo $songSorter->sortBlock($p);
+                    break;
                 case 'saveSingleDatum':
                     AGDO::getInstance()->Execute("UPDATE " . $p['table'] . " SET  " . $p['field'] . " = '" . $p['value'] . "' WHERE " . $p['id_name'] . " = '" . $p['id'] . "'");
                     echo $p['value'];
