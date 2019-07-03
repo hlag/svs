@@ -40,7 +40,6 @@ class uploader
                 break;
 
         }
-        z($this->song);
         $this->song->saveSong();
         echo $this->song->id;
 

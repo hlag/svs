@@ -1,5 +1,5 @@
 <?php
-
+require_once PATH.'classes/Songs/Song.php';
 class controller
 {
     private $data;
